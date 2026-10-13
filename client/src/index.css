@@ -1,0 +1,107 @@
+/* ---------------------------------------------------------------------------
+   Design tokens. Calm clinical system: neutral greys, one muted brand colour
+   used sparingly, and red/amber reserved for clinical status (allergy,
+   warning, stock). The older token names (--mint, --accent, …) are kept and
+   mapped onto the new palette so every screen picks it up.
+   --------------------------------------------------------------------------- */
+:root {
+  /* surfaces */
+  --bg: #f4f5f6;
+  --card-bg: #ffffff;
+  --surface-2: #f9fafa;
+  --border: #e2e5e8;
+  --border-strong: #cdd2d7;
+
+  /* ink */
+  --text: #16202a;
+  --text-muted: #5c6873;
+  --text-subtle: #8a949d;
+
+  /* brand — a muted blue-teal, for primary actions and selection only */
+  --primary: #1d5c78;
+  --primary-dark: #154659;
+  --primary-light: #e9f1f4;
+
+  /* status — only ever with a label or icon */
+  --ok: #2e7d57;
+  --ok-bg: #e8f4ee;
+  --warn: #9a5b00;
+  --warn-bg: #fdf3e1;
+  --warn-border: #efd49b;
+  --danger: #b42318;
+  --danger-bg: #fdeeec;
+  --danger-border: #f3c4be;
+
+  /* legacy names, mapped */
+  --mint: var(--ok);
+  --accent: var(--warn);
+
+  --radius: 0;
+  --radius-card: 0;
+
+  /* Times New Roman throughout. It has no Hindi or Tamil glyphs, so those fall
+     back to serif faces that do (Noto Serif / Nirmala UI / system). */
+  --font: 'Times New Roman', Times, 'Noto Serif', 'Noto Serif Devanagari', 'Noto Serif Tamil', 'Nirmala UI', serif;
+  font: 16px/1.5 var(--font);
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  color: var(--text);
+  margin: 0 0 0.5em;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 1.85rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+p {
+  margin: 0;
+}
+
+button, input, select, textarea {
+  font: inherit;
+  color: inherit;
+}
+
+/* Square corners everywhere — no rounded edges, by design. */
+*,
+*::before,
+*::after,
+::backdrop {
+  border-radius: 0 !important;
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "sethu",
+  "private": true,
+  "description": "Sethu — client (React PWA) and server (Express + SQLite).",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix client run build",
+    "start": "npm run build && node --env-file-if-exists=server/.env server/src/index.js",
+    "dev": "./start.sh",
+    "test": "npm --prefix server test",
+    "lint": "npm --prefix client run lint"
+  }
+}
