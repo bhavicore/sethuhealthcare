@@ -12,7 +12,11 @@ import { authenticate, requirePermission } from './auth/access.js';
 ensureSeeded();
 
 const app = express();
-app.use(cors());
+// The app and API share one origin, so CORS is off unless a separate client
+// host is configured (comma-separated list in SETHU_CORS_ORIGIN).
+if (process.env.SETHU_CORS_ORIGIN) {
+  app.use(cors({ origin: process.env.SETHU_CORS_ORIGIN.split(',').map((o) => o.trim()) }));
+}
 app.use(express.json({ limit: '10mb' }));
 
 app.use('/api/auth', authRouter);

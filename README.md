@@ -201,6 +201,25 @@ coding is future work).
   Gemini/Sarvam wrappers (both optional, with graceful fallback), and the
   original referral-sync API. See [`server/README.md`](server/README.md).
 
+## Deploying it
+
+The repo ships a `Dockerfile` that builds the client and runs one Node
+process serving the app and API (port 8080, HTTPS terminated by the host).
+The SQLite file lives at `/data/sethu.db`, so **mount a persistent volume at
+`/data` and run a single instance**; without a volume, data is lost on every
+redeploy.
+
+- **Fly.io:** `fly launch --no-deploy --copy-config`, then
+  `fly volumes create sethu_data --size 1`, `fly deploy`.
+- **Render:** New → Blueprint, pointing at this repo (`render.yaml`; disks
+  need a paid instance).
+- Set `GEMINI_API_KEY` / `SARVAM_API_KEY` as host secrets if wanted.
+
+**Before exposing it publicly:** the database seeds synthetic patients and the
+demo accounts listed under "Login and access" (PINs `1111`…`9999`). Anyone who
+finds the URL can sign in with them. Keep the deployment demo-only, behind
+access control, and never load real patient data.
+
 ## Running it
 
 Sethu is a client–server app: the **server** (`server/`, Express + SQLite)

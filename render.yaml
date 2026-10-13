@@ -1,0 +1,18 @@
+# Render Blueprint. Persistent disks need a paid instance type.
+services:
+  - type: web
+    name: sethu-health
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    disk:
+      name: sethu-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: SETHU_DB_PATH
+        value: /data/sethu.db
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: SARVAM_API_KEY
+        sync: false
