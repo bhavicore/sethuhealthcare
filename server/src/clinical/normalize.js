@@ -21,7 +21,9 @@ const EXTRA_ALIASES = { pcm: 'paracetamol', amox: 'amoxicillin', azithro: 'azith
 let refCache = null;
 function loadReferenceData() {
   if (refCache && Date.now() - refCache.at < 30000) return refCache.data;
-  const medicines = db.prepare('SELECT * FROM medicines').all();
+  // Devices, blood products and fluids are on the NLEM list but are not things
+  // a doctor dictates as a prescription line, so they stay out of the matcher.
+  const medicines = db.prepare("SELECT * FROM medicines WHERE kind = 'medicine'").all();
   const brandRows = db.prepare('SELECT * FROM brand_generic').all();
   const abbrevRows = db.prepare('SELECT * FROM abbreviations').all();
 

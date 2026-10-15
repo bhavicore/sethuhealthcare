@@ -97,6 +97,8 @@ db.exec(`
     nlem_sections     TEXT,              -- every section it is listed under
     care_levels       TEXT,              -- 'P,S,T' — levels of care it is listed for
     dosage_forms      TEXT,              -- forms and strengths, as published
+    kind              TEXT NOT NULL DEFAULT 'medicine', -- 'medicine' | 'supply'
+    verify_note       TEXT,              -- transcription flagged as doubtful
     source            TEXT               -- where the row came from
   );
 
@@ -306,6 +308,8 @@ addColumnIfMissing('medicines', 'nlem_sections', 'TEXT');
 addColumnIfMissing('medicines', 'care_levels', 'TEXT');
 addColumnIfMissing('medicines', 'dosage_forms', 'TEXT');
 addColumnIfMissing('medicines', 'source', 'TEXT');
+addColumnIfMissing('medicines', 'kind', "TEXT NOT NULL DEFAULT 'medicine'"); // 'medicine' | 'supply' (devices, blood products, fluids)
+addColumnIfMissing('medicines', 'verify_note', 'TEXT'); // set where the transcription was flagged as doubtful
 db.exec('CREATE INDEX IF NOT EXISTS idx_encounters_facility_created ON encounters (facility_id, created_at)');
 
 export function logAudit(actor, action, entity, entityId, detail = {}) {

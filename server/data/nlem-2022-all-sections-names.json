@@ -1,0 +1,3692 @@
+{
+ "source": "National List of Essential Medicines (NLEM) 2022, Ministry of Health and Family Welfare, Government of India. Released 13 September 2022.",
+ "coverage": "Sections 1-27, names only.",
+ "detail": "name-only",
+ "transcription": "Section-wise compilation of medicine names, without levels of care or dosage forms. Supplied with the caveat that it is not a verified one-to-one reconciliation of the official 384 entries, and that combinations and repeats across sections still need reconciling. Where a medicine also appears in the detailed files for Sections 1-7, that detail is authoritative.",
+ "sections": [
+  {
+   "id": "1",
+   "number": "1",
+   "title": "Medicines used in anaesthesia",
+   "chapter": "Medicines used in anaesthesia"
+  },
+  {
+   "id": "2",
+   "number": "2",
+   "title": "Analgesics, antipyretics, NSAIDs and medicines for rheumatoid disorders",
+   "chapter": "Analgesics, antipyretics, NSAIDs and medicines for rheumatoid disorders"
+  },
+  {
+   "id": "3",
+   "number": "3",
+   "title": "Antiallergics and medicines used in anaphylaxis",
+   "chapter": "Antiallergics and medicines used in anaphylaxis"
+  },
+  {
+   "id": "4",
+   "number": "4",
+   "title": "Antidotes and other substances used in poisoning and envenomation",
+   "chapter": "Antidotes and other substances used in poisoning and envenomation"
+  },
+  {
+   "id": "5",
+   "number": "5",
+   "title": "Medicines used in neurological disorders",
+   "chapter": "Medicines used in neurological disorders"
+  },
+  {
+   "id": "6a",
+   "number": "6",
+   "title": "Anthelminthics",
+   "chapter": "Anti-infective medicines"
+  },
+  {
+   "id": "6b",
+   "number": "6",
+   "title": "Antibacterials",
+   "chapter": "Anti-infective medicines"
+  },
+  {
+   "id": "6c",
+   "number": "6",
+   "title": "Antileprosy medicines",
+   "chapter": "Anti-infective medicines"
+  },
+  {
+   "id": "6d",
+   "number": "6",
+   "title": "Antituberculosis medicines",
+   "chapter": "Anti-infective medicines"
+  },
+  {
+   "id": "6e",
+   "number": "6",
+   "title": "Antifungal medicines",
+   "chapter": "Anti-infective medicines"
+  },
+  {
+   "id": "6f",
+   "number": "6",
+   "title": "Antiviral medicines",
+   "chapter": "Anti-infective medicines"
+  },
+  {
+   "id": "6g",
+   "number": "6",
+   "title": "HIV medicines",
+   "chapter": "Anti-infective medicines"
+  },
+  {
+   "id": "6h",
+   "number": "6",
+   "title": "Hepatitis B and C medicines",
+   "chapter": "Anti-infective medicines"
+  },
+  {
+   "id": "6i",
+   "number": "6",
+   "title": "Antiprotozoal medicines",
+   "chapter": "Anti-infective medicines"
+  },
+  {
+   "id": "6j",
+   "number": "6",
+   "title": "Antimalarial medicines",
+   "chapter": "Anti-infective medicines"
+  },
+  {
+   "id": "7a",
+   "number": "7",
+   "title": "Antineoplastic medicines",
+   "chapter": "Anti-cancer agents, immunosuppressives and palliative care"
+  },
+  {
+   "id": "7b",
+   "number": "7",
+   "title": "Hormones and anti-hormones",
+   "chapter": "Anti-cancer agents, immunosuppressives and palliative care"
+  },
+  {
+   "id": "7c",
+   "number": "7",
+   "title": "Immunosuppressives",
+   "chapter": "Anti-cancer agents, immunosuppressives and palliative care"
+  },
+  {
+   "id": "7d",
+   "number": "7",
+   "title": "Palliative care",
+   "chapter": "Anti-cancer agents, immunosuppressives and palliative care"
+  },
+  {
+   "id": "8",
+   "number": "8",
+   "title": "Medicines affecting the blood",
+   "chapter": "Medicines affecting the blood"
+  },
+  {
+   "id": "9",
+   "number": "9",
+   "title": "Blood products and plasma substitutes",
+   "chapter": "Blood products and plasma substitutes"
+  },
+  {
+   "id": "10",
+   "number": "10",
+   "title": "Cardiovascular medicines",
+   "chapter": "Cardiovascular medicines"
+  },
+  {
+   "id": "11",
+   "number": "11",
+   "title": "Dermatological medicines",
+   "chapter": "Dermatological medicines"
+  },
+  {
+   "id": "12",
+   "number": "12",
+   "title": "Diagnostic agents",
+   "chapter": "Diagnostic agents"
+  },
+  {
+   "id": "13",
+   "number": "13",
+   "title": "Dialysis solutions",
+   "chapter": "Dialysis solutions"
+  },
+  {
+   "id": "14",
+   "number": "14",
+   "title": "Antiseptics and disinfectants",
+   "chapter": "Antiseptics and disinfectants"
+  },
+  {
+   "id": "15",
+   "number": "15",
+   "title": "Diuretics",
+   "chapter": "Diuretics"
+  },
+  {
+   "id": "16",
+   "number": "16",
+   "title": "Ear, nose and throat medicines",
+   "chapter": "Ear, nose and throat medicines"
+  },
+  {
+   "id": "17",
+   "number": "17",
+   "title": "Gastrointestinal medicines",
+   "chapter": "Gastrointestinal medicines"
+  },
+  {
+   "id": "18",
+   "number": "18",
+   "title": "Hormones, endocrine medicines and contraceptives",
+   "chapter": "Hormones, endocrine medicines and contraceptives"
+  },
+  {
+   "id": "19",
+   "number": "19",
+   "title": "Immunologicals",
+   "chapter": "Immunologicals"
+  },
+  {
+   "id": "20",
+   "number": "20",
+   "title": "Medicines for neonatal care",
+   "chapter": "Medicines for neonatal care"
+  },
+  {
+   "id": "21",
+   "number": "21",
+   "title": "Ophthalmological medicines",
+   "chapter": "Ophthalmological medicines"
+  },
+  {
+   "id": "22",
+   "number": "22",
+   "title": "Oxytocics and antioxytocics",
+   "chapter": "Oxytocics and antioxytocics"
+  },
+  {
+   "id": "23",
+   "number": "23",
+   "title": "Medicines used in psychiatric disorders",
+   "chapter": "Medicines used in psychiatric disorders"
+  },
+  {
+   "id": "24",
+   "number": "24",
+   "title": "Medicines acting on the respiratory tract",
+   "chapter": "Medicines acting on the respiratory tract"
+  },
+  {
+   "id": "25",
+   "number": "25",
+   "title": "Solutions correcting water, electrolyte and acid-base disturbances",
+   "chapter": "Solutions correcting water, electrolyte and acid-base disturbances"
+  },
+  {
+   "id": "26",
+   "number": "26",
+   "title": "Vitamins and minerals",
+   "chapter": "Vitamins and minerals"
+  },
+  {
+   "id": "27",
+   "number": "27",
+   "title": "Medicines for COVID-19 management",
+   "chapter": "Medicines for COVID-19 management"
+  }
+ ],
+ "medicines": [
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Halothane",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Isoflurane",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Ketamine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Nitrous oxide",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Oxygen",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Propofol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Sevoflurane",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Thiopentone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Bupivacaine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Lignocaine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Lignocaine + Adrenaline",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Atropine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Glycopyrrolate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Midazolam",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Morphine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Atracurium",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Baclofen",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Neostigmine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Succinylcholine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "1",
+   "sectionNumber": "1",
+   "name": "Vecuronium",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "2",
+   "sectionNumber": "2",
+   "name": "Acetylsalicylic acid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "2",
+   "sectionNumber": "2",
+   "name": "Diclofenac",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "2",
+   "sectionNumber": "2",
+   "name": "Ibuprofen",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "2",
+   "sectionNumber": "2",
+   "name": "Mefenamic acid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "2",
+   "sectionNumber": "2",
+   "name": "Paracetamol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "2",
+   "sectionNumber": "2",
+   "name": "Fentanyl",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "2",
+   "sectionNumber": "2",
+   "name": "Morphine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "2",
+   "sectionNumber": "2",
+   "name": "Tramadol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "2",
+   "sectionNumber": "2",
+   "name": "Allopurinol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "2",
+   "sectionNumber": "2",
+   "name": "Colchicine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "2",
+   "sectionNumber": "2",
+   "name": "Azathioprine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "2",
+   "sectionNumber": "2",
+   "name": "Hydroxychloroquine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "2",
+   "sectionNumber": "2",
+   "name": "Methotrexate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "2",
+   "sectionNumber": "2",
+   "name": "Sulfasalazine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "3",
+   "sectionNumber": "3",
+   "name": "Adrenaline",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "3",
+   "sectionNumber": "3",
+   "name": "Cetirizine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "3",
+   "sectionNumber": "3",
+   "name": "Dexamethasone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "3",
+   "sectionNumber": "3",
+   "name": "Hydrocortisone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "3",
+   "sectionNumber": "3",
+   "name": "Pheniramine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "3",
+   "sectionNumber": "3",
+   "name": "Prednisolone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "4",
+   "sectionNumber": "4",
+   "name": "Activated charcoal",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "4",
+   "sectionNumber": "4",
+   "name": "Atropine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "4",
+   "sectionNumber": "4",
+   "name": "Calcium gluconate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "4",
+   "sectionNumber": "4",
+   "name": "D-Penicillamine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "4",
+   "sectionNumber": "4",
+   "name": "Desferrioxamine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "4",
+   "sectionNumber": "4",
+   "name": "Methylthioninium chloride",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "4",
+   "sectionNumber": "4",
+   "name": "N-acetylcysteine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "4",
+   "sectionNumber": "4",
+   "name": "Naloxone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "4",
+   "sectionNumber": "4",
+   "name": "Neostigmine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "4",
+   "sectionNumber": "4",
+   "name": "Pralidoxime",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "4",
+   "sectionNumber": "4",
+   "name": "Snake venom antiserum",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "4",
+   "sectionNumber": "4",
+   "name": "Sodium nitrite",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "4",
+   "sectionNumber": "4",
+   "name": "Sodium thiosulphate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Carbamazepine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Clobazam",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Diazepam",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Levetiracetam",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Lorazepam",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Magnesium sulphate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Midazolam",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Phenobarbitone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Phenytoin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Sodium valproate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Acetylsalicylic acid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Ibuprofen",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Paracetamol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Sumatriptan",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Amitriptyline",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Flunarizine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Propranolol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Levodopa + Carbidopa",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Trihexyphenidyl",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "5",
+   "sectionNumber": "5",
+   "name": "Donepezil",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6a",
+   "sectionNumber": "6",
+   "name": "Albendazole",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6a",
+   "sectionNumber": "6",
+   "name": "Mebendazole",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6a",
+   "sectionNumber": "6",
+   "name": "Diethylcarbamazine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6a",
+   "sectionNumber": "6",
+   "name": "Ivermectin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6a",
+   "sectionNumber": "6",
+   "name": "Praziquantel",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Amoxicillin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Ampicillin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Benzylpenicillin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Cefazolin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Cefixime",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Cefotaxime",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Ceftazidime",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Ceftriaxone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Cloxacillin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Meropenem",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Azithromycin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Cefuroxime",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Ciprofloxacin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Clarithromycin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Clindamycin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Co-trimoxazole",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Doxycycline",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Gentamicin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Metronidazole",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Nitrofurantoin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Phenoxymethylpenicillin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Procaine benzylpenicillin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6b",
+   "sectionNumber": "6",
+   "name": "Vancomycin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6c",
+   "sectionNumber": "6",
+   "name": "Clofazimine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6c",
+   "sectionNumber": "6",
+   "name": "Dapsone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6c",
+   "sectionNumber": "6",
+   "name": "Rifampicin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Amikacin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Bedaquiline",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Clarithromycin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Clofazimine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Cycloserine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Delamanid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Ethambutol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Ethionamide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Isoniazid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Levofloxacin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Linezolid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Moxifloxacin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Para-aminosalicylic acid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Pyrazinamide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Rifampicin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6d",
+   "sectionNumber": "6",
+   "name": "Streptomycin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6e",
+   "sectionNumber": "6",
+   "name": "Amphotericin B",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6e",
+   "sectionNumber": "6",
+   "name": "Clotrimazole",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6e",
+   "sectionNumber": "6",
+   "name": "Fluconazole",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6e",
+   "sectionNumber": "6",
+   "name": "Griseofulvin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6e",
+   "sectionNumber": "6",
+   "name": "Itraconazole",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6e",
+   "sectionNumber": "6",
+   "name": "Mupirocin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6e",
+   "sectionNumber": "6",
+   "name": "Nystatin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6e",
+   "sectionNumber": "6",
+   "name": "Terbinafine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6f",
+   "sectionNumber": "6",
+   "name": "Acyclovir",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6f",
+   "sectionNumber": "6",
+   "name": "Valganciclovir",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Abacavir",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Abacavir + Lamivudine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Lamivudine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Tenofovir disoproxil fumarate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Tenofovir disoproxil fumarate + Lamivudine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Tenofovir disoproxil fumarate + Lamivudine + Dolutegravir",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Tenofovir disoproxil fumarate + Lamivudine + Efavirenz",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Zidovudine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Zidovudine + Lamivudine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Zidovudine + Lamivudine + Nevirapine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Efavirenz",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Nevirapine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Dolutegravir",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Raltegravir",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Atazanavir + Ritonavir",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Darunavir",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Lopinavir + Ritonavir",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6g",
+   "sectionNumber": "6",
+   "name": "Ritonavir",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6h",
+   "sectionNumber": "6",
+   "name": "Daclatasvir",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6h",
+   "sectionNumber": "6",
+   "name": "Entecavir",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6h",
+   "sectionNumber": "6",
+   "name": "Ribavirin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6h",
+   "sectionNumber": "6",
+   "name": "Sofosbuvir",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6h",
+   "sectionNumber": "6",
+   "name": "Tenofovir alafenamide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6h",
+   "sectionNumber": "6",
+   "name": "Tenofovir disoproxil fumarate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6i",
+   "sectionNumber": "6",
+   "name": "Metronidazole",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6i",
+   "sectionNumber": "6",
+   "name": "Amphotericin B",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6i",
+   "sectionNumber": "6",
+   "name": "Miltefosine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6i",
+   "sectionNumber": "6",
+   "name": "Paromomycin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6i",
+   "sectionNumber": "6",
+   "name": "Clindamycin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6j",
+   "sectionNumber": "6",
+   "name": "Artemether",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6j",
+   "sectionNumber": "6",
+   "name": "Artesunate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6j",
+   "sectionNumber": "6",
+   "name": "Chloroquine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6j",
+   "sectionNumber": "6",
+   "name": "Clindamycin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6j",
+   "sectionNumber": "6",
+   "name": "Primaquine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6j",
+   "sectionNumber": "6",
+   "name": "Quinine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6j",
+   "sectionNumber": "6",
+   "name": "Doxycycline",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "6j",
+   "sectionNumber": "6",
+   "name": "Mefloquine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "5-Fluorouracil",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "6-Mercaptopurine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Actinomycin D",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "All-trans retinoic acid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Arsenic trioxide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Bendamustine hydrochloride",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Bleomycin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Bortezomib",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Calcium folinate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Capecitabine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Carboplatin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Chlorambucil",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Cisplatin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Cyclophosphamide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Cytosine arabinoside",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Dacarbazine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Daunorubicin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Docetaxel",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Doxorubicin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Etoposide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Gefitinib",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Gemcitabine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Hydroxyurea",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Ifosfamide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Imatinib",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Irinotecan",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "L-Asparaginase",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Lenalidomide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Melphalan",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Methotrexate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Oxaliplatin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Paclitaxel",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Rituximab",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Temozolomide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Thalidomide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Trastuzumab",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Vinblastine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7a",
+   "sectionNumber": "7",
+   "name": "Vincristine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7b",
+   "sectionNumber": "7",
+   "name": "Bicalutamide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7b",
+   "sectionNumber": "7",
+   "name": "Letrozole",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7b",
+   "sectionNumber": "7",
+   "name": "Leuprolide acetate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7b",
+   "sectionNumber": "7",
+   "name": "Prednisolone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7b",
+   "sectionNumber": "7",
+   "name": "Tamoxifen",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7c",
+   "sectionNumber": "7",
+   "name": "Azathioprine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7c",
+   "sectionNumber": "7",
+   "name": "Cyclosporine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7c",
+   "sectionNumber": "7",
+   "name": "Mycophenolate mofetil",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7c",
+   "sectionNumber": "7",
+   "name": "Tacrolimus",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Allopurinol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Amitriptyline",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Dexamethasone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Diazepam",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Filgrastim",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Fluoxetine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Haloperidol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Lactulose",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Loperamide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Metoclopramide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Mesna",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Midazolam",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Morphine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Ondansetron",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Tramadol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "7d",
+   "sectionNumber": "7",
+   "name": "Zoledronic acid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "8",
+   "sectionNumber": "8",
+   "name": "Erythropoietin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "8",
+   "sectionNumber": "8",
+   "name": "Iron dextran",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "8",
+   "sectionNumber": "8",
+   "name": "Folic acid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "8",
+   "sectionNumber": "8",
+   "name": "Hydroxocobalamin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "8",
+   "sectionNumber": "8",
+   "name": "Hydroxyurea",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "8",
+   "sectionNumber": "8",
+   "name": "Iron sucrose",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "8",
+   "sectionNumber": "8",
+   "name": "Enoxaparin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "8",
+   "sectionNumber": "8",
+   "name": "Heparin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "8",
+   "sectionNumber": "8",
+   "name": "Phytomenadione",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "8",
+   "sectionNumber": "8",
+   "name": "Protamine sulphate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "8",
+   "sectionNumber": "8",
+   "name": "Tranexamic acid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "8",
+   "sectionNumber": "8",
+   "name": "Warfarin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "9",
+   "sectionNumber": "9",
+   "name": "Fresh frozen plasma",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "9",
+   "sectionNumber": "9",
+   "name": "Platelet-rich plasma",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "9",
+   "sectionNumber": "9",
+   "name": "Platelet concentrates",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "9",
+   "sectionNumber": "9",
+   "name": "Red blood cells",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "9",
+   "sectionNumber": "9",
+   "name": "Packed red blood cells",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "9",
+   "sectionNumber": "9",
+   "name": "Whole blood",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "9",
+   "sectionNumber": "9",
+   "name": "Dextran-40",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "9",
+   "sectionNumber": "9",
+   "name": "Coagulation factor IX",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "9",
+   "sectionNumber": "9",
+   "name": "Coagulation factor VIII",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "9",
+   "sectionNumber": "9",
+   "name": "Cryoprecipitate",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Diltiazem",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Glyceryl trinitrate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Isosorbide dinitrate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Metoprolol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Adenosine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Amiodarone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Digoxin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Esmolol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Lignocaine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Verapamil",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Amlodipine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Enalapril",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Ramipril",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Sodium nitroprusside",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Telmisartan",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Dobutamine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Dopamine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Noradrenaline",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Spironolactone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Acetylsalicylic acid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Clopidogrel",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Dabigatran",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Enoxaparin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Heparin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Streptokinase",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Tenecteplase",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "10",
+   "sectionNumber": "10",
+   "name": "Atorvastatin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "11",
+   "sectionNumber": "11",
+   "name": "Clotrimazole",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "11",
+   "sectionNumber": "11",
+   "name": "Framycetin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "11",
+   "sectionNumber": "11",
+   "name": "Fusidic acid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "11",
+   "sectionNumber": "11",
+   "name": "Silver sulphadiazine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "11",
+   "sectionNumber": "11",
+   "name": "Betamethasone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "11",
+   "sectionNumber": "11",
+   "name": "Calamine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "11",
+   "sectionNumber": "11",
+   "name": "Benzoyl peroxide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "11",
+   "sectionNumber": "11",
+   "name": "Coal tar",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "11",
+   "sectionNumber": "11",
+   "name": "Salicylic acid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "11",
+   "sectionNumber": "11",
+   "name": "Podophyllin resin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "11",
+   "sectionNumber": "11",
+   "name": "Permethrin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "12",
+   "sectionNumber": "12",
+   "name": "Fluorescein",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "12",
+   "sectionNumber": "12",
+   "name": "Proparacaine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "12",
+   "sectionNumber": "12",
+   "name": "Tropicamide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "12",
+   "sectionNumber": "12",
+   "name": "Barium sulphate",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "12",
+   "sectionNumber": "12",
+   "name": "Iohexol",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "13",
+   "sectionNumber": "13",
+   "name": "Haemodialysis fluid",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "13",
+   "sectionNumber": "13",
+   "name": "Peritoneal dialysis solution",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "14",
+   "sectionNumber": "14",
+   "name": "Chlorhexidine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "14",
+   "sectionNumber": "14",
+   "name": "Ethyl alcohol",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "14",
+   "sectionNumber": "14",
+   "name": "Hydrogen peroxide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "14",
+   "sectionNumber": "14",
+   "name": "Gentian violet",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "14",
+   "sectionNumber": "14",
+   "name": "Povidone iodine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "14",
+   "sectionNumber": "14",
+   "name": "Glutaraldehyde",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "14",
+   "sectionNumber": "14",
+   "name": "Potassium permanganate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "15",
+   "sectionNumber": "15",
+   "name": "Furosemide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "15",
+   "sectionNumber": "15",
+   "name": "Hydrochlorothiazide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "15",
+   "sectionNumber": "15",
+   "name": "Mannitol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "15",
+   "sectionNumber": "15",
+   "name": "Spironolactone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "16",
+   "sectionNumber": "16",
+   "name": "Budesonide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "16",
+   "sectionNumber": "16",
+   "name": "Ciprofloxacin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "16",
+   "sectionNumber": "16",
+   "name": "Clotrimazole",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "16",
+   "sectionNumber": "16",
+   "name": "Xylometazoline",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "17",
+   "sectionNumber": "17",
+   "name": "Omeprazole",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "17",
+   "sectionNumber": "17",
+   "name": "Pantoprazole",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "17",
+   "sectionNumber": "17",
+   "name": "Domperidone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "17",
+   "sectionNumber": "17",
+   "name": "Metoclopramide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "17",
+   "sectionNumber": "17",
+   "name": "Ondansetron",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "17",
+   "sectionNumber": "17",
+   "name": "Mesalazine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "17",
+   "sectionNumber": "17",
+   "name": "Dicyclomine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "17",
+   "sectionNumber": "17",
+   "name": "Hyoscine butyl bromide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "17",
+   "sectionNumber": "17",
+   "name": "Bisacodyl",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "17",
+   "sectionNumber": "17",
+   "name": "Ispaghula",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "17",
+   "sectionNumber": "17",
+   "name": "Lactulose",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "17",
+   "sectionNumber": "17",
+   "name": "Oral rehydration salts",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "17",
+   "sectionNumber": "17",
+   "name": "Zinc sulphate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "17",
+   "sectionNumber": "17",
+   "name": "Somatostatin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Dexamethasone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Fludrocortisone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Hydrocortisone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Methylprednisolone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Prednisolone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Ethinylestradiol + Levonorgestrel",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Levonorgestrel",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Ormeloxifene",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Hormone-releasing intrauterine device",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Copper intrauterine device",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Condom",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Glimepiride",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Soluble insulin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Intermediate-acting insulin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Insulin glargine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Insulin premix 30:70",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Metformin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Teneligliptin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Glucose",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Clomiphene citrate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Human chorionic gonadotropin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Medroxyprogesterone acetate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Norethisterone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Carbimazole",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "18",
+   "sectionNumber": "18",
+   "name": "Levothyroxine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "19",
+   "sectionNumber": "19",
+   "name": "Anti-rabies immunoglobulin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "19",
+   "sectionNumber": "19",
+   "name": "Anti-D immunoglobulin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "19",
+   "sectionNumber": "19",
+   "name": "Diphtheria antitoxin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "19",
+   "sectionNumber": "19",
+   "name": "Hepatitis B immunoglobulin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "19",
+   "sectionNumber": "19",
+   "name": "Human tetanus immunoglobulin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "19",
+   "sectionNumber": "19",
+   "name": "BCG vaccine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "19",
+   "sectionNumber": "19",
+   "name": "DPT + Hib + Hepatitis B vaccine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "19",
+   "sectionNumber": "19",
+   "name": "DPT vaccine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "19",
+   "sectionNumber": "19",
+   "name": "Hepatitis B vaccine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "19",
+   "sectionNumber": "19",
+   "name": "Japanese encephalitis vaccine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "19",
+   "sectionNumber": "19",
+   "name": "Measles vaccine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "19",
+   "sectionNumber": "19",
+   "name": "Rotavirus vaccine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "19",
+   "sectionNumber": "19",
+   "name": "Tetanus toxoid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "19",
+   "sectionNumber": "19",
+   "name": "Rabies vaccine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "20",
+   "sectionNumber": "20",
+   "name": "Alprostadil",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "20",
+   "sectionNumber": "20",
+   "name": "Caffeine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "20",
+   "sectionNumber": "20",
+   "name": "Surfactant",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "21",
+   "sectionNumber": "21",
+   "name": "Acyclovir",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "21",
+   "sectionNumber": "21",
+   "name": "Ciprofloxacin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "21",
+   "sectionNumber": "21",
+   "name": "Natamycin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "21",
+   "sectionNumber": "21",
+   "name": "Povidone iodine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "21",
+   "sectionNumber": "21",
+   "name": "Prednisolone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "21",
+   "sectionNumber": "21",
+   "name": "Proparacaine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "21",
+   "sectionNumber": "21",
+   "name": "Acetazolamide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "21",
+   "sectionNumber": "21",
+   "name": "Latanoprost",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "21",
+   "sectionNumber": "21",
+   "name": "Pilocarpine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "21",
+   "sectionNumber": "21",
+   "name": "Timolol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "21",
+   "sectionNumber": "21",
+   "name": "Atropine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "21",
+   "sectionNumber": "21",
+   "name": "Homatropine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "21",
+   "sectionNumber": "21",
+   "name": "Phenylephrine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "21",
+   "sectionNumber": "21",
+   "name": "Tropicamide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "22",
+   "sectionNumber": "22",
+   "name": "Dinoprostone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "22",
+   "sectionNumber": "22",
+   "name": "Methylergometrine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "22",
+   "sectionNumber": "22",
+   "name": "Mifepristone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "22",
+   "sectionNumber": "22",
+   "name": "Misoprostol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "22",
+   "sectionNumber": "22",
+   "name": "Oxytocin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "22",
+   "sectionNumber": "22",
+   "name": "Betamethasone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "22",
+   "sectionNumber": "22",
+   "name": "Nifedipine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Clozapine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Fluphenazine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Haloperidol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Risperidone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Amitriptyline",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Escitalopram",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Fluoxetine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Lithium",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Carbamazepine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Clonazepam",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Zolpidem",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Clomipramine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Buprenorphine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Buprenorphine + Naloxone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "23",
+   "sectionNumber": "23",
+   "name": "Nicotine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "24",
+   "sectionNumber": "24",
+   "name": "Budesonide",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "24",
+   "sectionNumber": "24",
+   "name": "Formoterol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "24",
+   "sectionNumber": "24",
+   "name": "Hydrocortisone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "24",
+   "sectionNumber": "24",
+   "name": "Ipratropium",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "24",
+   "sectionNumber": "24",
+   "name": "Montelukast",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "24",
+   "sectionNumber": "24",
+   "name": "Salbutamol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "24",
+   "sectionNumber": "24",
+   "name": "Tiotropium",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "25",
+   "sectionNumber": "25",
+   "name": "Glucose",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "25",
+   "sectionNumber": "25",
+   "name": "Oral rehydration salts",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "25",
+   "sectionNumber": "25",
+   "name": "Potassium chloride",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "25",
+   "sectionNumber": "25",
+   "name": "Ringer lactate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "25",
+   "sectionNumber": "25",
+   "name": "Sodium bicarbonate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "25",
+   "sectionNumber": "25",
+   "name": "Sodium chloride",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "25",
+   "sectionNumber": "25",
+   "name": "Water for injection",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  },
+  {
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Ascorbic acid",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Calcium carbonate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Calcium gluconate",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Cholecalciferol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Pyridoxine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Riboflavin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Thiamine",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Vitamin A",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "27",
+   "sectionNumber": "27",
+   "name": "Dexamethasone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "27",
+   "sectionNumber": "27",
+   "name": "Enoxaparin",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "27",
+   "sectionNumber": "27",
+   "name": "Methylprednisolone",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "27",
+   "sectionNumber": "27",
+   "name": "Paracetamol",
+   "levels": null,
+   "forms": null,
+   "kind": "medicine"
+  },
+  {
+   "section": "27",
+   "sectionNumber": "27",
+   "name": "Oxygen",
+   "levels": null,
+   "forms": null,
+   "kind": "supply"
+  }
+ ]
+}
