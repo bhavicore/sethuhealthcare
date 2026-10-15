@@ -98,7 +98,8 @@ db.exec(`
     care_levels       TEXT,              -- 'P,S,T' — levels of care it is listed for
     dosage_forms      TEXT,              -- forms and strengths, as published
     kind              TEXT NOT NULL DEFAULT 'medicine', -- 'medicine' | 'supply'
-    verify_note       TEXT,              -- transcription flagged as doubtful
+    verify_note       TEXT,              -- source row flagged as doubtful
+    gazette_pages     TEXT,              -- page(s) of the gazette the row came from
     source            TEXT               -- where the row came from
   );
 
@@ -309,7 +310,8 @@ addColumnIfMissing('medicines', 'care_levels', 'TEXT');
 addColumnIfMissing('medicines', 'dosage_forms', 'TEXT');
 addColumnIfMissing('medicines', 'source', 'TEXT');
 addColumnIfMissing('medicines', 'kind', "TEXT NOT NULL DEFAULT 'medicine'"); // 'medicine' | 'supply' (devices, blood products, fluids)
-addColumnIfMissing('medicines', 'verify_note', 'TEXT'); // set where the transcription was flagged as doubtful
+addColumnIfMissing('medicines', 'verify_note', 'TEXT'); // set where a source row was flagged as doubtful
+addColumnIfMissing('medicines', 'gazette_pages', 'TEXT'); // page(s) of the gazette PDF the row came from
 db.exec('CREATE INDEX IF NOT EXISTS idx_encounters_facility_created ON encounters (facility_id, created_at)');
 
 export function logAudit(actor, action, entity, entityId, detail = {}) {

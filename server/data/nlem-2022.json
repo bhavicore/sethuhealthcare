@@ -1,114 +1,4617 @@
 {
-  "source": "National List of Essential Medicines (NLEM) 2022, Ministry of Health and Family Welfare, Government of India. Released 13 September 2022.",
-  "levels": { "P": "Primary", "S": "Secondary", "T": "Tertiary" },
-  "coverage": "Sections 1-5 of 27. Remaining sections not yet loaded.",
-  "transcription": "Transcribed from the published list; pending verification against the source PDF.",
-  "sections": [
-    { "id": "1.1", "title": "General anaesthetics and oxygen", "chapter": "Medicines used in anaesthesia" },
-    { "id": "1.2", "title": "Local anaesthetics", "chapter": "Medicines used in anaesthesia" },
-    { "id": "1.3", "title": "Preoperative medication and sedation for short-term procedures", "chapter": "Medicines used in anaesthesia" },
-    { "id": "1.4", "title": "Muscle relaxants and cholinesterase inhibitors", "chapter": "Medicines used in anaesthesia" },
-    { "id": "2.1", "title": "Non-opioid analgesics, antipyretics and NSAIDs", "chapter": "Analgesics, antipyretics, NSAIDs, gout and rheumatoid disorders" },
-    { "id": "2.2", "title": "Opioid analgesics", "chapter": "Analgesics, antipyretics, NSAIDs, gout and rheumatoid disorders" },
-    { "id": "2.3", "title": "Medicines used to treat gout", "chapter": "Analgesics, antipyretics, NSAIDs, gout and rheumatoid disorders" },
-    { "id": "2.4", "title": "Disease-modifying agents used in rheumatoid disorders", "chapter": "Analgesics, antipyretics, NSAIDs, gout and rheumatoid disorders" },
-    { "id": "3", "title": "Antiallergics and medicines used in anaphylaxis", "chapter": "Antiallergics and medicines used in anaphylaxis" },
-    { "id": "4.1", "title": "Nonspecific antidotes", "chapter": "Antidotes and other substances used in poisoning and envenomation" },
-    { "id": "4.2", "title": "Specific antidotes", "chapter": "Antidotes and other substances used in poisoning and envenomation" },
-    { "id": "5.1", "title": "Anticonvulsants and antiepileptics", "chapter": "Medicines used in neurological disorders" },
-    { "id": "5.2", "title": "Antimigraine medicines", "chapter": "Medicines used in neurological disorders" },
-    { "id": "5.2.1", "title": "Medicines for prophylaxis of migraine", "chapter": "Medicines used in neurological disorders" },
-    { "id": "5.3", "title": "Antiparkinsonism medicines", "chapter": "Medicines used in neurological disorders" },
-    { "id": "5.4", "title": "Medicines used in dementia", "chapter": "Medicines used in neurological disorders" }
-  ],
-  "medicines": [
-    { "section": "1.1", "name": "Halothane", "levels": "S,T", "forms": "Liquid for inhalation" },
-    { "section": "1.1", "name": "Isoflurane", "levels": "S,T", "forms": "Liquid for inhalation" },
-    { "section": "1.1", "name": "Ketamine", "levels": "P,S,T", "forms": "Injection 10 mg/mL; 50 mg/mL" },
-    { "section": "1.1", "name": "Nitrous oxide", "levels": "P,S,T", "forms": "As licensed for medical use" },
-    { "section": "1.1", "name": "Oxygen", "levels": "P,S,T", "forms": "As licensed for medical use" },
-    { "section": "1.1", "name": "Propofol", "levels": "P,S,T", "forms": "Injection 10 mg/mL" },
-    { "section": "1.1", "name": "Sevoflurane", "levels": "S,T", "forms": "Liquid for inhalation" },
-    { "section": "1.1", "name": "Thiopentone", "levels": "P,S,T", "forms": "Powder for injection 0.5 g; 1 g" },
-
-    { "section": "1.2", "name": "Bupivacaine", "levels": "S,T", "forms": "Injection 0.25%, 0.5%; 0.5% with 7.5% glucose; topical forms 2-5%" },
-    { "section": "1.2", "name": "Lignocaine", "levels": "P,S,T", "forms": "Injection 1%, 2%; 5% with 7.5% glucose" },
-    { "section": "1.2", "name": "Lignocaine + adrenaline", "levels": "P,S,T", "forms": "Injection 1% + 1:200,000 adrenaline (5 mcg/mL); 2% + 1:200,000 adrenaline (5 mcg/mL)" },
-
-    { "section": "1.3", "name": "Atropine", "levels": "P,S,T", "forms": "Injection 0.6 mg/mL" },
-    { "section": "1.3", "name": "Glycopyrrolate", "levels": "S,T", "forms": "Injection 0.2 mg/mL; tablet 7.5 mg; nasal spray 0.5 mg" },
-    { "section": "1.3", "name": "Midazolam", "levels": "P,S,T", "forms": "Nasal spray 0.5 mg; injection 1 mg/mL and 5 mg/mL" },
-    { "section": "1.3", "name": "Morphine", "levels": "P,S,T", "forms": "Injection 10 mg/mL; 15 mg/mL" },
-
-    { "section": "1.4", "name": "Atracurium", "levels": "S,T", "forms": "Injection 10 mg/mL" },
-    { "section": "1.4", "name": "Baclofen", "levels": "S,T", "forms": "Tablet 5 mg, 10 mg, 20 mg" },
-    { "section": "1.4", "name": "Neostigmine", "levels": "S,T", "forms": "Tablet 15 mg; injection 0.5 mg/mL" },
-    { "section": "1.4", "name": "Succinylcholine", "levels": "S,T", "forms": "Injection 50 mg/mL" },
-    { "section": "1.4", "name": "Vecuronium", "levels": "S,T", "forms": "Powder for injection 4 mg; 10 mg" },
-
-    { "section": "2.1", "name": "Acetylsalicylic acid", "levels": "P,S,T", "forms": "Tablet 300-500 mg; effervescent, dispersible or enteric-coated tablet 300-500 mg" },
-    { "section": "2.1", "name": "Diclofenac", "levels": "P,S,T", "forms": "Tablet 50 mg; injection 25 mg/mL" },
-    { "section": "2.1", "name": "Ibuprofen", "levels": "P,S,T", "forms": "Tablet 200 mg and 400 mg; oral liquid 100 mg/5 mL" },
-    { "section": "2.1", "name": "Mefenamic acid", "levels": "P,S,T", "forms": "Tablet 250 mg; oral liquid 100 mg/5 mL" },
-    { "section": "2.1", "name": "Paracetamol", "levels": "P,S,T", "forms": "Tablet 500 mg and 650 mg; oral liquids 120, 125 and 250 mg/5 mL; injection 150 mg/mL; suppositories 80 mg and 170 mg" },
-
-    { "section": "2.2", "name": "Fentanyl", "levels": "S,T", "forms": "Injection 50 mcg/mL" },
-    { "section": "2.2", "name": "Morphine", "levels": "P,S,T", "forms": "Tablet 10 mg; injection 10 mg/mL and 15 mg/mL" },
-    { "section": "2.2", "name": "Tramadol", "levels": "S,T", "forms": "Capsule 50 mg and 100 mg; injection 50 mg/mL" },
-
-    { "section": "2.3", "name": "Allopurinol", "levels": "P,S,T", "forms": "Tablet 100 mg and 300 mg" },
-    { "section": "2.3", "name": "Colchicine", "levels": "P,S,T", "forms": "Tablet 0.5 mg" },
-
-    { "section": "2.4", "name": "Azathioprine", "levels": "S,T", "forms": "Tablet 25 mg; 50 mg" },
-    { "section": "2.4", "name": "Hydroxychloroquine", "levels": "P,S,T", "forms": "Tablet 200 mg and 400 mg" },
-    { "section": "2.4", "name": "Methotrexate", "levels": "P,S,T", "forms": "Tablet 2.5 mg, 5 mg and 10 mg" },
-    { "section": "2.4", "name": "Sulfasalazine", "levels": "S,T", "forms": "Tablet 500 mg" },
-
-    { "section": "3", "name": "Adrenaline", "levels": "P,S,T", "forms": "Injection 1 mg/mL" },
-    { "section": "3", "name": "Cetirizine", "levels": "P,S,T", "forms": "Tablet 10 mg; oral liquid 5 mg/5 mL" },
-    { "section": "3", "name": "Dexamethasone", "levels": "P,S,T", "forms": "Tablet 0.5 mg, 2 mg and 4 mg; oral liquid 0.5 mg/5 mL; injection 4 mg/mL" },
-    { "section": "3", "name": "Hydrocortisone", "levels": "P,S,T", "forms": "Tablet 5 mg and 10 mg; powder for injection 100 mg and 200 mg" },
-    { "section": "3", "name": "Pheniramine", "levels": "P,S,T", "forms": "Injection 22.75 mg/mL; tablet 5 mg" },
-    { "section": "3", "name": "Prednisolone", "levels": "P,S,T", "forms": "Tablet 10 mg and 20 mg; oral liquid 5 mg/5 mL and 15 mg/5 mL" },
-
-    { "section": "4.1", "name": "Activated charcoal", "levels": "P,S,T", "forms": "Powder, as licensed" },
-
-    { "section": "4.2", "name": "Atropine", "levels": "P,S,T", "forms": "Injection 0.6 mg/mL" },
-    { "section": "4.2", "name": "Calcium gluconate", "levels": "P,S,T", "forms": "Injection 100 mg/mL" },
-    { "section": "4.2", "name": "D-penicillamine", "levels": "P,S,T", "forms": "Capsule 150 mg; 250 mg" },
-    { "section": "4.2", "name": "Desferrioxamine", "levels": "S,T", "forms": "Powder for injection 500 mg" },
-    { "section": "4.2", "name": "Methylthioninium chloride (methylene blue)", "levels": "S,T", "forms": "Injection 10 mg/mL" },
-    { "section": "4.2", "name": "N-acetylcysteine", "levels": "P,S,T", "forms": "Sachet 200 mg; injection 200 mg/mL" },
-    { "section": "4.2", "name": "Naloxone", "levels": "P,S,T", "forms": "Injection 0.4 mg/mL" },
-    { "section": "4.2", "name": "Neostigmine", "levels": "P,S,T", "forms": "Injection 0.5 mg/mL" },
-    { "section": "4.2", "name": "Pralidoxime chloride (2-PAM)", "levels": "P,S,T", "forms": "Injection 25 mg/mL" },
-    { "section": "4.2", "name": "Snake venom antiserum", "levels": "P,S,T", "forms": "Liquid/soluble polyvalent or lyophilised polyvalent preparation, as licensed" },
-    { "section": "4.2", "name": "Sodium nitrite", "levels": "S,T", "forms": "Injection 30 mg/mL" },
-    { "section": "4.2", "name": "Sodium thiosulphate", "levels": "S,T", "forms": "Injection 250 mg/mL" },
-
-    { "section": "5.1", "name": "Carbamazepine", "levels": "P,S,T", "forms": "Tablet 100 mg, 200 mg and 400 mg; modified-release tablets 200 mg and 400 mg; oral liquid 100 mg/5 mL" },
-    { "section": "5.1", "name": "Clobazam", "levels": "S,T", "forms": "Tablet 5 mg and 10 mg; oral liquid 2 mg/5 mL" },
-    { "section": "5.1", "name": "Diazepam", "levels": "P,S,T", "forms": "Injection 5 mg/mL; suppository 5 mg" },
-    { "section": "5.1", "name": "Levetiracetam", "levels": "S,T", "forms": "Tablet 250 mg, 500 mg and 750 mg; modified-release tablet 750 mg; oral liquid 100 mg/mL; injection 100 mg/mL" },
-    { "section": "5.1", "name": "Lorazepam", "levels": "P,S,T", "forms": "Tablet 1 mg and 2 mg; injection 2 mg/mL and 4 mg/mL" },
-    { "section": "5.1", "name": "Magnesium sulphate", "levels": "S,T", "forms": "Injection 500 mg/mL" },
-    { "section": "5.1", "name": "Midazolam", "levels": "P,S,T", "forms": "Tablet 7.5 mg, 15 mg, 30 mg and 60 mg; nasal spray 0.5 mg and 1.25 mg per actuation; injection 1 mg/mL and 5 mg/mL" },
-    { "section": "5.1", "name": "Phenobarbitone", "levels": "P,S,T", "forms": "Oral liquid 20 mg/5 mL; injection 200 mg/mL; tablet 50 mg, 100 mg and 300 mg; modified-release tablet 300 mg" },
-    { "section": "5.1", "name": "Phenytoin", "levels": "P,S,T", "forms": "Oral liquid 30 mg/5 mL and 125 mg/5 mL; injection 25 mg/mL and 50 mg/mL" },
-    { "section": "5.1", "name": "Sodium valproate", "levels": "P,S,T", "forms": "Conventional and modified-release tablets; oral liquid and injection, as specified in the schedule" },
-
-    { "section": "5.2", "name": "Acetylsalicylic acid", "levels": "P,S,T", "forms": "Tablet 300-500 mg; effervescent, dispersible or enteric-coated tablet 300-500 mg" },
-    { "section": "5.2", "name": "Ibuprofen", "levels": "P,S,T", "forms": "Tablet 200 mg and 400 mg; oral liquid 100 mg/5 mL" },
-    { "section": "5.2", "name": "Paracetamol", "levels": "P,S,T", "forms": "Tablet 500 mg and 650 mg; oral liquids 120 mg/5 mL, 125 mg/5 mL and 250 mg/5 mL" },
-    { "section": "5.2", "name": "Sumatriptan", "levels": "P,S,T", "forms": "Tablet 25 mg and 50 mg" },
-
-    { "section": "5.2.1", "name": "Amitriptyline", "levels": "P,S,T", "forms": "Tablet 10 mg, 25 mg and 75 mg" },
-    { "section": "5.2.1", "name": "Flunarizine", "levels": "P,S,T", "forms": "Tablet 5 mg and 10 mg" },
-    { "section": "5.2.1", "name": "Propranolol", "levels": "P,S,T", "forms": "Tablet 20 mg and 40 mg" },
-
-    { "section": "5.3", "name": "Levodopa + carbidopa", "levels": "P,S,T", "forms": "Tablets 100 mg + 10 mg; 100 mg + 25 mg; 250 mg + 25 mg; modified-release tablets 100 mg + 25 mg and 200 mg + 50 mg" },
-    { "section": "5.3", "name": "Trihexyphenidyl", "levels": "P,S,T", "forms": "Tablet 2 mg" },
-
-    { "section": "5.4", "name": "Donepezil", "levels": "S,T", "forms": "Tablet 5 mg and 10 mg" }
-  ]
+ "source": "National List of Essential Medicines (NLEM) 2022, Ministry of Health and Family Welfare, Government of India. Published in the Gazette of India as Schedule-I of the Drugs (Prices Control) Order, 2013 (as amended); released 13 September 2022.",
+ "extraction": "Extracted directly from the gazette PDF with pdfplumber, reading the table ruling lines rather than the text layout. Every row carries the gazette page it came from. The Hindi copy of the schedule in the same document is excluded.",
+ "coverage": "Sections 1-27, complete: 450 schedule entries, 378 distinct medicine names.",
+ "sections": [
+  {
+   "number": "1",
+   "title": "Medicines used in anaesthesia"
+  },
+  {
+   "number": "2",
+   "title": "Analgesics, antipyretics, NSAIDs, medicines for gout and rheumatoid disorders"
+  },
+  {
+   "number": "3",
+   "title": "Antiallergics and medicines used in anaphylaxis"
+  },
+  {
+   "number": "4",
+   "title": "Antidotes and other substances used in poisoning and envenomation"
+  },
+  {
+   "number": "5",
+   "title": "Medicines used in neurological disorders"
+  },
+  {
+   "number": "6",
+   "title": "Anti-infective medicines"
+  },
+  {
+   "number": "7",
+   "title": "Anti-cancer agents, immunosuppressives and medicines used in palliative care"
+  },
+  {
+   "number": "8",
+   "title": "Medicines affecting the blood"
+  },
+  {
+   "number": "9",
+   "title": "Blood products and plasma substitutes"
+  },
+  {
+   "number": "10",
+   "title": "Cardiovascular medicines"
+  },
+  {
+   "number": "11",
+   "title": "Dermatological medicines"
+  },
+  {
+   "number": "12",
+   "title": "Diagnostic agents"
+  },
+  {
+   "number": "13",
+   "title": "Dialysis solutions"
+  },
+  {
+   "number": "14",
+   "title": "Antiseptics and disinfectants"
+  },
+  {
+   "number": "15",
+   "title": "Diuretics"
+  },
+  {
+   "number": "16",
+   "title": "Ear, nose and throat medicines"
+  },
+  {
+   "number": "17",
+   "title": "Gastrointestinal medicines"
+  },
+  {
+   "number": "18",
+   "title": "Hormones, other endocrine medicines and contraceptives"
+  },
+  {
+   "number": "19",
+   "title": "Immunologicals"
+  },
+  {
+   "number": "20",
+   "title": "Medicines for neonatal care"
+  },
+  {
+   "number": "21",
+   "title": "Ophthalmological medicines"
+  },
+  {
+   "number": "22",
+   "title": "Oxytocics and antioxytocics"
+  },
+  {
+   "number": "23",
+   "title": "Medicines used in psychiatric disorders"
+  },
+  {
+   "number": "24",
+   "title": "Medicines acting on the respiratory tract"
+  },
+  {
+   "number": "25",
+   "title": "Solutions correcting water, electrolyte and acid-base disturbances"
+  },
+  {
+   "number": "26",
+   "title": "Vitamins and minerals"
+  },
+  {
+   "number": "27",
+   "title": "Medicines for COVID-19 management"
+  }
+ ],
+ "medicines": [
+  {
+   "item": "1.1.1",
+   "section": "1.1",
+   "sectionNumber": "1",
+   "name": "Halothane",
+   "levels": "S,T",
+   "forms": "Liquid for inhalation",
+   "kind": "medicine",
+   "page": 59
+  },
+  {
+   "item": "1.1.2",
+   "section": "1.1",
+   "sectionNumber": "1",
+   "name": "Isoflurane",
+   "levels": "S,T",
+   "forms": "Liquid for inhalation",
+   "kind": "medicine",
+   "page": 59
+  },
+  {
+   "item": "1.1.3",
+   "section": "1.1",
+   "sectionNumber": "1",
+   "name": "Ketamine",
+   "levels": "P,S,T",
+   "forms": "Injection 10 mg/mL | Injection 50 mg/mL",
+   "kind": "medicine",
+   "page": 59
+  },
+  {
+   "item": "1.1.4",
+   "section": "1.1",
+   "sectionNumber": "1",
+   "name": "Nitrous oxide",
+   "levels": "P,S,T",
+   "forms": "As licensed for medical purpose",
+   "kind": "supply",
+   "page": 59
+  },
+  {
+   "item": "1.1.5",
+   "section": "1.1",
+   "sectionNumber": "1",
+   "name": "Oxygen",
+   "levels": "P,S,T",
+   "forms": "As licensed for medical purpose",
+   "kind": "supply",
+   "page": 59
+  },
+  {
+   "item": "1.1.6",
+   "section": "1.1",
+   "sectionNumber": "1",
+   "name": "Propofol",
+   "levels": "P,S,T",
+   "forms": "Injection 10 mg/mL",
+   "kind": "medicine",
+   "page": 59
+  },
+  {
+   "item": "1.1.7",
+   "section": "1.1",
+   "sectionNumber": "1",
+   "name": "Sevoflurane",
+   "levels": "S,T",
+   "forms": "Liquid for inhalation",
+   "kind": "medicine",
+   "page": 59
+  },
+  {
+   "item": "1.1.8",
+   "section": "1.1",
+   "sectionNumber": "1",
+   "name": "Thiopentone",
+   "levels": "P,S,T",
+   "forms": "Powder for injection 0.5 g | Powder for injection 1 g",
+   "kind": "medicine",
+   "page": 59
+  },
+  {
+   "item": "1.2.1",
+   "section": "1.2",
+   "sectionNumber": "1",
+   "name": "Bupivacaine",
+   "levels": "S,T",
+   "forms": "Injection 0.25 % | Injection 0.5 % | Injection 0.5 % with 7.5 % glucose",
+   "kind": "medicine",
+   "page": 60
+  },
+  {
+   "item": "1.2.2",
+   "section": "1.2",
+   "sectionNumber": "1",
+   "name": "Lignocaine",
+   "levels": "P,S,T",
+   "forms": "Topical forms 2-5 % | Injection 1 % | Injection 2 % | Injection 5 % with 7.5 % glucose",
+   "kind": "medicine",
+   "page": 60
+  },
+  {
+   "item": "1.2.3",
+   "section": "1.2",
+   "sectionNumber": "1",
+   "name": "Lignocaine (A) + Adrenaline (B)",
+   "levels": "P,S,T",
+   "forms": "Injection 1% (A) + 1:200000 (5 mcg/mL) (B) | Injection 2% (A) + 1:200000 (5 mcg/mL) (B)",
+   "kind": "medicine",
+   "page": 60
+  },
+  {
+   "item": "1.3.1",
+   "section": "1.3",
+   "sectionNumber": "1",
+   "name": "Atropine",
+   "levels": "P,S,T",
+   "forms": "Injection 0.6 mg/mL",
+   "kind": "medicine",
+   "page": 60
+  },
+  {
+   "item": "1.3.2",
+   "section": "1.3",
+   "sectionNumber": "1",
+   "name": "Glycopyrrolate",
+   "levels": "S,T",
+   "forms": "Injection 0.2 mg/mL",
+   "kind": "medicine",
+   "page": 60
+  },
+  {
+   "item": "1.3.3",
+   "section": "1.3",
+   "sectionNumber": "1",
+   "name": "Midazolam",
+   "levels": "P,S,T",
+   "forms": "Tablet 7.5 mg Nasal Spray 0.5mg Nasal Spray 1.25 mg | Injection 1 mg/mL | Injection 5 mg/mL",
+   "kind": "medicine",
+   "page": 60
+  },
+  {
+   "item": "1.3.4",
+   "section": "1.3",
+   "sectionNumber": "1",
+   "name": "Morphine",
+   "levels": "P,S,T",
+   "forms": "Injection 10 mg/mL | Injection 15 mg/mL",
+   "kind": "medicine",
+   "page": 60
+  },
+  {
+   "item": "1.4.1",
+   "section": "1.4",
+   "sectionNumber": "1",
+   "name": "Atracurium",
+   "levels": "S,T",
+   "forms": "Injection 10 mg/mL",
+   "kind": "medicine",
+   "page": 60
+  },
+  {
+   "item": "1.4.2",
+   "section": "1.4",
+   "sectionNumber": "1",
+   "name": "Baclofen",
+   "levels": "S,T",
+   "forms": "Tablet 5 mg | Tablet 10 mg | Tablet 20 mg",
+   "kind": "medicine",
+   "page": 61
+  },
+  {
+   "item": "1.4.3",
+   "section": "1.4",
+   "sectionNumber": "1",
+   "name": "Neostigmine",
+   "levels": "S,T",
+   "forms": "Tablet 15 mg | Injection 0.5 mg/mL",
+   "kind": "medicine",
+   "page": 61
+  },
+  {
+   "item": "1.4.4",
+   "section": "1.4",
+   "sectionNumber": "1",
+   "name": "Succinylcholine",
+   "levels": "S,T",
+   "forms": "Injection 50 mg/mL",
+   "kind": "medicine",
+   "page": 61
+  },
+  {
+   "item": "1.4.5",
+   "section": "1.4",
+   "sectionNumber": "1",
+   "name": "Vecuronium",
+   "levels": "S,T",
+   "forms": "Powder for injection 4 mg | Powder for injection 10 mg",
+   "kind": "medicine",
+   "page": 61
+  },
+  {
+   "item": "2.1.1",
+   "section": "2.1",
+   "sectionNumber": "2",
+   "name": "Acetylsalicylic acid",
+   "levels": "P,S,T",
+   "forms": "Tablet 300 mg to 500 mg Effervescent/ Dispersible/ Enteric coated | Tablet 300 mg to 500 mg",
+   "kind": "medicine",
+   "page": 61
+  },
+  {
+   "item": "2.1.2",
+   "section": "2.1",
+   "sectionNumber": "2",
+   "name": "Diclofenac",
+   "levels": "P,S,T",
+   "forms": "Tablet 50 mg | Injection 25 mg/mL",
+   "kind": "medicine",
+   "page": 61
+  },
+  {
+   "item": "2.1.3",
+   "section": "2.1",
+   "sectionNumber": "2",
+   "name": "Ibuprofen",
+   "levels": "P,S,T",
+   "forms": "Tablet 200 mg | Tablet 400 mg",
+   "kind": "medicine",
+   "page": 61
+  },
+  {
+   "item": "2.1.4",
+   "section": "2.1",
+   "sectionNumber": "2",
+   "name": "Mefenamic acid",
+   "levels": "P,S,T",
+   "forms": "Tablet 250 mg | Oral liquid 100 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 62
+  },
+  {
+   "item": "2.1.5",
+   "section": "2.1",
+   "sectionNumber": "2",
+   "name": "Paracetamol",
+   "levels": "P,S,T",
+   "forms": "Tablet 500 mg | Tablet 650 mg | Oral liquid 120 mg/5 mL (p) | Oral Liquid 125 mg/5 mL (p) | Oral Liquid 250 mg/5 mL (p) | Injection 150 mg/ mL | Suppository 80 mg | Suppository 170 mg",
+   "kind": "medicine",
+   "page": 62
+  },
+  {
+   "item": "2.2.1",
+   "section": "2.2",
+   "sectionNumber": "2",
+   "name": "Fentanyl",
+   "levels": "S,T",
+   "forms": "Injection 50 mcg/mL",
+   "kind": "medicine",
+   "page": 62
+  },
+  {
+   "item": "2.2.2",
+   "section": "2.2",
+   "sectionNumber": "2",
+   "name": "Morphine",
+   "levels": "P,S,T",
+   "forms": "Tablet 10 mg | Injection 10 mg/mL | Injection 15 mg/mL",
+   "kind": "medicine",
+   "page": 62
+  },
+  {
+   "item": "2.2.3",
+   "section": "2.2",
+   "sectionNumber": "2",
+   "name": "Tramadol",
+   "levels": "S,T",
+   "forms": "Capsule 50 mg | Capsule 100 mg | Injection 50 mg/mL",
+   "kind": "medicine",
+   "page": 62
+  },
+  {
+   "item": "2.3.1",
+   "section": "2.3",
+   "sectionNumber": "2",
+   "name": "Allopurinol",
+   "levels": "P,S,T",
+   "forms": "Tablet 100 mg | Tablet 300 mg",
+   "kind": "medicine",
+   "page": 62
+  },
+  {
+   "item": "2.3.2",
+   "section": "2.3",
+   "sectionNumber": "2",
+   "name": "Colchicine",
+   "levels": "P,S,T",
+   "forms": "Tablet 0.5 mg",
+   "kind": "medicine",
+   "page": 62
+  },
+  {
+   "item": "2.4.1",
+   "section": "2.4",
+   "sectionNumber": "2",
+   "name": "Azathioprine",
+   "levels": "S,T",
+   "forms": "Tablet 25 mg (p) | Tablet 50 mg",
+   "kind": "medicine",
+   "page": 63
+  },
+  {
+   "item": "2.4.2",
+   "section": "2.4",
+   "sectionNumber": "2",
+   "name": "Hydroxychloroquine",
+   "levels": "P,S,T",
+   "forms": "Tablet 200 mg | Tablet 400 mg",
+   "kind": "medicine",
+   "page": 63
+  },
+  {
+   "item": "2.4.3",
+   "section": "2.4",
+   "sectionNumber": "2",
+   "name": "Methotrexate",
+   "levels": "P,S,T",
+   "forms": "Tablet 2.5 mg | Tablet 5 mg | Tablet 10 mg",
+   "kind": "medicine",
+   "page": 63
+  },
+  {
+   "item": "2.4.4",
+   "section": "2.4",
+   "sectionNumber": "2",
+   "name": "Sulfasalazine",
+   "levels": "S,T",
+   "forms": "Tablet 500 mg",
+   "kind": "medicine",
+   "page": 63
+  },
+  {
+   "item": "3.1",
+   "section": "3",
+   "sectionNumber": "3",
+   "name": "Adrenaline",
+   "levels": "P,S,T",
+   "forms": "Injection 1 mg/mL",
+   "kind": "medicine",
+   "page": 63
+  },
+  {
+   "item": "3.2",
+   "section": "3",
+   "sectionNumber": "3",
+   "name": "Cetirizine",
+   "levels": "P,S,T",
+   "forms": "Tablet 10 mg | Oral liquid 5 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 63
+  },
+  {
+   "item": "3.3",
+   "section": "3",
+   "sectionNumber": "3",
+   "name": "Dexamethasone",
+   "levels": "P,S,T",
+   "forms": "Tablet 0.5 mg | Tablet 2 mg | Tablet 4 mg | Oral liquid 0.5 mg/5 mL (p) | Injection 4 mg/mL",
+   "kind": "medicine",
+   "page": 63
+  },
+  {
+   "item": "3.4",
+   "section": "3",
+   "sectionNumber": "3",
+   "name": "Hydrocortisone",
+   "levels": "P,S,T",
+   "forms": "Tablet 5 mg | Tablet 10 mg | Powder for Injection 100 mg | Powder for Injection 200 mg",
+   "kind": "medicine",
+   "page": 63
+  },
+  {
+   "item": "3.5",
+   "section": "3",
+   "sectionNumber": "3",
+   "name": "Pheniramine",
+   "levels": "P,S,T",
+   "forms": "Injection 22.75 mg/mL",
+   "kind": "medicine",
+   "page": 64
+  },
+  {
+   "item": "3.6",
+   "section": "3",
+   "sectionNumber": "3",
+   "name": "Prednisolone",
+   "levels": "P,S,T",
+   "forms": "Tablet 5 mg | Tablet 10 mg | Tablet 20 mg | Oral liquid 5 mg/5 mL (p) | Oral liquid 15 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 64
+  },
+  {
+   "item": "4.1.1",
+   "section": "4.1",
+   "sectionNumber": "4",
+   "name": "Activated Charcoal",
+   "levels": "P,S,T",
+   "forms": "Powder (as licensed)",
+   "kind": "medicine",
+   "page": 64
+  },
+  {
+   "item": "4.2.1",
+   "section": "4.2",
+   "sectionNumber": "4",
+   "name": "Atropine",
+   "levels": "P,S,T",
+   "forms": "Injection 0.6 mg/mL",
+   "kind": "medicine",
+   "page": 64
+  },
+  {
+   "item": "4.2.2",
+   "section": "4.2",
+   "sectionNumber": "4",
+   "name": "Calcium gluconate",
+   "levels": "P,S,T",
+   "forms": "Injection 100 mg/mL",
+   "kind": "medicine",
+   "page": 64
+  },
+  {
+   "item": "4.2.3",
+   "section": "4.2",
+   "sectionNumber": "4",
+   "name": "D- Penicillamine",
+   "levels": "P,S,T",
+   "forms": "Capsule 150 mg (p) | Capsule 250 mg",
+   "kind": "medicine",
+   "page": 64
+  },
+  {
+   "item": "4.2.4",
+   "section": "4.2",
+   "sectionNumber": "4",
+   "name": "Desferrioxamine",
+   "levels": "S,T",
+   "forms": "Powder for injection 500 mg",
+   "kind": "medicine",
+   "page": 64
+  },
+  {
+   "item": "4.2.5",
+   "section": "4.2",
+   "sectionNumber": "4",
+   "name": "Methylthioninium chloride (Methylene blue)",
+   "levels": "S,T",
+   "forms": "Injection 10 mg/mL",
+   "kind": "medicine",
+   "page": 64
+  },
+  {
+   "item": "4.2.6",
+   "section": "4.2",
+   "sectionNumber": "4",
+   "name": "N-acetylcysteine",
+   "levels": "P,S,T",
+   "forms": "Sachet 200 mg | Injection 200 mg/mL",
+   "kind": "medicine",
+   "page": 65
+  },
+  {
+   "item": "4.2.7",
+   "section": "4.2",
+   "sectionNumber": "4",
+   "name": "Naloxone",
+   "levels": "P,S,T",
+   "forms": "Injection 0.4 mg/mL",
+   "kind": "medicine",
+   "page": 65
+  },
+  {
+   "item": "4.2.8",
+   "section": "4.2",
+   "sectionNumber": "4",
+   "name": "Neostigmine",
+   "levels": "P,S,T",
+   "forms": "Injection 0.5 mg/mL",
+   "kind": "medicine",
+   "page": 65
+  },
+  {
+   "item": "4.2.9",
+   "section": "4.2",
+   "sectionNumber": "4",
+   "name": "Pralidoxime chloride (2- PAM)",
+   "levels": "P,S,T",
+   "forms": "Injection 25 mg/mL",
+   "kind": "medicine",
+   "page": 65
+  },
+  {
+   "item": "4.2.10",
+   "section": "4.2",
+   "sectionNumber": "4",
+   "name": "Snake venom antiserum",
+   "levels": "P,S,T",
+   "forms": "Soluble/ liquid polyvalent - As licensed Lyophilized polyvalent - As licensed",
+   "kind": "medicine",
+   "page": 65
+  },
+  {
+   "item": "4.2.11",
+   "section": "4.2",
+   "sectionNumber": "4",
+   "name": "Sodium nitrite",
+   "levels": "S,T",
+   "forms": "Injection 30 mg/mL",
+   "kind": "medicine",
+   "page": 65
+  },
+  {
+   "item": "4.2.12",
+   "section": "4.2",
+   "sectionNumber": "4",
+   "name": "Sodium thiosulphate",
+   "levels": "S,T",
+   "forms": "Injection 250 mg/mL",
+   "kind": "medicine",
+   "page": 65
+  },
+  {
+   "item": "5.1.1",
+   "section": "5.1",
+   "sectionNumber": "5",
+   "name": "Carbamazepine",
+   "levels": "P,S,T",
+   "forms": "Tablet 100 mg | Tablet 200 mg | Tablet 400 mg Modified Release – | Tablet 200 mg | Tablet 400 mg | Oral liquid 100 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 65
+  },
+  {
+   "item": "5.1.2",
+   "section": "5.1",
+   "sectionNumber": "5",
+   "name": "Clobazam",
+   "levels": "S,T",
+   "forms": "Tablet 5 mg | Tablet 10 mg",
+   "kind": "medicine",
+   "page": 65
+  },
+  {
+   "item": "5.1.3",
+   "section": "5.1",
+   "sectionNumber": "5",
+   "name": "Diazepam",
+   "levels": "P,S,T",
+   "forms": "Oral liquid 2 mg/5 mL (p) | Injection 5 mg/mL | Suppository 5 mg",
+   "kind": "medicine",
+   "page": 65
+  },
+  {
+   "item": "5.1.4",
+   "section": "5.1",
+   "sectionNumber": "5",
+   "name": "Levetiracetam",
+   "levels": "S,T",
+   "forms": "Tablet 250 mg | Tablet 500 mg | Tablet 750 mg Modified Release Tablet 750 mg | Oral liquid 100 mg/mL (p)",
+   "kind": "medicine",
+   "page": 65
+  },
+  {
+   "item": "5.1.5",
+   "section": "5.1",
+   "sectionNumber": "5",
+   "name": "Lorazepam",
+   "levels": "P,S,T",
+   "forms": "Tablet 1 mg | Tablet 2 mg | Injection 2 mg/mL | Injection 4 mg/mL",
+   "kind": "medicine",
+   "page": 66
+  },
+  {
+   "item": "5.1.6",
+   "section": "5.1",
+   "sectionNumber": "5",
+   "name": "Magnesium sulphate",
+   "levels": "S,T",
+   "forms": "Injection 500 mg/mL",
+   "kind": "medicine",
+   "page": 66
+  },
+  {
+   "item": "5.1.7",
+   "section": "5.1",
+   "sectionNumber": "5",
+   "name": "Midazolam",
+   "levels": "P,S,T",
+   "forms": "Tablet 7.5 mg | Tablet 15 mg Nasal Spray 0.5 mg/actuation Nasal Spray 1.25 mg/actuation Injection 1 mg/mL | Injection 5 mg/mL",
+   "kind": "medicine",
+   "page": 66
+  },
+  {
+   "item": "5.1.9",
+   "section": "5.1",
+   "sectionNumber": "5",
+   "name": "Phenytoin",
+   "levels": "P,S,T",
+   "forms": "Tablet 50 mg | Tablet 100 mg | Tablet 300 mg Modified Release Tablet 300 mg | Oral liquid 30 mg/5 mL (p) | Oral liquid 125 mg/5 mL (p) | Injection 25 mg/mL | Injection 50 mg/mL",
+   "kind": "medicine",
+   "page": 66
+  },
+  {
+   "item": "5.2.1",
+   "section": "5.2",
+   "sectionNumber": "5",
+   "name": "Acetylsalicylic acid",
+   "levels": "P,S,T",
+   "forms": "Tablet 300 mg to 500 mg Effervescent/ Dispersible/ Enteric coated | Tablet 300 mg to 500 mg",
+   "kind": "medicine",
+   "page": 67
+  },
+  {
+   "item": "5.2.2",
+   "section": "5.2",
+   "sectionNumber": "5",
+   "name": "Ibuprofen",
+   "levels": "P,S,T",
+   "forms": "Tablet 200 mg | Tablet 400 mg | Oral liquid 100 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 67
+  },
+  {
+   "item": "5.2.3",
+   "section": "5.2",
+   "sectionNumber": "5",
+   "name": "Paracetamol",
+   "levels": "P,S,T",
+   "forms": "Tablet 500 mg | Tablet 650 mg | Oral liquid 120 mg/5mL (p) | Oral Liquid 125 mg/5mL (p) | Oral Liquid 250 mg/5mL (p)",
+   "kind": "medicine",
+   "page": 67
+  },
+  {
+   "item": "5.2.4",
+   "section": "5.2",
+   "sectionNumber": "5",
+   "name": "Sumatriptan",
+   "levels": "P,S,T",
+   "forms": "Tablet 25 mg | Tablet 50 mg",
+   "kind": "medicine",
+   "page": 67
+  },
+  {
+   "item": "5.2.1.1",
+   "section": "5.2.1",
+   "sectionNumber": "5",
+   "name": "Amitriptyline",
+   "levels": "P,S,T",
+   "forms": "Tablet 10 mg | Tablet 25 mg | Tablet 75 mg",
+   "kind": "medicine",
+   "page": 67
+  },
+  {
+   "item": "5.2.1.2",
+   "section": "5.2.1",
+   "sectionNumber": "5",
+   "name": "Flunarizine",
+   "levels": "P,S,T",
+   "forms": "Tablet 5 mg | Tablet 10 mg",
+   "kind": "medicine",
+   "page": 68
+  },
+  {
+   "item": "5.2.1.3",
+   "section": "5.2.1",
+   "sectionNumber": "5",
+   "name": "Propranolol",
+   "levels": "P,S,T",
+   "forms": "Tablet 10 mg | Tablet 20 mg | Tablet 40 mg",
+   "kind": "medicine",
+   "page": 68
+  },
+  {
+   "item": "5.3.1",
+   "section": "5.3",
+   "sectionNumber": "5",
+   "name": "Levodopa (A) + Carbidopa (B)",
+   "levels": "P,S,T",
+   "forms": "Tablet 100 mg (A) + 10 mg (B) | Tablet 100 mg (A) + 25 mg (B) | Tablet 250 mg (A) + 25 mg (B) Modified Release – | Tablet 100 mg (A) + 25 mg (B) | Tablet 200 mg (A) + 50 mg (B)",
+   "kind": "medicine",
+   "page": 68
+  },
+  {
+   "item": "5.3.2",
+   "section": "5.3",
+   "sectionNumber": "5",
+   "name": "Trihexyphenidyl",
+   "levels": "P,S,T",
+   "forms": "Tablet 2 mg",
+   "kind": "medicine",
+   "page": 68
+  },
+  {
+   "item": "5.4.1",
+   "section": "5.4",
+   "sectionNumber": "5",
+   "name": "Donepezil",
+   "levels": "S,T",
+   "forms": "Tablet 5 mg | Tablet 10 mg",
+   "kind": "medicine",
+   "page": 68
+  },
+  {
+   "item": "6.1.1.1",
+   "section": "6.1.1",
+   "sectionNumber": "6",
+   "name": "Albendazole",
+   "levels": "P,S,T",
+   "forms": "Chewable Tablet 400 mg | Oral liquid 200 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 69
+  },
+  {
+   "item": "6.1.1.2",
+   "section": "6.1.1",
+   "sectionNumber": "6",
+   "name": "Mebendazole",
+   "levels": "P,S,T",
+   "forms": "Tablet 100 mg | Oral liquid 100 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 69
+  },
+  {
+   "item": "6.1.2.1",
+   "section": "6.1.2",
+   "sectionNumber": "6",
+   "name": "Albendazole",
+   "levels": "P,S,T",
+   "forms": "Tablet 400 mg Chewable Tablet 400 mg | Oral liquid 200 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 69
+  },
+  {
+   "item": "6.1.2.2",
+   "section": "6.1.2",
+   "sectionNumber": "6",
+   "name": "Diethylcarbamazine (DEC)",
+   "levels": "P,S,T",
+   "forms": "Tablet 50 mg | Tablet 100 mg | Oral liquid 120 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 69
+  },
+  {
+   "item": "6.1.2.3",
+   "section": "6.1.2",
+   "sectionNumber": "6",
+   "name": "Ivermectin",
+   "levels": "P,S,T",
+   "forms": "Tablet 6 mg | Tablet 12 mg",
+   "kind": "medicine",
+   "page": 69
+  },
+  {
+   "item": "6.1.3.1",
+   "section": "6.1.3",
+   "sectionNumber": "6",
+   "name": "Praziquantel",
+   "levels": "S,T",
+   "forms": "Tablet 600 mg",
+   "kind": "medicine",
+   "page": 69
+  },
+  {
+   "item": "6.2.1.1",
+   "section": "6.2.1",
+   "sectionNumber": "6",
+   "name": "Amoxicillin",
+   "levels": "P,S,T",
+   "forms": "Capsule 250 mg | Capsule 500 mg | Oral liquid 125 mg/5 mL (p) | Oral liquid 250 mg/5 mL (p) | Powder for Injection 250 mg | Powder for Injection 500 mg | Powder for injection 1000 mg",
+   "kind": "medicine",
+   "page": 69
+  },
+  {
+   "item": "6.2.1.2",
+   "section": "6.2.1",
+   "sectionNumber": "6",
+   "name": "Amoxicillin (A) + Clavulanic acid (B)",
+   "levels": "P,S,T",
+   "forms": "Tablet 500 mg (A) + 125 mg (B) | Oral liquid 200 mg (A) + 28.5 mg (B)/5 mL (p) Dry Syrup 125 mg (A) + 31.25 (B)/ 5 mL (p)",
+   "kind": "medicine",
+   "page": 69
+  },
+  {
+   "item": "6.2.1.3",
+   "section": "6.2.1",
+   "sectionNumber": "6",
+   "name": "Ampicillin",
+   "levels": "P,S,T",
+   "forms": "Powder for Injection 500 mg Powder for | Injection 1000 mg",
+   "kind": "medicine",
+   "page": 70
+  },
+  {
+   "item": "6.2.1.4",
+   "section": "6.2.1",
+   "sectionNumber": "6",
+   "name": "Benzathine benzylpenicillin",
+   "levels": "P,S,T",
+   "forms": "Powder for Injection 6 lac units Powder for | Injection 12 lac units Powder for injection 24 lac units",
+   "kind": "medicine",
+   "page": 70
+  },
+  {
+   "item": "6.2.1.5",
+   "section": "6.2.1",
+   "sectionNumber": "6",
+   "name": "Benzylpenicillin",
+   "levels": "P,S,T",
+   "forms": "Powder for injection 5 lac units Powder for injection 10 lac units",
+   "kind": "medicine",
+   "page": 70
+  },
+  {
+   "item": "6.2.1.6",
+   "section": "6.2.1",
+   "sectionNumber": "6",
+   "name": "Cefadroxil",
+   "levels": "P,S,T",
+   "forms": "Tablet 500 mg | Tablet 100 mg | Oral liquid 125 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 70
+  },
+  {
+   "item": "6.2.1.7",
+   "section": "6.2.1",
+   "sectionNumber": "6",
+   "name": "Cefazolin",
+   "levels": "P,S,T",
+   "forms": "Powder for Injection 500 mg | Powder for Injection 1000 mg",
+   "kind": "medicine",
+   "page": 70
+  },
+  {
+   "item": "6.2.1.8",
+   "section": "6.2.1",
+   "sectionNumber": "6",
+   "name": "Cefixime",
+   "levels": "S,T",
+   "forms": "Tablet 200 mg | Tablet 400 mg | Oral liquid 50 mg/5 mL (p) | Oral liquid 100 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 70
+  },
+  {
+   "item": "6.2.1.9",
+   "section": "6.2.1",
+   "sectionNumber": "6",
+   "name": "Cefotaxime",
+   "levels": "S,T",
+   "forms": "Powder for Injection 250 mg | Powder for Injection 500 mg | Powder for Injection 1000 mg",
+   "kind": "medicine",
+   "page": 70
+  },
+  {
+   "item": "6.2.1.10",
+   "section": "6.2.1",
+   "sectionNumber": "6",
+   "name": "Ceftazidime",
+   "levels": "S,T",
+   "forms": "Powder for Injection 250 mg | Powder for Injection 1000 mg",
+   "kind": "medicine",
+   "page": 70
+  },
+  {
+   "item": "6.2.1.11",
+   "section": "6.2.1",
+   "sectionNumber": "6",
+   "name": "Ceftriaxone",
+   "levels": "S,T",
+   "forms": "Powder for Injection 250 mg | Powder for Injection 500 mg | Powder for Injection 1000 mg | Powder for Injection 2000 mg",
+   "kind": "medicine",
+   "page": 70
+  },
+  {
+   "item": "6.2.1.12",
+   "section": "6.2.1",
+   "sectionNumber": "6",
+   "name": "Cloxacillin",
+   "levels": "P,S,T",
+   "forms": "Capsule 250 mg | Capsule 500 mg | Oral Liquid 125 mg/5 mL (p) | Powder for Injection 250 mg",
+   "kind": "medicine",
+   "page": 70
+  },
+  {
+   "item": "6.2.1.14",
+   "section": "6.2.1",
+   "sectionNumber": "6",
+   "name": "Meropenem",
+   "levels": "T",
+   "forms": "Powder for Injection 500 mg (as trihydrate) | Powder for Injection 1000 mg (as trihydrate)",
+   "kind": "medicine",
+   "page": 71
+  },
+  {
+   "item": "6.2.2.1",
+   "section": "6.2.2",
+   "sectionNumber": "6",
+   "name": "Azithromycin",
+   "levels": "P,S,T",
+   "forms": "Tablet 250 mg | Tablet 500 mg | Oral liquid 200 mg/5 mL (p) | Powder for Injection 500 mg",
+   "kind": "medicine",
+   "page": 71
+  },
+  {
+   "item": "6.2.2.2",
+   "section": "6.2.2",
+   "sectionNumber": "6",
+   "name": "Cefuroxime",
+   "levels": "P,S,T",
+   "forms": "Tablet 500 mg | Oral liquid 125 mg/ 5 mL (p) | Injection 1500 mg",
+   "kind": "medicine",
+   "page": 71
+  },
+  {
+   "item": "6.2.2.3",
+   "section": "6.2.2",
+   "sectionNumber": "6",
+   "name": "Ciprofloxacin",
+   "levels": "P,S,T",
+   "forms": "Tablet 250 mg | Tablet 500 mg | Oral liquid 250 mg/ 5 mL (p) | Injection 200 mg/ 100 mL",
+   "kind": "medicine",
+   "page": 71
+  },
+  {
+   "item": "6.2.2.4",
+   "section": "6.2.2",
+   "sectionNumber": "6",
+   "name": "Clarithromycin",
+   "levels": "S,T",
+   "forms": "Tablet 250 mg | Tablet 500 mg | Oral liquid 125 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 71
+  },
+  {
+   "item": "6.2.2.5",
+   "section": "6.2.2",
+   "sectionNumber": "6",
+   "name": "Clindamycin",
+   "levels": "P,S,T",
+   "forms": "Capsule 150 mg | Capsule 300 mg | Injection 150 mg /mL",
+   "kind": "medicine",
+   "page": 71
+  },
+  {
+   "item": "6.2.2.6",
+   "section": "6.2.2",
+   "sectionNumber": "6",
+   "name": "Co-trimoxazole [Sulphamethoxazole (A) + Trimethoprim (B)]",
+   "levels": "P,S,T",
+   "forms": "Tablet 400 mg (A) + 80 mg (B) | Tablet 800 mg (A) + 160 mg (B) | Oral liquid 200 mg (A) + 40 mg (B)/5 mL (p)",
+   "kind": "medicine",
+   "page": 71
+  },
+  {
+   "item": "6.2.2.7",
+   "section": "6.2.2",
+   "sectionNumber": "6",
+   "name": "Doxycycline",
+   "levels": "P,S,T",
+   "forms": "Capsule 100 mg Dry Syrup 50 mg/5 mL (p) Power for Injection 100 mg",
+   "kind": "medicine",
+   "page": 72
+  },
+  {
+   "item": "6.2.2.8",
+   "section": "6.2.2",
+   "sectionNumber": "6",
+   "name": "Gentamicin",
+   "levels": "P,S,T",
+   "forms": "Injection 10 mg/mL | Injection 40 mg/mL",
+   "kind": "medicine",
+   "page": 72
+  },
+  {
+   "item": "6.2.2.9",
+   "section": "6.2.2",
+   "sectionNumber": "6",
+   "name": "Metronidazole",
+   "levels": "P,S,T",
+   "forms": "Tablet 200 mg | Tablet 400 mg | Oral liquid 200 mg/5 mL (p) | Injection 500 mg/100 mL",
+   "kind": "medicine",
+   "page": 72
+  },
+  {
+   "item": "6.2.2.10",
+   "section": "6.2.2",
+   "sectionNumber": "6",
+   "name": "Nitrofurantoin",
+   "levels": "P,S,T",
+   "forms": "Tablet 100 mg | Oral liquid 25 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 72
+  },
+  {
+   "item": "6.2.2.11",
+   "section": "6.2.2",
+   "sectionNumber": "6",
+   "name": "Phenoxymethyl penicillin",
+   "levels": "P,S,T",
+   "forms": "Tablet 250 mg",
+   "kind": "medicine",
+   "page": 72
+  },
+  {
+   "item": "6.2.2.12",
+   "section": "6.2.2",
+   "sectionNumber": "6",
+   "name": "Procaine Benzylpenicillin",
+   "levels": "P,S,T",
+   "forms": "Powder for injection 1000 mg (=1 million IU)",
+   "kind": "medicine",
+   "page": 72
+  },
+  {
+   "item": "6.2.2.13",
+   "section": "6.2.2",
+   "sectionNumber": "6",
+   "name": "Vancomycin",
+   "levels": "S,T",
+   "forms": "Capsule 125 mg | Capsule 250 mg | Powder for Injection 250 mg | Powder for Injection 500 mg | Powder for Injection 1000 mg",
+   "kind": "medicine",
+   "page": 72
+  },
+  {
+   "item": "6.3.1",
+   "section": "6.3",
+   "sectionNumber": "6",
+   "name": "Clofazimine",
+   "levels": "P,S,T",
+   "forms": "Capsule 50 mg | Capsule 100 mg",
+   "kind": "medicine",
+   "page": 72
+  },
+  {
+   "item": "6.3.2",
+   "section": "6.3",
+   "sectionNumber": "6",
+   "name": "Dapsone",
+   "levels": "P,S,T",
+   "forms": "Tablet 50 mg",
+   "kind": "medicine",
+   "page": 72
+  },
+  {
+   "item": "6.3.3",
+   "section": "6.3",
+   "sectionNumber": "6",
+   "name": "Rifampicin",
+   "levels": "P,S,T",
+   "forms": "Capsule 150 mg | Capsule 300 mg",
+   "kind": "medicine",
+   "page": 73
+  },
+  {
+   "item": "6.4.1",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Amikacin",
+   "levels": "S,T",
+   "forms": "Injection 100 mg/mL | Injection 250 mg/mL | Injection 500 mg/mL",
+   "kind": "medicine",
+   "page": 73
+  },
+  {
+   "item": "6.4.2",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Bedaquiline",
+   "levels": "T",
+   "forms": "Tablet 100 mg",
+   "kind": "medicine",
+   "page": 73
+  },
+  {
+   "item": "6.4.3",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Clarithromycin",
+   "levels": "S,T",
+   "forms": "Tablet 250 mg | Tablet 500 mg | Tablet 750 mg",
+   "kind": "medicine",
+   "page": 73
+  },
+  {
+   "item": "6.4.4",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Clofazimine",
+   "levels": "S,T",
+   "forms": "Capsule 50 mg | Capsule 100 mg",
+   "kind": "medicine",
+   "page": 73
+  },
+  {
+   "item": "6.4.5",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Cycloserine",
+   "levels": "S,T",
+   "forms": "Capsule 125 mg | Capsule 250 mg",
+   "kind": "medicine",
+   "page": 73
+  },
+  {
+   "item": "6.4.6",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Delamanid",
+   "levels": "T",
+   "forms": "Tablet 50 mg",
+   "kind": "medicine",
+   "page": 73
+  },
+  {
+   "item": "6.4.7",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Ethambutol",
+   "levels": "P,S,T",
+   "forms": "Tablet 200 mg | Tablet 400 mg | Tablet 600 mg | Tablet 800 mg",
+   "kind": "medicine",
+   "page": 73
+  },
+  {
+   "item": "6.4.8",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Ethionamide",
+   "levels": "S,T",
+   "forms": "Tablet 125 mg | Tablet 250 mg",
+   "kind": "medicine",
+   "page": 73
+  },
+  {
+   "item": "6.4.9",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Isoniazid",
+   "levels": "P,S,T",
+   "forms": "Tablet 100 mg | Tablet 300 mg | Oral Liquid 50 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 73
+  },
+  {
+   "item": "6.4.10",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Levofloxacin",
+   "levels": "P,S,T",
+   "forms": "Tablet 250 mg | Tablet 500 mg | Tablet 750 mg",
+   "kind": "medicine",
+   "page": 73
+  },
+  {
+   "item": "6.4.11",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Linezolid",
+   "levels": "P,S,T",
+   "forms": "Tablet 600 mg",
+   "kind": "medicine",
+   "page": 74
+  },
+  {
+   "item": "6.4.12",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Moxifloxacin",
+   "levels": "P,S,T",
+   "forms": "Tablet 400 mg",
+   "kind": "medicine",
+   "page": 74
+  },
+  {
+   "item": "6.4.13",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Para- aminosalicylic acid",
+   "levels": "S,T",
+   "forms": "Granules (As licensed)",
+   "kind": "medicine",
+   "page": 74
+  },
+  {
+   "item": "6.4.14",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Pyrazinamide",
+   "levels": "P,S,T",
+   "forms": "Tablet 500 mg | Tablet 750 mg | Tablet 1000 mg | Tablet 1500 mg | Oral liquid 250 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 74
+  },
+  {
+   "item": "6.4.15",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Rifampicin",
+   "levels": "P,S,T",
+   "forms": "Capsule 150 mg | Capsule 300 mg | Capsule 450 mg | Capsule 600 mg | Oral liquid 100 mg/ 5 mL (p)",
+   "kind": "medicine",
+   "page": 74
+  },
+  {
+   "item": "6.4.16",
+   "section": "6.4",
+   "sectionNumber": "6",
+   "name": "Streptomycin",
+   "levels": "P,S,T",
+   "forms": "Powder for Injection 750 mg | Powder for Injection 1000 mg",
+   "kind": "medicine",
+   "page": 74
+  },
+  {
+   "item": "6.5.1",
+   "section": "6.5",
+   "sectionNumber": "6",
+   "name": "Amphotericin B",
+   "levels": "S,T",
+   "forms": "a) Amphotericin B (conventional) - | Injection 50 mg/vial b) Lipid Amphotericin B - | Injection 50 mg/vial c) Liposomal Amphotericin B - Injection 50 mg/vial",
+   "kind": "medicine",
+   "page": 74
+  },
+  {
+   "item": "6.5.2",
+   "section": "6.5",
+   "sectionNumber": "6",
+   "name": "Clotrimazole",
+   "levels": "P,S,T",
+   "forms": "Pessary 100 mg",
+   "kind": "medicine",
+   "page": 74
+  },
+  {
+   "item": "6.5.3",
+   "section": "6.5",
+   "sectionNumber": "6",
+   "name": "Fluconazole",
+   "levels": "P,S,T",
+   "forms": "Tablet 50 mg | Tablet 100 mg | Tablet 150 mg | Tablet 200 mg | Tablet 400 mg | Oral liquid 50 mg/ 5 mL (p)",
+   "kind": "medicine",
+   "page": 74
+  },
+  {
+   "item": "6.5.4",
+   "section": "6.5",
+   "sectionNumber": "6",
+   "name": "Griseofulvin",
+   "levels": "P,S,T",
+   "forms": "Tablet 125 mg | Tablet 250 mg | Tablet 375 mg",
+   "kind": "medicine",
+   "page": 75
+  },
+  {
+   "item": "6.5.5",
+   "section": "6.5",
+   "sectionNumber": "6",
+   "name": "Itraconazole",
+   "levels": "S,T",
+   "forms": "Capsule 100 mg | Capsule 200 mg | Oral liquid 10 mg/mL",
+   "kind": "medicine",
+   "page": 75
+  },
+  {
+   "item": "6.5.6",
+   "section": "6.5",
+   "sectionNumber": "6",
+   "name": "Mupirocin",
+   "levels": "P,S,T",
+   "forms": "Ointment 2%",
+   "kind": "medicine",
+   "page": 75
+  },
+  {
+   "item": "6.5.7",
+   "section": "6.5",
+   "sectionNumber": "6",
+   "name": "Nystatin",
+   "levels": "S,T",
+   "forms": "Pessary 1 Lac IU | Oral Liquid 1 Lac IU/mL (p)",
+   "kind": "medicine",
+   "page": 75
+  },
+  {
+   "item": "6.5.8",
+   "section": "6.5",
+   "sectionNumber": "6",
+   "name": "Terbinafine",
+   "levels": "P,S,T",
+   "forms": "Cream 1%",
+   "kind": "medicine",
+   "page": 75
+  },
+  {
+   "item": "6.6.1.1",
+   "section": "6.6.1",
+   "sectionNumber": "6",
+   "name": "Acyclovir",
+   "levels": "P,S,T",
+   "forms": "Tablet 200 mg | Tablet 400 mg | Tablet 800 mg | Powder for Injection 250 mg Powder for | Injection 500 mg | Oral liquid 400 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 75
+  },
+  {
+   "item": "6.6.2.1",
+   "section": "6.6.2",
+   "sectionNumber": "6",
+   "name": "Valganciclovir",
+   "levels": "S, T",
+   "forms": "Tablet 450 mg | Powder for oral solution 50 mg / mL",
+   "kind": "medicine",
+   "page": 75
+  },
+  {
+   "item": "6.7.1.1",
+   "section": "6.7.1",
+   "sectionNumber": "6",
+   "name": "Abacavir",
+   "levels": "S,T",
+   "forms": "Tablet 60 mg (p) | Tablet 300 mg",
+   "kind": "medicine",
+   "page": 75
+  },
+  {
+   "item": "6.7.1.2",
+   "section": "6.7.1",
+   "sectionNumber": "6",
+   "name": "Abacavir (A) + Lamivudine (B)",
+   "levels": "S,T",
+   "forms": "Tablet 60 mg (A) + 30 mg (B) (p) | Tablet 600 mg (A) + 300 mg (B)",
+   "kind": "medicine",
+   "page": 76
+  },
+  {
+   "item": "6.7.1.3",
+   "section": "6.7.1",
+   "sectionNumber": "6",
+   "name": "Lamivudine",
+   "levels": "S,T",
+   "forms": "Tablet 100 mg | Tablet 150 mg",
+   "kind": "medicine",
+   "page": 76
+  },
+  {
+   "item": "6.7.1.4",
+   "section": "6.7.1",
+   "sectionNumber": "6",
+   "name": "Tenofovir Disproxil Fumarate (TDF)",
+   "levels": "S,T",
+   "forms": "Tablet 300 mg",
+   "kind": "medicine",
+   "page": 76
+  },
+  {
+   "item": "6.7.1.5",
+   "section": "6.7.1",
+   "sectionNumber": "6",
+   "name": "Tenofovir Disproxil Fumarate (A) + Lamivudine (B)",
+   "levels": "S,T",
+   "forms": "Tablet 300 mg (A) + 300 mg (B)",
+   "kind": "medicine",
+   "page": 76
+  },
+  {
+   "item": "6.7.1.6",
+   "section": "6.7.1",
+   "sectionNumber": "6",
+   "name": "Tenofovir Disproxil Fumarate (A) + Lamivudine (B) + Dolutegravir (C)",
+   "levels": "P,S,T",
+   "forms": "Tablet 300 mg (A) + 300 mg (B) + 50 mg (C)",
+   "kind": "medicine",
+   "page": 76
+  },
+  {
+   "item": "6.7.1.7",
+   "section": "6.7.1",
+   "sectionNumber": "6",
+   "name": "Tenofovir Disproxil Fumarate (A) + Lamivudine (B) + Efavirenz (C)",
+   "levels": "S,T",
+   "forms": "Tablet 300 mg (A) + 300 mg (B) + 600 mg (C)",
+   "kind": "medicine",
+   "page": 76
+  },
+  {
+   "item": "6.7.1.8",
+   "section": "6.7.1",
+   "sectionNumber": "6",
+   "name": "Zidovudine",
+   "levels": "S,T",
+   "forms": "Tablet 300 mg | Oral liquid 50 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 76
+  },
+  {
+   "item": "6.7.1.9",
+   "section": "6.7.1",
+   "sectionNumber": "6",
+   "name": "Zidovudine (A) + Lamivudine (B)",
+   "levels": "S,T",
+   "forms": "Tablet 60 mg (A) + 30 mg (B) (p) | Tablet 300 mg (A) + 150 mg (B)",
+   "kind": "medicine",
+   "page": 76
+  },
+  {
+   "item": "6.7.1.10",
+   "section": "6.7.1",
+   "sectionNumber": "6",
+   "name": "Zidovudine (A) + Lamivudine (B) + Nevirapine (C)",
+   "levels": "S,T",
+   "forms": "Tablet 60 mg (A) + 30 mg (B) + 50 mg (C) (p) | Tablet 300 mg (A) + 150 mg (B) + 200 mg (C)",
+   "kind": "medicine",
+   "page": 76
+  },
+  {
+   "item": "6.7.2.1",
+   "section": "6.7.2",
+   "sectionNumber": "6",
+   "name": "Efavirenz",
+   "levels": "S,T",
+   "forms": "Tablet 200 mg (p) | Tablet 600 mg",
+   "kind": "medicine",
+   "page": 76
+  },
+  {
+   "item": "6.7.2.2",
+   "section": "6.7.2",
+   "sectionNumber": "6",
+   "name": "Nevirapine",
+   "levels": "P,S,T",
+   "forms": null,
+   "kind": "medicine",
+   "page": 77
+  },
+  {
+   "item": "6.7.3.1",
+   "section": "6.7.3",
+   "sectionNumber": "6",
+   "name": "Dolutegravir",
+   "levels": "S,T",
+   "forms": "Tablet 50 mg",
+   "kind": "medicine",
+   "page": 77
+  },
+  {
+   "item": "6.7.3.2",
+   "section": "6.7.3",
+   "sectionNumber": "6",
+   "name": "Raltegravir",
+   "levels": "S,T",
+   "forms": "Tablet 400 mg",
+   "kind": "medicine",
+   "page": 77
+  },
+  {
+   "item": "6.7.4.1",
+   "section": "6.7.4",
+   "sectionNumber": "6",
+   "name": "Atazanavir (A) + Ritonavir (B)",
+   "levels": "S,T",
+   "forms": "Tablet 300 mg (A) + Tablet 100 mg (B)",
+   "kind": "medicine",
+   "page": 77
+  },
+  {
+   "item": "6.7.4.2",
+   "section": "6.7.4",
+   "sectionNumber": "6",
+   "name": "Darunavir",
+   "levels": "S,T",
+   "forms": "Tablet 600 mg",
+   "kind": "medicine",
+   "page": 77
+  },
+  {
+   "item": "6.7.4.3",
+   "section": "6.7.4",
+   "sectionNumber": "6",
+   "name": "Darunavir (A) + Ritonavir (B)",
+   "levels": "S,T",
+   "forms": "Tablet 600 mg (A) + Tablet 100 mg (B)",
+   "kind": "medicine",
+   "page": 77
+  },
+  {
+   "item": "6.7.4.4",
+   "section": "6.7.4",
+   "sectionNumber": "6",
+   "name": "Lopinavir (A) + Ritonavir (B)",
+   "levels": "S,T",
+   "forms": "Tablet 100 mg (A) + 25 mg (B) | Tablet 200 mg (A) + 50 mg (B) | Oral Liquid 80 mg (A) + 20 mg (B) /mL (p) | Capsule/ Sachet (containing pellets/granules) 40 mg (A) + 10 mg (B) (p)",
+   "kind": "medicine",
+   "page": 77
+  },
+  {
+   "item": "6.7.4.5",
+   "section": "6.7.4",
+   "sectionNumber": "6",
+   "name": "Ritonavir",
+   "levels": "S,T",
+   "forms": "Tablet 100 mg",
+   "kind": "medicine",
+   "page": 77
+  },
+  {
+   "item": "6.7.5.1",
+   "section": "6.7.5",
+   "sectionNumber": "6",
+   "name": "Acyclovir",
+   "levels": "P,S,T",
+   "forms": null,
+   "kind": "medicine",
+   "page": 77
+  },
+  {
+   "item": "6.7.5.2",
+   "section": "6.7.5",
+   "sectionNumber": "6",
+   "name": "Cefotaxime",
+   "levels": "P,S,T",
+   "forms": null,
+   "kind": "medicine",
+   "page": 77
+  },
+  {
+   "item": "6.7.5.3",
+   "section": "6.7.5",
+   "sectionNumber": "6",
+   "name": "Clindamycin",
+   "levels": "P,S,T",
+   "forms": null,
+   "kind": "medicine",
+   "page": 77
+  },
+  {
+   "item": "6.7.5.4",
+   "section": "6.7.5",
+   "sectionNumber": "6",
+   "name": "Clotrimazole",
+   "levels": "P,S,T",
+   "forms": "Ointment 1 %",
+   "kind": "medicine",
+   "page": 78
+  },
+  {
+   "item": "6.7.5.5",
+   "section": "6.7.5",
+   "sectionNumber": "6",
+   "name": "Valganciclovir",
+   "levels": "S,T",
+   "forms": "Tablet/Capsule 450 mg",
+   "kind": "medicine",
+   "page": 78
+  },
+  {
+   "item": "6.7.6.1",
+   "section": "6.7.6",
+   "sectionNumber": "6",
+   "name": "Azithromycin",
+   "levels": "P,S,T",
+   "forms": "Tablet 1000 mg",
+   "kind": "medicine",
+   "page": 78
+  },
+  {
+   "item": "6.8.1",
+   "section": "6.8",
+   "sectionNumber": "6",
+   "name": "Daclatasvir",
+   "levels": "S,T",
+   "forms": "Tablet 30 mg | Tablet 60 mg",
+   "kind": "medicine",
+   "page": 78
+  },
+  {
+   "item": "6.8.2",
+   "section": "6.8",
+   "sectionNumber": "6",
+   "name": "Entecavir",
+   "levels": "S,T",
+   "forms": "Tablet 0.5 mg | Tablet 1 mg | Oral liquid 0.05 mg/mL (p)",
+   "kind": "medicine",
+   "page": 78
+  },
+  {
+   "item": "6.8.3",
+   "section": "6.8",
+   "sectionNumber": "6",
+   "name": "Ribavirin",
+   "levels": "S,T",
+   "forms": "Capsule 200 mg",
+   "kind": "medicine",
+   "page": 78
+  },
+  {
+   "item": "6.8.4",
+   "section": "6.8",
+   "sectionNumber": "6",
+   "name": "Sofosbuvir",
+   "levels": "S,T",
+   "forms": "Tablet 400 mg",
+   "kind": "medicine",
+   "page": 78
+  },
+  {
+   "item": "6.8.5",
+   "section": "6.8",
+   "sectionNumber": "6",
+   "name": "Tenofovir Alafenamide Fumarate (TAF)",
+   "levels": "S,T",
+   "forms": "Tablet 25 mg",
+   "kind": "medicine",
+   "page": 78
+  },
+  {
+   "item": "6.8.6",
+   "section": "6.8",
+   "sectionNumber": "6",
+   "name": "Tenofovir Disproxil Fumarate (TDF)",
+   "levels": "S,T",
+   "forms": "Tablet 300 mg",
+   "kind": "medicine",
+   "page": 78
+  },
+  {
+   "item": "6.9.1.1",
+   "section": "6.9.1",
+   "sectionNumber": "6",
+   "name": "Metronidazole",
+   "levels": "P,S,T",
+   "forms": "Tablet 200 mg | Tablet 400 mg | Injection 500 mg/100 mL",
+   "kind": "medicine",
+   "page": 78
+  },
+  {
+   "item": "6.9.2.1",
+   "section": "6.9.2",
+   "sectionNumber": "6",
+   "name": "Amphotericin B",
+   "levels": "S,T",
+   "forms": "a) Amphotericin B (conventional)- Injection 50 mg b) Lipid Amphotericin B- | Injection 50 mg c) Liposomal Amphotericin B- Injection 50 mg",
+   "kind": "medicine",
+   "page": 79
+  },
+  {
+   "item": "6.9.2.2",
+   "section": "6.9.2",
+   "sectionNumber": "6",
+   "name": "Miltefosine",
+   "levels": "P,S,T",
+   "forms": "Capsule 50 mg",
+   "kind": "medicine",
+   "page": 79
+  },
+  {
+   "item": "6.9.2.3",
+   "section": "6.9.2",
+   "sectionNumber": "6",
+   "name": "Paromomycin",
+   "levels": "P,S,T",
+   "forms": "Injection 375 mg/mL",
+   "kind": "medicine",
+   "page": 79
+  },
+  {
+   "item": "6.9.3.1",
+   "section": "6.9.3",
+   "sectionNumber": "6",
+   "name": "Clindamycin",
+   "levels": "P,S,T",
+   "forms": "Capsule 150 mg | Capsule 300 mg",
+   "kind": "medicine",
+   "page": 79
+  },
+  {
+   "item": "6.9.3.2",
+   "section": "6.9.3",
+   "sectionNumber": "6",
+   "name": "Co-trimoxazole* [Sulphamethoxazole (A) + Trimethoprim (B)]",
+   "levels": "P,S,T",
+   "forms": "Tablet 400 mg (A) + 80 mg (B) Tablet 800 mg (A) + 160 mg (B) Oral liquid 200 mg (A) + 40 mg (B)/5 mL (p)",
+   "kind": "medicine",
+   "page": 79
+  },
+  {
+   "item": "6.10.1.1",
+   "section": "6.10.1",
+   "sectionNumber": "6",
+   "name": "Artemether (A) + Lumefantrine (B)",
+   "levels": "P,S,T",
+   "forms": "Tablet 20 mg (A) + 120 mg (B) | Tablet 40 mg (A) + 240 mg (B) | Tablet 80 mg (A) + 480 mg (B)",
+   "kind": "medicine",
+   "page": 79
+  },
+  {
+   "item": "6.10.1.2",
+   "section": "6.10.1",
+   "sectionNumber": "6",
+   "name": "Artesunate",
+   "levels": "P,S,T",
+   "forms": "Powder for Injection 60 mg | Powder for Injection 120 mg",
+   "kind": "medicine",
+   "page": 80
+  },
+  {
+   "item": "6.10.1.3",
+   "section": "6.10.1",
+   "sectionNumber": "6",
+   "name": "Artesunate (A) + Sulphadoxine - Pyrimethamine (B)",
+   "levels": "P,S,T",
+   "forms": "Combi pack (A+B) 1 Tablet 25 mg (A) + 1 Tablet (250 mg + 12.5 mg) (B) 1 Tablet 50 mg (A) + 1 Tablet (500 mg + 25 mg) (B) 1 Tablet 100 mg (A) + 1 Tablet (750 mg + 37.5 mg) (B) 1 Tablet 150 mg (A) + 2 Tablet (500 mg + 25 mg) (B) 1 Tablet 200 mg (A) + 2 Tablet (750 mg + 37.5 mg) (B)",
+   "kind": "medicine",
+   "page": 80
+  },
+  {
+   "item": "6.10.1.4",
+   "section": "6.10.1",
+   "sectionNumber": "6",
+   "name": "Chloroquine",
+   "levels": "P,S,T",
+   "forms": "Tablet 150 mg | Oral liquid 50 mg/5 mL",
+   "kind": "medicine",
+   "page": 80
+  },
+  {
+   "item": "6.10.1.5",
+   "section": "6.10.1",
+   "sectionNumber": "6",
+   "name": "Clindamycin",
+   "levels": "P,S,T",
+   "forms": "Capsule 150 mg | Capsule 300 mg",
+   "kind": "medicine",
+   "page": 80
+  },
+  {
+   "item": "6.10.1.6",
+   "section": "6.10.1",
+   "sectionNumber": "6",
+   "name": "Primaquine",
+   "levels": "P,S,T",
+   "forms": "Tablet 2.5 mg | Tablet 7.5 mg | Tablet 15 mg",
+   "kind": "medicine",
+   "page": 80
+  },
+  {
+   "item": "6.10.1.7",
+   "section": "6.10.1",
+   "sectionNumber": "6",
+   "name": "Quinine",
+   "levels": "P,S,T",
+   "forms": "Tablet 300 mg | Injection 300 mg/mL",
+   "kind": "medicine",
+   "page": 80
+  },
+  {
+   "item": "6.10.2.1",
+   "section": "6.10.2",
+   "sectionNumber": "6",
+   "name": "Doxycycline**#",
+   "levels": "P,S,T",
+   "forms": "Capsule 100 mg | Oral liquid 50 mg/ 5mL #for prophylaxis of P. vivax",
+   "kind": "medicine",
+   "page": 80
+  },
+  {
+   "item": "6.10.2.2",
+   "section": "6.10.2",
+   "sectionNumber": "6",
+   "name": "Mefloquine#",
+   "levels": "T",
+   "forms": "Tablet 250 mg #Only for use as chemoprophylaxis for long term travellers like military and travel troops, travelling from low endemic to high endemic area.",
+   "kind": "medicine",
+   "page": 80
+  },
+  {
+   "item": "7.1.1",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "5-Fluorouracil",
+   "levels": "T",
+   "forms": "Injection 250 mg/ 5 mL",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.2",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "6-Mercaptopurine",
+   "levels": "T",
+   "forms": "Tablet 50 mg",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.3",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Actinomycin D",
+   "levels": "T",
+   "forms": "Powder for Injection 0.5 mg",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.4",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "All-trans retinoic acid",
+   "levels": "T",
+   "forms": "Capsule 10 mg",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.5",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Arsenic trioxide",
+   "levels": "T",
+   "forms": "Injection 1mg/ mL",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.6",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Bendamustine hydrochloride",
+   "levels": "T",
+   "forms": "Injection 25 mg/ vial | Injection 100 mg/vial",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.7",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Bleomycin",
+   "levels": "T",
+   "forms": "Powder for Injection 15 units",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.8",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Bortezomib",
+   "levels": "T",
+   "forms": "Powder for Injection 2 mg",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.9",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Calcium folinate",
+   "levels": "T",
+   "forms": "Tablet 15 mg | Injection 3 mg/mL",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.10",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Capecitabine",
+   "levels": "T",
+   "forms": "Tablet 500 mg",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.11",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Carboplatin",
+   "levels": "T",
+   "forms": "Injection 10 mg/mL",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.12",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Chlorambucil",
+   "levels": "T",
+   "forms": "Tablet 2 mg | Tablet 5 mg",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.13",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Cisplatin",
+   "levels": "T",
+   "forms": "Injection 1mg/mL",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.14",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Cyclophosphamide",
+   "levels": "T",
+   "forms": "Tablet 50 mg | Powder for Injection 500 mg",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.15",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Cytosine arabinoside",
+   "levels": "T",
+   "forms": "Injection 100 mg/vial | Injection 500 mg/vial | Injection 1000 mg/vial",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.16",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Dacarbazine",
+   "levels": "T",
+   "forms": "Powder for Injection 200 mg | Powder for Injection 500 mg",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.17",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Daunorubicin",
+   "levels": "T",
+   "forms": "Injection 5 mg/mL",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.18",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Docetaxel",
+   "levels": "T",
+   "forms": "Powder for Injection 20 mg | Powder for Injection 80 mg",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.19",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Doxorubicin",
+   "levels": "T",
+   "forms": "Injection 2 mg/mL",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.20",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Etoposide",
+   "levels": "T",
+   "forms": "Capsule 50 mg",
+   "kind": "medicine",
+   "page": 81
+  },
+  {
+   "item": "7.1.21",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Gefitinib",
+   "levels": "T",
+   "forms": "Tablet 250 mg",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.22",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Gemcitabine",
+   "levels": "T",
+   "forms": "Powder for Injection 200 mg Powder for | Injection 1000 mg",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.23",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Hydroxyurea",
+   "levels": "T",
+   "forms": "Capsule 500 mg",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.24",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Ifosfamide",
+   "levels": "T",
+   "forms": "Powder for Injection 1000 mg Powder for | Injection 2000 mg",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.25",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Imatinib",
+   "levels": "T",
+   "forms": "Tablet 100 mg | Tablet 400 mg",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.26",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Irinotecan HCl trihydrate",
+   "levels": "T",
+   "forms": "Solution for injection 20 mg/ mL",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.27",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "L-Asparaginase",
+   "levels": "T",
+   "forms": "Powder for Injection 5000 KU Powder for | Injection 10000 KU",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.28",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Lenalidomide",
+   "levels": "T",
+   "forms": "Capsule 5 mg | Capsule 25 mg",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.29",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Melphalan",
+   "levels": "T",
+   "forms": "Tablet 2 mg | Tablet 5 mg",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.30",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Methotrexate",
+   "levels": "S,T",
+   "forms": "Tablet 2.5 mg | Tablet 5 mg | Tablet 10 mg | Injection 50 mg/mL",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.31",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Oxaliplatin",
+   "levels": "T",
+   "forms": "Injection 5 mg/mL in 10 mL vial Injection 5 mg/mL in 20 mL vial",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.32",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Paclitaxel",
+   "levels": "T",
+   "forms": "Injection 30 mg/5 mL | Injection 100 mg/16.7 mL",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.33",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Rituximab",
+   "levels": "T",
+   "forms": "Injection 10 mg/mL",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.34",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Temozolomide",
+   "levels": "T",
+   "forms": "Capsule 20 mg | Capsule 100 mg | Capsule 250 mg",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.35",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Thalidomide",
+   "levels": "T",
+   "forms": "Capsule 50 mg | Capsule 100 mg",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.36",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Trastuzumab",
+   "levels": "T",
+   "forms": "Injection 440 mg/50 mL",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.37",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Vinblastine",
+   "levels": "T",
+   "forms": "Injection 1 mg/mL",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.1.38",
+   "section": "7.1",
+   "sectionNumber": "7",
+   "name": "Vincristine",
+   "levels": "T",
+   "forms": "Injection 1 mg/mL",
+   "kind": "medicine",
+   "page": 82
+  },
+  {
+   "item": "7.2.1",
+   "section": "7.2",
+   "sectionNumber": "7",
+   "name": "Bicalutamide",
+   "levels": "T",
+   "forms": "Tablet 50 mg",
+   "kind": "medicine",
+   "page": 83
+  },
+  {
+   "item": "7.2.2",
+   "section": "7.2",
+   "sectionNumber": "7",
+   "name": "Letrozole",
+   "levels": "T",
+   "forms": "Tablet 2.5 mg",
+   "kind": "medicine",
+   "page": 83
+  },
+  {
+   "item": "7.2.3",
+   "section": "7.2",
+   "sectionNumber": "7",
+   "name": "Leuprolide acetate",
+   "levels": "T",
+   "forms": "Powder for injection 3.75 mg | Powder for injection 11.25 mg | Powder for injection 22.5 mg",
+   "kind": "medicine",
+   "page": 83
+  },
+  {
+   "item": "7.2.4",
+   "section": "7.2",
+   "sectionNumber": "7",
+   "name": "Prednisolone",
+   "levels": "S,T",
+   "forms": "Tablet 10 mg | Tablet 20 mg | Tablet 40 mg | Oral liquid 5 mg/5 mL (p) | Oral liquid 15 mg/5 mL (p) | Injection 20 mg/2 mL",
+   "kind": "medicine",
+   "page": 83
+  },
+  {
+   "item": "7.2.5",
+   "section": "7.2",
+   "sectionNumber": "7",
+   "name": "Tamoxifen",
+   "levels": "T",
+   "forms": "Tablet 10 mg | Tablet 20 mg",
+   "kind": "medicine",
+   "page": 83
+  },
+  {
+   "item": "7.3.1",
+   "section": "7.3",
+   "sectionNumber": "7",
+   "name": "Azathioprine",
+   "levels": "T",
+   "forms": "Tablet 50 mg",
+   "kind": "medicine",
+   "page": 83
+  },
+  {
+   "item": "7.3.2",
+   "section": "7.3",
+   "sectionNumber": "7",
+   "name": "Cyclosporine",
+   "levels": "T",
+   "forms": "Capsule 25 mg | Capsule 50 mg | Capsule 100 mg | Oral liquid 100 mg/mL (p) | Injection 50 mg/mL",
+   "kind": "medicine",
+   "page": 83
+  },
+  {
+   "item": "7.3.3",
+   "section": "7.3",
+   "sectionNumber": "7",
+   "name": "Mycophenolate mofetil",
+   "levels": "T",
+   "forms": "Tablet 250 mg | Tablet 500 mg",
+   "kind": "medicine",
+   "page": 83
+  },
+  {
+   "item": "7.3.4",
+   "section": "7.3",
+   "sectionNumber": "7",
+   "name": "Tacrolimus",
+   "levels": "T",
+   "forms": "Capsule 0.5 mg | Capsule 1 mg",
+   "kind": "medicine",
+   "page": 83
+  },
+  {
+   "item": "7.4.1",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Allopurinol",
+   "levels": "S,T",
+   "forms": "Tablet 100 mg",
+   "kind": "medicine",
+   "page": 84
+  },
+  {
+   "item": "7.4.2",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Amitriptyline",
+   "levels": "S,T",
+   "forms": "Tablet 10 mg | Tablet 25 mg",
+   "kind": "medicine",
+   "page": 84
+  },
+  {
+   "item": "7.4.3",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Dexamethasone",
+   "levels": "S,T",
+   "forms": "Tablet 0.5 mg | Tablet 4 mg | Injection 4 mg/mL",
+   "kind": "medicine",
+   "page": 84
+  },
+  {
+   "item": "7.4.4",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Diazepam",
+   "levels": "S,T",
+   "forms": "Tablet 2 mg | Tablet 5 mg | Injection 5 mg/mL",
+   "kind": "medicine",
+   "page": 84
+  },
+  {
+   "item": "7.4.5",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Filgrastim",
+   "levels": "T",
+   "forms": "Injection 300 mcg",
+   "kind": "medicine",
+   "page": 84
+  },
+  {
+   "item": "7.4.6",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Fluoxetine",
+   "levels": "S,T",
+   "forms": "Capsule 20 mg",
+   "kind": "medicine",
+   "page": 84
+  },
+  {
+   "item": "7.4.7",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Haloperidol",
+   "levels": "S,T",
+   "forms": "Tablet 1.5 mg | Tablet 5 mg | Injection 5 mg/mL",
+   "kind": "medicine",
+   "page": 84
+  },
+  {
+   "item": "7.4.8",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Lactulose",
+   "levels": "S,T",
+   "forms": "Oral liquid 10 g/15 mL",
+   "kind": "medicine",
+   "page": 84
+  },
+  {
+   "item": "7.4.9",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Loperamide",
+   "levels": "S,T",
+   "forms": "Tablet 2 mg",
+   "kind": "medicine",
+   "page": 84
+  },
+  {
+   "item": "7.4.10",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Metoclopramide",
+   "levels": "S,T",
+   "forms": "Tablet 10 mg | Oral liquid 5 mg/5 mL (p) | Injection 5 mg/mL",
+   "kind": "medicine",
+   "page": 85
+  },
+  {
+   "item": "7.4.11",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Mesna",
+   "levels": "T",
+   "forms": "Injection 100 mg/mL",
+   "kind": "medicine",
+   "page": 85
+  },
+  {
+   "item": "7.4.12",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Midazolam",
+   "levels": "S,T",
+   "forms": "Injection 1 mg/mL",
+   "kind": "medicine",
+   "page": 85
+  },
+  {
+   "item": "7.4.13",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Morphine",
+   "levels": "S,T",
+   "forms": "Tablet 10 mg Modified Release Tablet 30 mg",
+   "kind": "medicine",
+   "page": 85
+  },
+  {
+   "item": "7.4.14",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Ondansetron",
+   "levels": "S,T",
+   "forms": "Tablet 4 mg | Tablet 8 mg | Oral liquid 2 mg/5 mL (p) | Injection 2 mg/mL",
+   "kind": "medicine",
+   "page": 85
+  },
+  {
+   "item": "7.4.15",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Tramadol",
+   "levels": "S,T",
+   "forms": "Capsule 50 mg | Capsule 100 mg | Injection 50 mg/mL",
+   "kind": "medicine",
+   "page": 85
+  },
+  {
+   "item": "7.4.16",
+   "section": "7.4",
+   "sectionNumber": "7",
+   "name": "Zoledronic acid",
+   "levels": "T",
+   "forms": "Powder for Injection 4 mg",
+   "kind": "medicine",
+   "page": 85
+  },
+  {
+   "item": "8.1.1",
+   "section": "8.1",
+   "sectionNumber": "8",
+   "name": "Erythropoietin",
+   "levels": "S,T",
+   "forms": "Injection 2000 IU/mL | Injection 10000 IU/mL",
+   "kind": "medicine",
+   "page": 86
+  },
+  {
+   "item": "8.1.2",
+   "section": "8.1",
+   "sectionNumber": "8",
+   "name": "Ferrous salts (a) Iron Dextran (b) Iron sorbitol citrate complex",
+   "levels": "P,S,T",
+   "forms": "Tablet equivalent to 60 mg of elemental iron | Injection 50 mg/mL | Injection 50 mg/mL",
+   "kind": "medicine",
+   "page": 86
+  },
+  {
+   "item": "8.1.3",
+   "section": "8.1",
+   "sectionNumber": "8",
+   "name": "Ferrous Salt (A)+ Folic acid (B)",
+   "levels": "P,S,T",
+   "forms": "Tablet 45 mg elemental iron (A) + 400 mcg (B) | Tablet 100 mg elemental iron (A) + 500 mcg (B) | Oral liquid 20 mg elemental iron (A) + 100 mcg/mL (B) (p)",
+   "kind": "medicine",
+   "page": 86
+  },
+  {
+   "item": "8.1.4",
+   "section": "8.1",
+   "sectionNumber": "8",
+   "name": "Folic Acid",
+   "levels": "P,S,T",
+   "forms": "Tablet 1 mg | Tablet 5 mg",
+   "kind": "medicine",
+   "page": 86
+  },
+  {
+   "item": "8.1.5",
+   "section": "8.1",
+   "sectionNumber": "8",
+   "name": "Hydroxocobalamin",
+   "levels": "P,S,T",
+   "forms": "Injection 1 mg/mL",
+   "kind": "medicine",
+   "page": 86
+  },
+  {
+   "item": "8.1.6",
+   "section": "8.1",
+   "sectionNumber": "8",
+   "name": "Hydroxyurea",
+   "levels": "S,T",
+   "forms": "Capsule 500 mg",
+   "kind": "medicine",
+   "page": 86
+  },
+  {
+   "item": "8.1.7",
+   "section": "8.1",
+   "sectionNumber": "8",
+   "name": "Iron sucrose",
+   "levels": "S,T",
+   "forms": "Injection 20 mg/mL",
+   "kind": "medicine",
+   "page": 86
+  },
+  {
+   "item": "8.2.1",
+   "section": "8.2",
+   "sectionNumber": "8",
+   "name": "Enoxaparin",
+   "levels": "S,T",
+   "forms": "Injection 40 mg/ 0.4 mL | Injection 60 mg/ 0.6 mL",
+   "kind": "medicine",
+   "page": 86
+  },
+  {
+   "item": "8.2.2",
+   "section": "8.2",
+   "sectionNumber": "8",
+   "name": "Heparin",
+   "levels": "S,T",
+   "forms": "Injection 1000 IU/mL | Injection 5000 IU/mL",
+   "kind": "medicine",
+   "page": 86
+  },
+  {
+   "item": "8.2.3",
+   "section": "8.2",
+   "sectionNumber": "8",
+   "name": "Phytomenadione (Vitamin K ) 1",
+   "levels": "P,S,T",
+   "forms": "Tablet 10 mg | Injection 10 mg/mL",
+   "kind": "medicine",
+   "page": 86
+  },
+  {
+   "item": "8.2.4",
+   "section": "8.2",
+   "sectionNumber": "8",
+   "name": "Protamine Sulphate",
+   "levels": "S,T",
+   "forms": "Injection 10 mg/mL",
+   "kind": "medicine",
+   "page": 86
+  },
+  {
+   "item": "8.2.5",
+   "section": "8.2",
+   "sectionNumber": "8",
+   "name": "Tranexamic acid",
+   "levels": "P,S,T",
+   "forms": "Tablet 500 mg | Injection 100 mg/mL",
+   "kind": "medicine",
+   "page": 86
+  },
+  {
+   "item": "8.2.6",
+   "section": "8.2",
+   "sectionNumber": "8",
+   "name": "Warfarin",
+   "levels": "S,T",
+   "forms": "Tablet 1 mg | Tablet 2 mg | Tablet 3 mg | Tablet 5 mg",
+   "kind": "medicine",
+   "page": 87
+  },
+  {
+   "item": "9.1.1",
+   "section": "9.1",
+   "sectionNumber": "9",
+   "name": "Fresh frozen plasma",
+   "levels": "S,T",
+   "forms": "As licensed",
+   "kind": "supply",
+   "page": 87
+  },
+  {
+   "item": "9.1.2",
+   "section": "9.1",
+   "sectionNumber": "9",
+   "name": "Platelet rich plasma/ Platelet concentrates",
+   "levels": "S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 87
+  },
+  {
+   "item": "9.1.3",
+   "section": "9.1",
+   "sectionNumber": "9",
+   "name": "Red blood cells/ Packed RBCs",
+   "levels": "S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 87
+  },
+  {
+   "item": "9.1.4",
+   "section": "9.1",
+   "sectionNumber": "9",
+   "name": "Whole blood",
+   "levels": "S,T",
+   "forms": "As licensed",
+   "kind": "supply",
+   "page": 87
+  },
+  {
+   "item": "9.2.1",
+   "section": "9.2",
+   "sectionNumber": "9",
+   "name": "Dextran-40",
+   "levels": "S,T",
+   "forms": "Injection 10 %",
+   "kind": "supply",
+   "page": 87
+  },
+  {
+   "item": "9.3.1",
+   "section": "9.3",
+   "sectionNumber": "9",
+   "name": "Coagulation factor IX",
+   "levels": "S,T",
+   "forms": "Powder for Injection 600 IU",
+   "kind": "medicine",
+   "page": 87
+  },
+  {
+   "item": "9.3.2",
+   "section": "9.3",
+   "sectionNumber": "9",
+   "name": "Coagulation factor VIII",
+   "levels": "S,T",
+   "forms": "Powder for Injection 250 IU | Powder for Injection 500 IU",
+   "kind": "medicine",
+   "page": 87
+  },
+  {
+   "item": "9.3.3",
+   "section": "9.3",
+   "sectionNumber": "9",
+   "name": "Cryoprecipitate",
+   "levels": "S,T",
+   "forms": "As licensed",
+   "kind": "supply",
+   "page": 88
+  },
+  {
+   "item": "10.1.3",
+   "section": "10.1",
+   "sectionNumber": "10",
+   "name": "Isosorbide dinitrate",
+   "levels": "P,S,T",
+   "forms": "Tablet 5 mg | Tablet 10 mg",
+   "kind": "medicine",
+   "page": 88
+  },
+  {
+   "item": "10.2.1",
+   "section": "10.2",
+   "sectionNumber": "10",
+   "name": "Adenosine",
+   "levels": "S,T",
+   "forms": "Injection 3 mg/mL",
+   "kind": "medicine",
+   "page": 88
+  },
+  {
+   "item": "10.2.2",
+   "section": "10.2",
+   "sectionNumber": "10",
+   "name": "Amiodarone",
+   "levels": "S,T",
+   "forms": "Tablet 100 mg | Tablet 200 mg | Injection 50 mg/mL",
+   "kind": "medicine",
+   "page": 88
+  },
+  {
+   "item": "10.2.3",
+   "section": "10.2",
+   "sectionNumber": "10",
+   "name": "Digoxin",
+   "levels": "S,T",
+   "forms": "Tablet 0.25 mg | Oral liquid 0.05 mg/mL | Injection 0.25 mg/mL",
+   "kind": "medicine",
+   "page": 88
+  },
+  {
+   "item": "10.2.4",
+   "section": "10.2",
+   "sectionNumber": "10",
+   "name": "Esmolol",
+   "levels": "S,T",
+   "forms": "Injection 10 mg/mL",
+   "kind": "medicine",
+   "page": 88
+  },
+  {
+   "item": "10.2.5",
+   "section": "10.2",
+   "sectionNumber": "10",
+   "name": "Lignocaine",
+   "levels": "S,T",
+   "forms": "Injection 2%",
+   "kind": "medicine",
+   "page": 88
+  },
+  {
+   "item": "10.2.6",
+   "section": "10.2",
+   "sectionNumber": "10",
+   "name": "Verapamil",
+   "levels": "S,T",
+   "forms": "Tablet 40 mg | Tablet 80 mg | Injection 2.5 mg/ mL",
+   "kind": "medicine",
+   "page": 88
+  },
+  {
+   "item": "10.3.1",
+   "section": "10.3",
+   "sectionNumber": "10",
+   "name": "Amlodipine",
+   "levels": "P,S,T",
+   "forms": "Tablet 2.5 mg | Tablet 5 mg | Tablet 10 mg",
+   "kind": "medicine",
+   "page": 88
+  },
+  {
+   "item": "10.3.2",
+   "section": "10.3",
+   "sectionNumber": "10",
+   "name": "Enalapril",
+   "levels": "P,S,T",
+   "forms": "Tablet 2.5 mg | Tablet 5 mg",
+   "kind": "medicine",
+   "page": 89
+  },
+  {
+   "item": "10.3.3",
+   "section": "10.3",
+   "sectionNumber": "10",
+   "name": "Hydrochlorothiazide",
+   "levels": "P,S,T",
+   "forms": "Tablet 12.5 mg | Tablet 25 mg",
+   "kind": "medicine",
+   "page": 89
+  },
+  {
+   "item": "10.3.5",
+   "section": "10.3",
+   "sectionNumber": "10",
+   "name": "Ramipril",
+   "levels": "P,S,T",
+   "forms": "Tablet 2.5 mg | Tablet 5 mg",
+   "kind": "medicine",
+   "page": 89
+  },
+  {
+   "item": "10.3.6",
+   "section": "10.3",
+   "sectionNumber": "10",
+   "name": "Sodium nitroprusside",
+   "levels": "S, T",
+   "forms": "Injection 10 mg/mL",
+   "kind": "medicine",
+   "page": 89
+  },
+  {
+   "item": "10.3.7",
+   "section": "10.3",
+   "sectionNumber": "10",
+   "name": "Telmisartan",
+   "levels": "P,S,T",
+   "forms": "Tablet 20 mg | Tablet 40 mg | Tablet 80 mg",
+   "kind": "medicine",
+   "page": 89
+  },
+  {
+   "item": "10.4.1",
+   "section": "10.4",
+   "sectionNumber": "10",
+   "name": "Digoxin",
+   "levels": "S,T",
+   "forms": "Tablet 0.25 mg | Oral liquid 0.05 mg/mL | Injection 0.25 mg/mL",
+   "kind": "medicine",
+   "page": 89
+  },
+  {
+   "item": "10.4.2",
+   "section": "10.4",
+   "sectionNumber": "10",
+   "name": "Dobutamine",
+   "levels": "S,T",
+   "forms": "Injection 50 mg/mL",
+   "kind": "medicine",
+   "page": 89
+  },
+  {
+   "item": "10.4.3",
+   "section": "10.4",
+   "sectionNumber": "10",
+   "name": "Dopamine",
+   "levels": "S,T",
+   "forms": "Injection 40 mg/mL",
+   "kind": "medicine",
+   "page": 89
+  },
+  {
+   "item": "10.4.4",
+   "section": "10.4",
+   "sectionNumber": "10",
+   "name": "Noradrenaline",
+   "levels": "S,T",
+   "forms": "Injection 2 mg/mL",
+   "kind": "medicine",
+   "page": 89
+  },
+  {
+   "item": "10.4.5",
+   "section": "10.4",
+   "sectionNumber": "10",
+   "name": "Spironolactone",
+   "levels": "P,S,T",
+   "forms": "Tablet 25 mg | Tablet 50 mg",
+   "kind": "medicine",
+   "page": 89
+  },
+  {
+   "item": "10.5.1",
+   "section": "10.5",
+   "sectionNumber": "10",
+   "name": "Acetylsalicylic acid",
+   "levels": "P,S,T",
+   "forms": "Conventional/Effervescent/ Dispersible/ | Enteric coated Tablets 150 mg Conventional/Effervescent/ Dispersible/ | Enteric coated Tablets 325 mg | Enteric coated Tablet 75 mg Enteric coated Tablet 100 mg",
+   "kind": "medicine",
+   "page": 89
+  },
+  {
+   "item": "10.5.2",
+   "section": "10.5",
+   "sectionNumber": "10",
+   "name": "Clopidogrel",
+   "levels": "P,S,T",
+   "forms": "Tablet 75 mg | Tablet 150 mg",
+   "kind": "medicine",
+   "page": 90
+  },
+  {
+   "item": "10.5.3",
+   "section": "10.5",
+   "sectionNumber": "10",
+   "name": "Dabigatran",
+   "levels": "S, T",
+   "forms": "Tablet 110 mg | Tablet 150 mg",
+   "kind": "medicine",
+   "page": 90
+  },
+  {
+   "item": "10.5.4",
+   "section": "10.5",
+   "sectionNumber": "10",
+   "name": "Enoxaparin",
+   "levels": "S,T",
+   "forms": "Injection 40 mg/ 0.4 mL | Injection 60 mg/ 0.6 mL",
+   "kind": "medicine",
+   "page": 90
+  },
+  {
+   "item": "10.5.5",
+   "section": "10.5",
+   "sectionNumber": "10",
+   "name": "Heparin",
+   "levels": "S,T",
+   "forms": "Injection 1000 IU/mL | Injection 5000 IU/mL",
+   "kind": "medicine",
+   "page": 90
+  },
+  {
+   "item": "10.5.6",
+   "section": "10.5",
+   "sectionNumber": "10",
+   "name": "Streptokinase",
+   "levels": "S,T",
+   "forms": "Injection 750,000 IU | Injection 15,00,000 IU",
+   "kind": "medicine",
+   "page": 90
+  },
+  {
+   "item": "10.5.7",
+   "section": "10.5",
+   "sectionNumber": "10",
+   "name": "Tenecteplase",
+   "levels": "S,T",
+   "forms": "Injection 30 mg/vial | Injection 40 mg/vial",
+   "kind": "medicine",
+   "page": 90
+  },
+  {
+   "item": "10.6.1",
+   "section": "10.6",
+   "sectionNumber": "10",
+   "name": "Atorvastatin",
+   "levels": "P,S,T",
+   "forms": "Tablet 10 mg | Tablet 20 mg | Tablet 40 mg | Tablet 80 mg",
+   "kind": "medicine",
+   "page": 90
+  },
+  {
+   "item": "11.1.1",
+   "section": "11.1",
+   "sectionNumber": "11",
+   "name": "Clotrimazole",
+   "levels": "P,S,T",
+   "forms": "Cream 1 % | Lotion 1 %",
+   "kind": "medicine",
+   "page": 90
+  },
+  {
+   "item": "11.2.1",
+   "section": "11.2",
+   "sectionNumber": "11",
+   "name": "Framycetin",
+   "levels": "P,S,T",
+   "forms": "Cream 1 %",
+   "kind": "medicine",
+   "page": 91
+  },
+  {
+   "item": "11.2.2",
+   "section": "11.2",
+   "sectionNumber": "11",
+   "name": "Fusidic acid",
+   "levels": "P,S,T",
+   "forms": "Cream 2 %",
+   "kind": "medicine",
+   "page": 91
+  },
+  {
+   "item": "11.2.3",
+   "section": "11.2",
+   "sectionNumber": "11",
+   "name": "Silver sulphadiazine",
+   "levels": "P,S,T",
+   "forms": "Cream 1 %",
+   "kind": "medicine",
+   "page": 91
+  },
+  {
+   "item": "11.3.1",
+   "section": "11.3",
+   "sectionNumber": "11",
+   "name": "Betamethasone valerate",
+   "levels": "P,S,T",
+   "forms": "Cream 0.05 % | Cream 0.1 %",
+   "kind": "medicine",
+   "page": 91
+  },
+  {
+   "item": "11.3.2",
+   "section": "11.3",
+   "sectionNumber": "11",
+   "name": "Calamine",
+   "levels": "P,S,T",
+   "forms": "Lotion (As per IP)",
+   "kind": "medicine",
+   "page": 91
+  },
+  {
+   "item": "11.4.1",
+   "section": "11.4",
+   "sectionNumber": "11",
+   "name": "Benzoyl peroxide",
+   "levels": "P,S,T",
+   "forms": "Gel 2.5 % - 5 %",
+   "kind": "medicine",
+   "page": 91
+  },
+  {
+   "item": "11.4.2",
+   "section": "11.4",
+   "sectionNumber": "11",
+   "name": "Coal tar (A) + Salicylic Acid (B)",
+   "levels": "P,S,T",
+   "forms": "Solution 1 % (A) + 3 % (B)",
+   "kind": "medicine",
+   "page": 91
+  },
+  {
+   "item": "11.4.3",
+   "section": "11.4",
+   "sectionNumber": "11",
+   "name": "Podophyllin resin",
+   "levels": "S,T",
+   "forms": "Solution 20 %",
+   "kind": "medicine",
+   "page": 91
+  },
+  {
+   "item": "11.4.4",
+   "section": "11.4",
+   "sectionNumber": "11",
+   "name": "Salicylic acid",
+   "levels": "P,S,T",
+   "forms": "Ointment 3-6 %",
+   "kind": "medicine",
+   "page": 91
+  },
+  {
+   "item": "11.5.1",
+   "section": "11.5",
+   "sectionNumber": "11",
+   "name": "Permethrin",
+   "levels": "P,S,T",
+   "forms": "Lotion 1 % | Cream 5 %",
+   "kind": "medicine",
+   "page": 91
+  },
+  {
+   "item": "11.6.1",
+   "section": "11.6",
+   "sectionNumber": "11",
+   "name": "Glycerin/glycerol (as mentioned in IP)",
+   "levels": "P,S,T",
+   "forms": "Topical",
+   "kind": "medicine",
+   "page": 91
+  },
+  {
+   "item": "12.1.1",
+   "section": "12.1",
+   "sectionNumber": "12",
+   "name": "Fluorescein",
+   "levels": "S,T",
+   "forms": "Ophthalmic Strips",
+   "kind": "medicine",
+   "page": 91
+  },
+  {
+   "item": "12.1.2",
+   "section": "12.1",
+   "sectionNumber": "12",
+   "name": "Proparacaine",
+   "levels": "S,T",
+   "forms": "Eye Drops 0.5%",
+   "kind": "medicine",
+   "page": 91
+  },
+  {
+   "item": "12.1.3",
+   "section": "12.1",
+   "sectionNumber": "12",
+   "name": "Tropicamide",
+   "levels": "S,T",
+   "forms": "Eye drop 1 %",
+   "kind": "medicine",
+   "page": 92
+  },
+  {
+   "item": "12.2.1",
+   "section": "12.2",
+   "sectionNumber": "12",
+   "name": "Barium sulphate",
+   "levels": "S,T",
+   "forms": "Oral Liquid 95% w/v",
+   "kind": "supply",
+   "page": 92
+  },
+  {
+   "item": "12.2.2",
+   "section": "12.2",
+   "sectionNumber": "12",
+   "name": "Gadobenate dimeglumine",
+   "levels": "T",
+   "forms": "Injection 529 mg/mL",
+   "kind": "medicine",
+   "page": 92
+  },
+  {
+   "item": "12.2.3",
+   "section": "12.2",
+   "sectionNumber": "12",
+   "name": "Iohexol",
+   "levels": "S,T",
+   "forms": "Injection 140 to 350 mg iodine/mL",
+   "kind": "supply",
+   "page": 92
+  },
+  {
+   "item": "12.2.4",
+   "section": "12.2",
+   "sectionNumber": "12",
+   "name": "Meglumine diatrizoate",
+   "levels": "S,T",
+   "forms": "Injection 60 % w/v | Injection 76 % w/v",
+   "kind": "medicine",
+   "page": 92
+  },
+  {
+   "item": "13.1",
+   "section": "13",
+   "sectionNumber": "13",
+   "name": "Haemodialysis fluid",
+   "levels": "S,T",
+   "forms": "As licensed",
+   "kind": "supply",
+   "page": 92
+  },
+  {
+   "item": "13.2",
+   "section": "13",
+   "sectionNumber": "13",
+   "name": "Peritoneal dialysis solution",
+   "levels": "S,T",
+   "forms": "As licensed",
+   "kind": "supply",
+   "page": 92
+  },
+  {
+   "item": "14.1.1",
+   "section": "14.1",
+   "sectionNumber": "14",
+   "name": "Chlorhexidine",
+   "levels": "P,S,T",
+   "forms": "Solution 5% (Concentrate)",
+   "kind": "medicine",
+   "page": 92
+  },
+  {
+   "item": "14.1.2",
+   "section": "14.1",
+   "sectionNumber": "14",
+   "name": "Ethyl alcohol (Denatured)",
+   "levels": "P,S,T",
+   "forms": "Solution 70%",
+   "kind": "medicine",
+   "page": 92
+  },
+  {
+   "item": "14.1.3",
+   "section": "14.1",
+   "sectionNumber": "14",
+   "name": "Hydrogen peroxide",
+   "levels": "P,S,T",
+   "forms": "Solution 6 %",
+   "kind": "medicine",
+   "page": 92
+  },
+  {
+   "item": "14.1.4",
+   "section": "14.1",
+   "sectionNumber": "14",
+   "name": "Methylrosanilinium chloride (Gentian Violet)",
+   "levels": "P,S,T",
+   "forms": "Topical preparation 0.25% to 2%",
+   "kind": "medicine",
+   "page": 92
+  },
+  {
+   "item": "14.1.5",
+   "section": "14.1",
+   "sectionNumber": "14",
+   "name": "Povidone iodine",
+   "levels": "P,S,T",
+   "forms": "Solution 4 % to 10 %",
+   "kind": "medicine",
+   "page": 92
+  },
+  {
+   "item": "14.2.1",
+   "section": "14.2",
+   "sectionNumber": "14",
+   "name": "Glutaraldehyde",
+   "levels": "S,T",
+   "forms": "As Licensed",
+   "kind": "supply",
+   "page": 92
+  },
+  {
+   "item": "14.2.2",
+   "section": "14.2",
+   "sectionNumber": "14",
+   "name": "Potassium permanganate",
+   "levels": "P,S,T",
+   "forms": "Crystals for topical solution",
+   "kind": "medicine",
+   "page": 92
+  },
+  {
+   "item": "15.1",
+   "section": "15",
+   "sectionNumber": "15",
+   "name": "Furosemide",
+   "levels": "P,S,T",
+   "forms": "Tablet 40 mg | Oral liquid 10 mg/mL",
+   "kind": "medicine",
+   "page": 92
+  },
+  {
+   "item": "15.2",
+   "section": "15",
+   "sectionNumber": "15",
+   "name": "Hydrochlorothiazide",
+   "levels": "P,S,T",
+   "forms": "Tablet 25 mg | Tablet 50 mg",
+   "kind": "medicine",
+   "page": 93
+  },
+  {
+   "item": "15.3",
+   "section": "15",
+   "sectionNumber": "15",
+   "name": "Mannitol",
+   "levels": "P,S,T",
+   "forms": "Injection 10 % | Injection 20 %",
+   "kind": "medicine",
+   "page": 93
+  },
+  {
+   "item": "15.4",
+   "section": "15",
+   "sectionNumber": "15",
+   "name": "Spironolactone",
+   "levels": "P,S,T",
+   "forms": "Tablet 25 mg | Tablet 50 mg",
+   "kind": "medicine",
+   "page": 93
+  },
+  {
+   "item": "16.1",
+   "section": "16",
+   "sectionNumber": "16",
+   "name": "Budesonide",
+   "levels": "P,S,T",
+   "forms": "Nasal Spray 50 mcg/dose Nasal Spray 100 mcg/dose",
+   "kind": "medicine",
+   "page": 93
+  },
+  {
+   "item": "16.2",
+   "section": "16",
+   "sectionNumber": "16",
+   "name": "Ciprofloxacin",
+   "levels": "P,S,T",
+   "forms": "Drops 0.3 %",
+   "kind": "medicine",
+   "page": 93
+  },
+  {
+   "item": "16.3",
+   "section": "16",
+   "sectionNumber": "16",
+   "name": "Clotrimazole",
+   "levels": "P,S,T",
+   "forms": "Drops 1 %",
+   "kind": "medicine",
+   "page": 93
+  },
+  {
+   "item": "16.4",
+   "section": "16",
+   "sectionNumber": "16",
+   "name": "Xylometazoline",
+   "levels": "P,S,T",
+   "forms": "Nasal drops 0.05 % Nasal drops 0.1 %",
+   "kind": "medicine",
+   "page": 93
+  },
+  {
+   "item": "17.1.1",
+   "section": "17.1",
+   "sectionNumber": "17",
+   "name": "Omeprazole",
+   "levels": "P,S,T",
+   "forms": "Capsule 10 mg | Capsule 20 mg | Capsule 40 mg | Powder for oral liquid 20 mg",
+   "kind": "medicine",
+   "page": 93
+  },
+  {
+   "item": "17.1.2",
+   "section": "17.1",
+   "sectionNumber": "17",
+   "name": "Pantoprazole",
+   "levels": "S,T",
+   "forms": "Injection 40 mg",
+   "kind": "medicine",
+   "page": 94
+  },
+  {
+   "item": "17.2.1",
+   "section": "17.2",
+   "sectionNumber": "17",
+   "name": "Domperidone",
+   "levels": "P,S,T",
+   "forms": "Tablet 10 mg | Oral Liquid 1 mg/mL",
+   "kind": "medicine",
+   "page": 94
+  },
+  {
+   "item": "17.2.2",
+   "section": "17.2",
+   "sectionNumber": "17",
+   "name": "Metoclopramide",
+   "levels": "P,S,T",
+   "forms": "Tablet 10 mg | Injection 5 mg/mL",
+   "kind": "medicine",
+   "page": 94
+  },
+  {
+   "item": "17.2.3",
+   "section": "17.2",
+   "sectionNumber": "17",
+   "name": "Ondansetron",
+   "levels": "S,T",
+   "forms": "Tablet 4 mg | Oral Liquid 2 mg/5 mL (p) | Injection 2 mg/ mL",
+   "kind": "medicine",
+   "page": 94
+  },
+  {
+   "item": "17.3.1",
+   "section": "17.3",
+   "sectionNumber": "17",
+   "name": "5-aminosalicylic acid (Mesalazine/ Mesalaine)",
+   "levels": "S, T",
+   "forms": "Tablet 400 mg | Suppository 500 mg Retention Enema",
+   "kind": "medicine",
+   "page": 94
+  },
+  {
+   "item": "17.4.1",
+   "section": "17.4",
+   "sectionNumber": "17",
+   "name": "Dicyclomine",
+   "levels": "P,S,T",
+   "forms": "Tablet 10 mg Oral Solution 10 mg/5mL | Injection 10 mg/ mL",
+   "kind": "medicine",
+   "page": 94
+  },
+  {
+   "item": "17.4.2",
+   "section": "17.4",
+   "sectionNumber": "17",
+   "name": "Hyoscine butyl bromide",
+   "levels": "P,S,T",
+   "forms": "Tablet 100 mg | Injection 20 mg/ mL",
+   "kind": "medicine",
+   "page": 94
+  },
+  {
+   "item": "17.5.1",
+   "section": "17.5",
+   "sectionNumber": "17",
+   "name": "Bisacodyl",
+   "levels": "P,S,T",
+   "forms": "Tablet 5 mg | Suppository 5 mg",
+   "kind": "medicine",
+   "page": 94
+  },
+  {
+   "item": "17.5.2",
+   "section": "17.5",
+   "sectionNumber": "17",
+   "name": "Ispaghula",
+   "levels": "P,S,T",
+   "forms": "Granules/ Husk/ Powder",
+   "kind": "medicine",
+   "page": 94
+  },
+  {
+   "item": "17.5.3",
+   "section": "17.5",
+   "sectionNumber": "17",
+   "name": "Lactulose",
+   "levels": "S,T",
+   "forms": "Oral Liquid 10 g/15 mL",
+   "kind": "medicine",
+   "page": 94
+  },
+  {
+   "item": "17.6.1",
+   "section": "17.6",
+   "sectionNumber": "17",
+   "name": "Oral rehydration salts",
+   "levels": "P,S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 95
+  },
+  {
+   "item": "17.6.2",
+   "section": "17.6",
+   "sectionNumber": "17",
+   "name": "Zinc Sulphate",
+   "levels": "P,S,T",
+   "forms": "Dispersible Tablet 20 mg",
+   "kind": "medicine",
+   "page": 95
+  },
+  {
+   "item": "17.7.1",
+   "section": "17.7",
+   "sectionNumber": "17",
+   "name": "Somatostatin",
+   "levels": "T",
+   "forms": "Powder for Injection 3 mg",
+   "kind": "medicine",
+   "page": 95
+  },
+  {
+   "item": "18.1.1",
+   "section": "18.1",
+   "sectionNumber": "18",
+   "name": "Dexamethasone",
+   "levels": "S,T",
+   "forms": "Tablet 0.5 mg | Injection 4 mg/mL",
+   "kind": "medicine",
+   "page": 95
+  },
+  {
+   "item": "18.1.2",
+   "section": "18.1",
+   "sectionNumber": "18",
+   "name": "Fludrocortisone",
+   "levels": "S,T",
+   "forms": "Tablet 0.1 mg",
+   "kind": "medicine",
+   "page": 95
+  },
+  {
+   "item": "18.1.3",
+   "section": "18.1",
+   "sectionNumber": "18",
+   "name": "Hydrocortisone",
+   "levels": "P,S,T",
+   "forms": "Tablet 5 mg | Tablet 10 mg | Tablet 20 mg | Powder for Injection 100 mg",
+   "kind": "medicine",
+   "page": 95
+  },
+  {
+   "item": "18.1.4",
+   "section": "18.1",
+   "sectionNumber": "18",
+   "name": "Methylprednisolone",
+   "levels": "S,T",
+   "forms": "Injection 40mg/mL",
+   "kind": "medicine",
+   "page": 95
+  },
+  {
+   "item": "18.1.5",
+   "section": "18.1",
+   "sectionNumber": "18",
+   "name": "Prednisolone",
+   "levels": "P,S,T",
+   "forms": "Tablet 20 mg | Oral liquid 5 mg/5 mL (p) | Oral liquid 15 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 96
+  },
+  {
+   "item": "18.2.1.1",
+   "section": "18.2.1",
+   "sectionNumber": "18",
+   "name": "Ethinylestradiol (A)+ Levonorgestrel (B)",
+   "levels": "P,S,T",
+   "forms": "Tablet 0.03 mg (A) + Tablet 0.15 mg (B)",
+   "kind": "medicine",
+   "page": 96
+  },
+  {
+   "item": "18.2.1.2",
+   "section": "18.2.1",
+   "sectionNumber": "18",
+   "name": "Levonorgestrel",
+   "levels": "P,S,T",
+   "forms": "Tablet 0.75 mg | Tablet 1.5 mg",
+   "kind": "medicine",
+   "page": 96
+  },
+  {
+   "item": "18.2.1.3",
+   "section": "18.2.1",
+   "sectionNumber": "18",
+   "name": "Ormeloxifene (Centchroman)",
+   "levels": "P,S,T",
+   "forms": "Tablet 30 mg",
+   "kind": "medicine",
+   "page": 96
+  },
+  {
+   "item": "18.2.2.1",
+   "section": "18.2.2",
+   "sectionNumber": "18",
+   "name": "Hormone releasing IUD",
+   "levels": "T",
+   "forms": "Contains 52 mg of Levonorgestrel",
+   "kind": "medicine",
+   "page": 96
+  },
+  {
+   "item": "18.2.2.2",
+   "section": "18.2.2",
+   "sectionNumber": "18",
+   "name": "IUD containing Copper",
+   "levels": "P,S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 96
+  },
+  {
+   "item": "18.2.3.1",
+   "section": "18.2.3",
+   "sectionNumber": "18",
+   "name": "Condom",
+   "levels": "P,S,T",
+   "forms": "As Licensed-as per the standards of Drugs Rules, 1945",
+   "kind": "supply",
+   "page": 96
+  },
+  {
+   "item": "18.3.1.1",
+   "section": "18.3.1",
+   "sectionNumber": "18",
+   "name": "Glimepiride",
+   "levels": "P,S,T",
+   "forms": "Tablet 1 mg | Tablet 2 mg",
+   "kind": "medicine",
+   "page": 96
+  },
+  {
+   "item": "18.3.1.2",
+   "section": "18.3.1",
+   "sectionNumber": "18",
+   "name": "Insulin (Soluble)",
+   "levels": "P,S,T",
+   "forms": "Injection 40 IU/mL",
+   "kind": "medicine",
+   "page": 96
+  },
+  {
+   "item": "18.3.1.3",
+   "section": "18.3.1",
+   "sectionNumber": "18",
+   "name": "Insulin Intermediate Acting (NPH)",
+   "levels": "P,S,T",
+   "forms": "Injection 40 IU/mL",
+   "kind": "medicine",
+   "page": 96
+  },
+  {
+   "item": "18.3.1.4",
+   "section": "18.3.1",
+   "sectionNumber": "18",
+   "name": "Insulin Glargine",
+   "levels": "P,S,T",
+   "forms": "Injection 100 IU/mL",
+   "kind": "medicine",
+   "page": 96
+  },
+  {
+   "item": "18.3.1.5",
+   "section": "18.3.1",
+   "sectionNumber": "18",
+   "name": "Insulin Premix Injection 30:70 (Regular : NPH)",
+   "levels": "P,S,T",
+   "forms": "Injection 40 IU/mL",
+   "kind": "medicine",
+   "page": 96
+  },
+  {
+   "item": "18.3.1.6",
+   "section": "18.3.1",
+   "sectionNumber": "18",
+   "name": "Metformin",
+   "levels": "P,S,T",
+   "forms": "Tablet 500 mg | Tablet 1000 mg | Modified release Tablet 1000 mg",
+   "kind": "medicine",
+   "page": 97
+  },
+  {
+   "item": "18.3.1.7",
+   "section": "18.3.1",
+   "sectionNumber": "18",
+   "name": "Teneligliptin",
+   "levels": "P,S,T",
+   "forms": "Tablet 20 mg",
+   "kind": "medicine",
+   "page": 97
+  },
+  {
+   "item": "18.3.2.1",
+   "section": "18.3.2",
+   "sectionNumber": "18",
+   "name": "Glucose",
+   "levels": "P,S,T",
+   "forms": "Injection 25 %",
+   "kind": "medicine",
+   "page": 97
+  },
+  {
+   "item": "18.4.1",
+   "section": "18.4",
+   "sectionNumber": "18",
+   "name": "Clomiphene citrate",
+   "levels": "T",
+   "forms": "Tablet 50 mg | Tablet 100 mg",
+   "kind": "medicine",
+   "page": 97
+  },
+  {
+   "item": "18.4.2",
+   "section": "18.4",
+   "sectionNumber": "18",
+   "name": "Human chorionic gonadotropin",
+   "levels": "S,T",
+   "forms": "Injection 2000 IU | Injection 5000 IU | Injection 10000 IU",
+   "kind": "medicine",
+   "page": 97
+  },
+  {
+   "item": "18.5.1",
+   "section": "18.5",
+   "sectionNumber": "18",
+   "name": "Medroxyprogesterone acetate",
+   "levels": "P,S,T",
+   "forms": "Tablet 5 mg | Tablet 10 mg | Injection 150 mg/ mL",
+   "kind": "medicine",
+   "page": 97
+  },
+  {
+   "item": "18.5.2",
+   "section": "18.5",
+   "sectionNumber": "18",
+   "name": "Norethisterone",
+   "levels": "P,S,T",
+   "forms": "Tablet 5 mg",
+   "kind": "medicine",
+   "page": 97
+  },
+  {
+   "item": "18.6.1",
+   "section": "18.6",
+   "sectionNumber": "18",
+   "name": "Carbimazole",
+   "levels": "P,S,T",
+   "forms": "Tablet 5 mg | Tablet 10 mg | Tablet 20 mg",
+   "kind": "medicine",
+   "page": 97
+  },
+  {
+   "item": "18.6.2",
+   "section": "18.6",
+   "sectionNumber": "18",
+   "name": "Levothyroxine",
+   "levels": "P,S,T",
+   "forms": "Tablet 12.5 mcg to 150 mcg* (*Several strengths are available in market such as 12.5,25,50,62.5, 75, 88,100, 112mcg. Therefore, it was considered to give a range of available strengths)",
+   "kind": "medicine",
+   "page": 97
+  },
+  {
+   "item": "19.1.1",
+   "section": "19.1",
+   "sectionNumber": "19",
+   "name": "Tuberculin, Purified Protein derivative",
+   "levels": "P,S,T",
+   "forms": "As Licensed",
+   "kind": "medicine",
+   "page": 98
+  },
+  {
+   "item": "19.2.1",
+   "section": "19.2",
+   "sectionNumber": "19",
+   "name": "Anti-rabies immunoglobulin",
+   "levels": "P,S,T",
+   "forms": "As Licensed",
+   "kind": "medicine",
+   "page": 98
+  },
+  {
+   "item": "19.2.2",
+   "section": "19.2",
+   "sectionNumber": "19",
+   "name": "Anti-tetanus immunoglobulin",
+   "levels": "P,S,T",
+   "forms": "As Licensed",
+   "kind": "medicine",
+   "page": 98
+  },
+  {
+   "item": "19.2.3",
+   "section": "19.2",
+   "sectionNumber": "19",
+   "name": "Anti-D immunoglobulin",
+   "levels": "S,T",
+   "forms": "As Licensed",
+   "kind": "medicine",
+   "page": 98
+  },
+  {
+   "item": "19.2.4",
+   "section": "19.2",
+   "sectionNumber": "19",
+   "name": "Diphtheria antitoxin",
+   "levels": "P,S,T",
+   "forms": "As Licensed",
+   "kind": "medicine",
+   "page": 98
+  },
+  {
+   "item": "19.2.5",
+   "section": "19.2",
+   "sectionNumber": "19",
+   "name": "Hepatitis B immunoglobulin",
+   "levels": "S,T",
+   "forms": "As Licensed",
+   "kind": "medicine",
+   "page": 98
+  },
+  {
+   "item": "19.2.6",
+   "section": "19.2",
+   "sectionNumber": "19",
+   "name": "Human normal immunoglobulin",
+   "levels": "T",
+   "forms": "As Licensed",
+   "kind": "medicine",
+   "page": 98
+  },
+  {
+   "item": "19.2.7",
+   "section": "19.2",
+   "sectionNumber": "19",
+   "name": "Snake Venom Antiserum",
+   "levels": "P,S,T",
+   "forms": "a) Soluble/ liquid polyvalent - As Licensed b) Lyophilized polyvalent - As Licensed",
+   "kind": "medicine",
+   "page": 98
+  },
+  {
+   "item": "19.3.1",
+   "section": "19.3",
+   "sectionNumber": "19",
+   "name": "BCG vaccine",
+   "levels": "P,S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 98
+  },
+  {
+   "item": "19.3.2",
+   "section": "19.3",
+   "sectionNumber": "19",
+   "name": "DPT+ Hib+ Hep B vaccine",
+   "levels": "P,S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 98
+  },
+  {
+   "item": "19.3.3",
+   "section": "19.3",
+   "sectionNumber": "19",
+   "name": "DPT vaccine",
+   "levels": "P,S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 98
+  },
+  {
+   "item": "19.3.4",
+   "section": "19.3",
+   "sectionNumber": "19",
+   "name": "Hepatitis B vaccine",
+   "levels": "P,S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 98
+  },
+  {
+   "item": "19.3.5",
+   "section": "19.3",
+   "sectionNumber": "19",
+   "name": "Japanese encephalitis vaccine",
+   "levels": "P,S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 98
+  },
+  {
+   "item": "19.3.6",
+   "section": "19.3",
+   "sectionNumber": "19",
+   "name": "Measles vaccine",
+   "levels": "P,S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 99
+  },
+  {
+   "item": "19.3.7",
+   "section": "19.3",
+   "sectionNumber": "19",
+   "name": "Oral poliomyelitis vaccine",
+   "levels": "P,S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 99
+  },
+  {
+   "item": "19.3.8",
+   "section": "19.3",
+   "sectionNumber": "19",
+   "name": "Rotavirus vaccine",
+   "levels": "P,S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 99
+  },
+  {
+   "item": "19.3.9",
+   "section": "19.3",
+   "sectionNumber": "19",
+   "name": "Tetanus toxoid",
+   "levels": "P,S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 99
+  },
+  {
+   "item": "19.4.1",
+   "section": "19.4",
+   "sectionNumber": "19",
+   "name": "Rabies vaccine",
+   "levels": "P,S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 99
+  },
+  {
+   "item": "20.1",
+   "section": "20",
+   "sectionNumber": "20",
+   "name": "Alprostadil",
+   "levels": "S,T",
+   "forms": "Injection 0.5 mg/mL",
+   "kind": "medicine",
+   "page": 99
+  },
+  {
+   "item": "20.2",
+   "section": "20",
+   "sectionNumber": "20",
+   "name": "Caffeine",
+   "levels": "S,T",
+   "forms": "Oral liquid 20 mg/mL | Injection 20 mg/mL",
+   "kind": "medicine",
+   "page": 99
+  },
+  {
+   "item": "20.3",
+   "section": "20",
+   "sectionNumber": "20",
+   "name": "Surfactant",
+   "levels": "S,T",
+   "forms": "Suspension for intratracheal instillation (As licensed)",
+   "kind": "medicine",
+   "page": 99
+  },
+  {
+   "item": "21.1.1",
+   "section": "21.1",
+   "sectionNumber": "21",
+   "name": "Acyclovir",
+   "levels": "P,S,T",
+   "forms": "Ointment 3%",
+   "kind": "medicine",
+   "page": 99
+  },
+  {
+   "item": "21.1.2",
+   "section": "21.1",
+   "sectionNumber": "21",
+   "name": "Ciprofloxacin",
+   "levels": "P,S,T",
+   "forms": "Drops 0.3% | Ointment 0.3%",
+   "kind": "medicine",
+   "page": 99
+  },
+  {
+   "item": "21.1.3",
+   "section": "21.1",
+   "sectionNumber": "21",
+   "name": "Natamycin",
+   "levels": "P,S,T",
+   "forms": "Drops 5 %",
+   "kind": "medicine",
+   "page": 99
+  },
+  {
+   "item": "21.1.4",
+   "section": "21.1",
+   "sectionNumber": "21",
+   "name": "Povidone iodine",
+   "levels": "P,S,T",
+   "forms": "Drops 5 %",
+   "kind": "medicine",
+   "page": 99
+  },
+  {
+   "item": "21.2.1",
+   "section": "21.2",
+   "sectionNumber": "21",
+   "name": "Prednisolone",
+   "levels": "P,S,T",
+   "forms": "Drops 1 %",
+   "kind": "medicine",
+   "page": 99
+  },
+  {
+   "item": "21.3.1",
+   "section": "21.3",
+   "sectionNumber": "21",
+   "name": "Proparacaine",
+   "levels": "P,S,T",
+   "forms": "Drops 0.5 %",
+   "kind": "medicine",
+   "page": 100
+  },
+  {
+   "item": "21.4.1",
+   "section": "21.4",
+   "sectionNumber": "21",
+   "name": "Acetazolamide",
+   "levels": "P,S,T",
+   "forms": "Tablet 250 mg",
+   "kind": "medicine",
+   "page": 100
+  },
+  {
+   "item": "21.4.2",
+   "section": "21.4",
+   "sectionNumber": "21",
+   "name": "Latanoprost",
+   "levels": "P,S,T",
+   "forms": "Drops 0.005 %",
+   "kind": "medicine",
+   "page": 100
+  },
+  {
+   "item": "21.4.3",
+   "section": "21.4",
+   "sectionNumber": "21",
+   "name": "Pilocarpine",
+   "levels": "P,S,T",
+   "forms": "Drops 2 % | Drops 4 %",
+   "kind": "medicine",
+   "page": 100
+  },
+  {
+   "item": "21.4.4",
+   "section": "21.4",
+   "sectionNumber": "21",
+   "name": "Timolol",
+   "levels": "P,S,T",
+   "forms": "Drops 0.25 % | Drops 0.5 %",
+   "kind": "medicine",
+   "page": 100
+  },
+  {
+   "item": "21.5.1",
+   "section": "21.5",
+   "sectionNumber": "21",
+   "name": "Atropine",
+   "levels": "P,S,T",
+   "forms": "Drops 1% | Ointment 1%",
+   "kind": "medicine",
+   "page": 100
+  },
+  {
+   "item": "21.5.2",
+   "section": "21.5",
+   "sectionNumber": "21",
+   "name": "Homatropine",
+   "levels": "P,S,T",
+   "forms": "Drops 2%",
+   "kind": "medicine",
+   "page": 101
+  },
+  {
+   "item": "21.5.3",
+   "section": "21.5",
+   "sectionNumber": "21",
+   "name": "Phenylephrine",
+   "levels": "P,S,T",
+   "forms": "Drops 5 % | Drops 10 %",
+   "kind": "medicine",
+   "page": 101
+  },
+  {
+   "item": "21.5.4",
+   "section": "21.5",
+   "sectionNumber": "21",
+   "name": "Tropicamide",
+   "levels": "P,S,T",
+   "forms": "Drops 1 %",
+   "kind": "medicine",
+   "page": 101
+  },
+  {
+   "item": "21.6.1",
+   "section": "21.6",
+   "sectionNumber": "21",
+   "name": "Carboxymethyl cellulose",
+   "levels": "P,S,T",
+   "forms": "Drops 0.5% | Drops 1%",
+   "kind": "medicine",
+   "page": 101
+  },
+  {
+   "item": "21.6.2",
+   "section": "21.6",
+   "sectionNumber": "21",
+   "name": "Hydroxypropyl methylcellulose",
+   "levels": "T",
+   "forms": "Injection 2%",
+   "kind": "medicine",
+   "page": 101
+  },
+  {
+   "item": "22.1.1",
+   "section": "22.1",
+   "sectionNumber": "22",
+   "name": "Dinoprostone",
+   "levels": "S,T",
+   "forms": "Tablet 0.5 mg | Gel 0.5 mg",
+   "kind": "medicine",
+   "page": 101
+  },
+  {
+   "item": "22.1.2",
+   "section": "22.1",
+   "sectionNumber": "22",
+   "name": "Methylergometrine",
+   "levels": "P,S,T",
+   "forms": "Tablet 0.125 mg | Injection 0.2 mg/mL",
+   "kind": "medicine",
+   "page": 101
+  },
+  {
+   "item": "22.1.3",
+   "section": "22.1",
+   "sectionNumber": "22",
+   "name": "Mifepristone",
+   "levels": "P,S,T",
+   "forms": "Tablet 200 mg",
+   "kind": "medicine",
+   "page": 101
+  },
+  {
+   "item": "22.1.4",
+   "section": "22.1",
+   "sectionNumber": "22",
+   "name": "Misoprostol",
+   "levels": "P,S,T",
+   "forms": "Tablet 100 mcg | Tablet 200 mcg",
+   "kind": "medicine",
+   "page": 101
+  },
+  {
+   "item": "22.1.5",
+   "section": "22.1",
+   "sectionNumber": "22",
+   "name": "Oxytocin",
+   "levels": "P,S,T",
+   "forms": "Injection 5 IU/mL | Injection 10 IU/mL",
+   "kind": "medicine",
+   "page": 101
+  },
+  {
+   "item": "22.2.1",
+   "section": "22.2",
+   "sectionNumber": "22",
+   "name": "Betamethasone",
+   "levels": "P,S,T",
+   "forms": "Injection 4 mg/mL",
+   "kind": "medicine",
+   "page": 101
+  },
+  {
+   "item": "22.2.2",
+   "section": "22.2",
+   "sectionNumber": "22",
+   "name": "Nifedipine",
+   "levels": "S,T",
+   "forms": "Tablet 10 mg",
+   "kind": "medicine",
+   "page": 102
+  },
+  {
+   "item": "23.1.1",
+   "section": "23.1",
+   "sectionNumber": "23",
+   "name": "Clozapine",
+   "levels": "T",
+   "forms": "Tablet 25 mg | Tablet 50 mg | Tablet 100 mg",
+   "kind": "medicine",
+   "page": 102
+  },
+  {
+   "item": "23.1.2",
+   "section": "23.1",
+   "sectionNumber": "23",
+   "name": "Fluphenazine",
+   "levels": "P,S,T",
+   "forms": "Injection 25 mg/mL",
+   "kind": "medicine",
+   "page": 102
+  },
+  {
+   "item": "23.1.3",
+   "section": "23.1",
+   "sectionNumber": "23",
+   "name": "Haloperidol",
+   "levels": "S,T",
+   "forms": "Tablet 2 mg | Tablet 5 mg | Tablet 10 mg | Tablet 20 mg | Oral liquid 2 mg/5 mL | Injection 5 mg/mL",
+   "kind": "medicine",
+   "page": 102
+  },
+  {
+   "item": "23.1.4",
+   "section": "23.1",
+   "sectionNumber": "23",
+   "name": "Risperidone",
+   "levels": "P,S,T",
+   "forms": "Tablet 1 mg | Tablet 2 mg | Tablet 4 mg | Oral liquid 1 mg/mL | Injection (Long acting) 25 mg | Injection (Long acting) 37.5 mg",
+   "kind": "medicine",
+   "page": 102
+  },
+  {
+   "item": "23.2.1.1",
+   "section": "23.2.1",
+   "sectionNumber": "23",
+   "name": "Amitriptyline",
+   "levels": "P,S,T",
+   "forms": "Tablet 10 mg | Tablet 25 mg | Tablet 50 mg | Tablet 75 mg",
+   "kind": "medicine",
+   "page": 102
+  },
+  {
+   "item": "23.2.1.2",
+   "section": "23.2.1",
+   "sectionNumber": "23",
+   "name": "Escitalopram",
+   "levels": "P,S,T",
+   "forms": "Tablet 5 mg | Tablet 10 mg | Tablet 20 mg",
+   "kind": "medicine",
+   "page": 102
+  },
+  {
+   "item": "23.2.1.3",
+   "section": "23.2.1",
+   "sectionNumber": "23",
+   "name": "Fluoxetine",
+   "levels": "P,S,T",
+   "forms": "Capsule 20 mg | Capsule 40 mg | Capsule 60 mg",
+   "kind": "medicine",
+   "page": 103
+  },
+  {
+   "item": "23.2.2.1",
+   "section": "23.2.2",
+   "sectionNumber": "23",
+   "name": "Lithium",
+   "levels": "S,T",
+   "forms": "Tablet 300 mg",
+   "kind": "medicine",
+   "page": 103
+  },
+  {
+   "item": "23.2.2.2",
+   "section": "23.2.2",
+   "sectionNumber": "23",
+   "name": "Sodium valproate",
+   "levels": "P,S,T",
+   "forms": "Tablet 200 mg | Tablet 300 mg | Tablet 500 mg Modified Release – | Tablet 300 mg | Tablet 500 mg",
+   "kind": "medicine",
+   "page": 103
+  },
+  {
+   "item": "23.2.2.3",
+   "section": "23.2.2",
+   "sectionNumber": "23",
+   "name": "Carbamazepine",
+   "levels": "P,S,T",
+   "forms": "Tablet 100 mg | Tablet 200 mg | Tablet 400 mg Modified Release – | Tablet 200 mg | Tablet 400 mg | Oral liquid 100 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 103
+  },
+  {
+   "item": "23.3.1",
+   "section": "23.3",
+   "sectionNumber": "23",
+   "name": "Clonazepam",
+   "levels": "P,S,T",
+   "forms": "Tablet 0.25 mg | Tablet 0.5 mg | Tablet 1 mg",
+   "kind": "medicine",
+   "page": 103
+  },
+  {
+   "item": "23.3.2",
+   "section": "23.3",
+   "sectionNumber": "23",
+   "name": "Zolpidem",
+   "levels": "P,S,T",
+   "forms": "Tablet 5 mg | Tablet 10 mg",
+   "kind": "medicine",
+   "page": 103
+  },
+  {
+   "item": "23.4.1",
+   "section": "23.4",
+   "sectionNumber": "23",
+   "name": "Clomipramine",
+   "levels": "P,S,T",
+   "forms": "Capsule 10 mg | Capsule 25 mg | Capsule 75 mg",
+   "kind": "medicine",
+   "page": 104
+  },
+  {
+   "item": "23.4.2",
+   "section": "23.4",
+   "sectionNumber": "23",
+   "name": "Fluoxetine",
+   "levels": "S,T",
+   "forms": "Capsule 10 mg | Capsule 20 mg | Capsule 40 mg | Capsule 60 mg",
+   "kind": "medicine",
+   "page": 104
+  },
+  {
+   "item": "23.5.1",
+   "section": "23.5",
+   "sectionNumber": "23",
+   "name": "Buprenorphine",
+   "levels": "P,S,T",
+   "forms": "Tablet (Sub-lingual) 0.4 mg",
+   "kind": "medicine",
+   "page": 104
+  },
+  {
+   "item": "23.5.2",
+   "section": "23.5",
+   "sectionNumber": "23",
+   "name": "Buprenorphine (A) + Naloxone (B)",
+   "levels": "P,S,T",
+   "forms": "Tablet (Sub-lingual) 0.4 mg (A) + 0.1 mg (B) | Tablet (Sub-lingual) 2 mg (A) + 0.5 mg (B)",
+   "kind": "medicine",
+   "page": 104
+  },
+  {
+   "item": "23.5.3",
+   "section": "23.5",
+   "sectionNumber": "23",
+   "name": "Nicotine (for nicotine replacement therapy)",
+   "levels": "P,S,T",
+   "forms": "Oral Dosage forms 2 mg Oral Dosage forms 4 mg",
+   "kind": "medicine",
+   "page": 104
+  },
+  {
+   "item": "24.1.1",
+   "section": "24.1",
+   "sectionNumber": "24",
+   "name": "Budesonide",
+   "levels": "P,S,T",
+   "forms": "Inhalation (MDI/DPI) 100 mcg/dose Inhalation (MDI/DPI) 200 mcg/dose | Respirator solution for use in nebulizer 0.5 mg/mL | Respirator solution for use in nebulizer 1 mg/mL",
+   "kind": "medicine",
+   "page": 104
+  },
+  {
+   "item": "24.1.3",
+   "section": "24.1",
+   "sectionNumber": "24",
+   "name": "Hydrocortisone",
+   "levels": "P,S,T",
+   "forms": "Powder for Injection 100 mg | Powder for Injection 200 mg",
+   "kind": "medicine",
+   "page": 105
+  },
+  {
+   "item": "24.1.4",
+   "section": "24.1",
+   "sectionNumber": "24",
+   "name": "Ipratropium",
+   "levels": "P,S,T",
+   "forms": "Inhalation (MDI/DPI) 20 mcg/dose | Respirator solution for use in nebulizer 250 mcg/mL",
+   "kind": "medicine",
+   "page": 105
+  },
+  {
+   "item": "24.1.5",
+   "section": "24.1",
+   "sectionNumber": "24",
+   "name": "Montelukast",
+   "levels": "S,T",
+   "forms": "Tablet 4 mg | Tablet 5 mg (including chewable tablets) | Tablet 10 mg",
+   "kind": "medicine",
+   "page": 105
+  },
+  {
+   "item": "24.1.6",
+   "section": "24.1",
+   "sectionNumber": "24",
+   "name": "Salbutamol",
+   "levels": "P,S,T",
+   "forms": "Tablet 2 mg | Tablet 4 mg | Oral liquid 2 mg/5 mL Inhalation (MDI/DPI*) 100 mcg/dose Respirator Solution (Solution for Nebulizer 5 mg/mL)",
+   "kind": "medicine",
+   "page": 105
+  },
+  {
+   "item": "24.1.7",
+   "section": "24.1",
+   "sectionNumber": "24",
+   "name": "Tiotropium",
+   "levels": "P,S,T",
+   "forms": "Inhalation (MDI) 9 mcg/dose Inhalation (DPI) 18 mcg/dose",
+   "kind": "medicine",
+   "page": 105
+  },
+  {
+   "item": "25.1.1",
+   "section": "25.1",
+   "sectionNumber": "25",
+   "name": "Glucose",
+   "levels": "P,S,T",
+   "forms": "Injection 5 % | Injection 10 % | Injection 25 % | Injection 50 %",
+   "kind": "medicine",
+   "page": 105
+  },
+  {
+   "item": "25.1.2",
+   "section": "25.1",
+   "sectionNumber": "25",
+   "name": "Glucose(A) + Sodium chloride (B)",
+   "levels": "P,S,T",
+   "forms": "Injection 5% (A) + 0.9 % (B)",
+   "kind": "medicine",
+   "page": 105
+  },
+  {
+   "item": "25.1.3",
+   "section": "25.1",
+   "sectionNumber": "25",
+   "name": "Oral rehydration salts",
+   "levels": "P,S,T",
+   "forms": "As licensed",
+   "kind": "medicine",
+   "page": 105
+  },
+  {
+   "item": "25.1.4",
+   "section": "25.1",
+   "sectionNumber": "25",
+   "name": "Potassium chloride",
+   "levels": "P,S,T",
+   "forms": "Oral liquid 500 mg/5 mL",
+   "kind": "medicine",
+   "page": 105
+  },
+  {
+   "item": "25.1.5",
+   "section": "25.1",
+   "sectionNumber": "25",
+   "name": "Ringer lactate",
+   "levels": "P,S,T",
+   "forms": "Injection (as per IP)",
+   "kind": "medicine",
+   "page": 106
+  },
+  {
+   "item": "25.1.6",
+   "section": "25.1",
+   "sectionNumber": "25",
+   "name": "Sodium bicarbonate",
+   "levels": "P,S,T",
+   "forms": "Injection (as per IP)",
+   "kind": "medicine",
+   "page": 106
+  },
+  {
+   "item": "25.2.1",
+   "section": "25.2",
+   "sectionNumber": "25",
+   "name": "Water for Injection",
+   "levels": "P,S,T",
+   "forms": "Injection",
+   "kind": "supply",
+   "page": 106
+  },
+  {
+   "item": "26.1",
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Ascorbic acid (Vitamin C)",
+   "levels": "P,S,T",
+   "forms": "Tablet 100 mg | Tablet 500 mg",
+   "kind": "medicine",
+   "page": 106
+  },
+  {
+   "item": "26.2",
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Calcium carbonate",
+   "levels": "P,S,T",
+   "forms": "Tablet 625 mg (equivalent to elemental calcium 250 mg) | Tablet 1250 mg (equivalent to elemental calcium 500 mg)",
+   "kind": "medicine",
+   "page": 106
+  },
+  {
+   "item": "26.3",
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Calcium gluconate",
+   "levels": "P,S,T",
+   "forms": "Injection 100 mg/mL",
+   "kind": "medicine",
+   "page": 106
+  },
+  {
+   "item": "26.4",
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Cholecalciferol",
+   "levels": "P,S,T",
+   "forms": "Solid oral dosage form 1000 IU Solid oral dosage form 60000 IU Oral liquid 400 IU/mL",
+   "kind": "medicine",
+   "page": 106
+  },
+  {
+   "item": "26.5",
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Pyridoxine",
+   "levels": "P,S,T",
+   "forms": "Tablet 10 mg | Tablet 50 mg | Tablet 100 mg",
+   "kind": "medicine",
+   "page": 106
+  },
+  {
+   "item": "26.6",
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Riboflavin",
+   "levels": "P,S,T",
+   "forms": "Tablet 10 mg",
+   "kind": "medicine",
+   "page": 106
+  },
+  {
+   "item": "26.7",
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Thiamine",
+   "levels": "P,S,T",
+   "forms": "Tablet 100 mg | Injection 100 mg/mL",
+   "kind": "medicine",
+   "page": 106
+  },
+  {
+   "item": "26.8",
+   "section": "26",
+   "sectionNumber": "26",
+   "name": "Vitamin A",
+   "levels": "P,S,T",
+   "forms": "IU/mL",
+   "kind": "medicine",
+   "page": 107
+  },
+  {
+   "item": "27.1",
+   "section": "27",
+   "sectionNumber": "27",
+   "name": "Dexamethasone",
+   "levels": "P,S,T",
+   "forms": "Tablet 0.5 mg | Tablet 2 mg | Tablet 4 mg | Oral liquid 0.5 mg/5 mL (p) | Injection 4 mg/mL",
+   "kind": "medicine",
+   "page": 107
+  },
+  {
+   "item": "27.2",
+   "section": "27",
+   "sectionNumber": "27",
+   "name": "Enoxaparin",
+   "levels": "S,T",
+   "forms": "Injection 40 mg/ 0.4 mL | Injection 60 mg/ 0.6 mL",
+   "kind": "medicine",
+   "page": 107
+  },
+  {
+   "item": "27.3",
+   "section": "27",
+   "sectionNumber": "27",
+   "name": "Methylprednisolone",
+   "levels": "S,T",
+   "forms": "Injection 40 mg/mL",
+   "kind": "medicine",
+   "page": 107
+  },
+  {
+   "item": "27.4",
+   "section": "27",
+   "sectionNumber": "27",
+   "name": "Paracetamol",
+   "levels": "P,S,T",
+   "forms": "Tablet 500 mg | Tablet 650 mg | Oral liquid 120 mg/5 mL (p) | Oral Liquid 125 mg/5 mL (p) | Oral Liquid 250 mg/5 mL (p)",
+   "kind": "medicine",
+   "page": 107
+  },
+  {
+   "item": "27.5",
+   "section": "27",
+   "sectionNumber": "27",
+   "name": "Oxygen",
+   "levels": "P,S,T",
+   "forms": "As licensed for medical purpose",
+   "kind": "supply",
+   "page": 107
+  }
+ ]
 }

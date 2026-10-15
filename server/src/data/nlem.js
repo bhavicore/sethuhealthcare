@@ -7,11 +7,10 @@ import { db } from '../db.js';
 // table. This is real reference data, not seeded invention: every row records
 // the section it came from and how much of it we actually have.
 //
-// The list reached us in two qualities, and they are kept apart on purpose:
-//   'full'      — name, levels of care (P/S/T) and dosage forms (Sections 1-7)
-//   'name-only' — the medicine name and its section, nothing more (all sections)
-// A name-only row never overwrites detail, and a medicine known only by name
-// keeps null levels and forms rather than being given invented ones.
+// The data is extracted from the gazette PDF itself (data/nlem-2022.json),
+// reading the table ruling lines rather than the text layout — the rows are
+// vertically centred, so a layout-based read slides dosage forms onto the row
+// above. Every row carries the gazette page it came from.
 //
 // NLEM publishes dosage forms, not maximum daily doses, so an imported medicine
 // has no dose ceiling. checkDoseLimits in clinical/rules.js says so rather than
@@ -53,10 +52,8 @@ function readDataFiles() {
   return fs
     .readdirSync(DATA_DIR)
     .filter((f) => /^nlem-2022.*\.json$/.test(f))
-    .map((f) => ({ file: f, ...JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), 'utf8')) }))
-    // Detailed files first: a medicine then leads with its most precise section
-    // ('2.1' rather than '2'), and name-only rows only add sections to it.
-    .sort((a, b) => (a.detail === 'name-only' ? 1 : 0) - (b.detail === 'name-only' ? 1 : 0));
+    .sort()
+    .map((f) => ({ file: f, ...JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), 'utf8')) }));
 }
 
 /**
@@ -75,7 +72,7 @@ export function mergeRows(files) {
       }
       const id = slugify(row.name);
       const levels = row.levels ? row.levels.split(',').map((l) => l.trim()) : [];
-      const section = row.sectionNumber || row.section;
+      const section = row.item || row.section; // the gazette's own item number, e.g. '10.3.1'
       const existing = byId.get(id);
       if (!existing) {
         byId.set(id, {
@@ -84,7 +81,7 @@ export function mergeRows(files) {
           levels,
           sections: [section],
           forms: row.forms ? [row.forms] : [],
-          notes: row.note ? [`${section}: ${row.note}`] : [],
+          pages: row.page ? [row.page] : [],
           kind: row.kind || 'medicine',
         });
         continue;
@@ -92,7 +89,7 @@ export function mergeRows(files) {
       existing.levels = [...new Set([...existing.levels, ...levels])].sort();
       if (!existing.sections.includes(section)) existing.sections.push(section);
       if (row.forms && !existing.forms.includes(row.forms)) existing.forms.push(row.forms);
-      if (row.note) existing.notes.push(`${section}: ${row.note}`);
+      if (row.page && !existing.pages.includes(row.page)) existing.pages.push(row.page);
       // A longer published name is the fuller one ('Pralidoxime chloride (2-PAM)').
       if (row.name.length > existing.name.length) existing.name = row.name;
       if (row.kind === 'supply') existing.kind = 'supply';
@@ -116,9 +113,9 @@ export function loadNlem({ quiet = false } = {}) {
 
   const upsert = db.prepare(`
     INSERT INTO medicines (id, generic_name, unit_label, max_daily_dose_mg, nlem_code,
-                           nlem_sections, care_levels, dosage_forms, kind, verify_note, source)
+                           nlem_sections, care_levels, dosage_forms, kind, verify_note, gazette_pages, source)
     VALUES (@id, @generic_name, @unit_label, @max_daily_dose_mg, @nlem_code,
-            @nlem_sections, @care_levels, @dosage_forms, @kind, @verify_note, @source)
+            @nlem_sections, @care_levels, @dosage_forms, @kind, @verify_note, @gazette_pages, @source)
     ON CONFLICT(id) DO UPDATE SET
       generic_name  = excluded.generic_name,
       nlem_code     = excluded.nlem_code,
@@ -127,6 +124,7 @@ export function loadNlem({ quiet = false } = {}) {
       dosage_forms  = excluded.dosage_forms,
       kind          = excluded.kind,
       verify_note   = excluded.verify_note,
+      gazette_pages = excluded.gazette_pages,
       source        = excluded.source
   `);
 
@@ -145,7 +143,8 @@ export function loadNlem({ quiet = false } = {}) {
         care_levels: m.levels.length ? m.levels.join(',') : null,
         dosage_forms: m.forms.length ? m.forms.join(' | ') : null,
         kind: m.kind,
-        verify_note: m.notes.length ? m.notes.join(' ') : null,
+        verify_note: null,
+        gazette_pages: m.pages.join(', ') || null,
         source: files[0].source,
       });
     }
@@ -156,19 +155,16 @@ export function loadNlem({ quiet = false } = {}) {
     files: files.length,
     unique: merged.length,
     added,
-    detailed: merged.filter((m) => m.levels.length).length,
-    nameOnly: merged.filter((m) => !m.levels.length).length,
+    entries: files.reduce((n, f) => n + f.medicines.length, 0),
     primaryCare: merged.filter((m) => m.levels.includes('P')).length,
-    flagged: merged.filter((m) => m.notes.length).length,
     notPrescribable: merged.filter((m) => m.kind === 'supply').length,
     skipped,
     notLoaded: files.flatMap((f) => f.notLoaded || []),
   };
   if (!quiet) {
     console.log(
-      `Loaded NLEM 2022: ${stats.unique} medicines (${stats.detailed} with levels of care, ` +
-      `${stats.nameOnly} by name only; ${stats.primaryCare} listed for primary care; ` +
-      `${stats.flagged} flagged for verification).`
+      `Loaded NLEM 2022 from the gazette: ${stats.unique} medicines from ${stats.entries} schedule ` +
+      `entries, ${stats.primaryCare} of them listed for primary care.`
     );
   }
   return stats;
