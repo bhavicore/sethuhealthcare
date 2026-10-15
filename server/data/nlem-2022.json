@@ -1,0 +1,114 @@
+{
+  "source": "National List of Essential Medicines (NLEM) 2022, Ministry of Health and Family Welfare, Government of India. Released 13 September 2022.",
+  "levels": { "P": "Primary", "S": "Secondary", "T": "Tertiary" },
+  "coverage": "Sections 1-5 of 27. Remaining sections not yet loaded.",
+  "transcription": "Transcribed from the published list; pending verification against the source PDF.",
+  "sections": [
+    { "id": "1.1", "title": "General anaesthetics and oxygen", "chapter": "Medicines used in anaesthesia" },
+    { "id": "1.2", "title": "Local anaesthetics", "chapter": "Medicines used in anaesthesia" },
+    { "id": "1.3", "title": "Preoperative medication and sedation for short-term procedures", "chapter": "Medicines used in anaesthesia" },
+    { "id": "1.4", "title": "Muscle relaxants and cholinesterase inhibitors", "chapter": "Medicines used in anaesthesia" },
+    { "id": "2.1", "title": "Non-opioid analgesics, antipyretics and NSAIDs", "chapter": "Analgesics, antipyretics, NSAIDs, gout and rheumatoid disorders" },
+    { "id": "2.2", "title": "Opioid analgesics", "chapter": "Analgesics, antipyretics, NSAIDs, gout and rheumatoid disorders" },
+    { "id": "2.3", "title": "Medicines used to treat gout", "chapter": "Analgesics, antipyretics, NSAIDs, gout and rheumatoid disorders" },
+    { "id": "2.4", "title": "Disease-modifying agents used in rheumatoid disorders", "chapter": "Analgesics, antipyretics, NSAIDs, gout and rheumatoid disorders" },
+    { "id": "3", "title": "Antiallergics and medicines used in anaphylaxis", "chapter": "Antiallergics and medicines used in anaphylaxis" },
+    { "id": "4.1", "title": "Nonspecific antidotes", "chapter": "Antidotes and other substances used in poisoning and envenomation" },
+    { "id": "4.2", "title": "Specific antidotes", "chapter": "Antidotes and other substances used in poisoning and envenomation" },
+    { "id": "5.1", "title": "Anticonvulsants and antiepileptics", "chapter": "Medicines used in neurological disorders" },
+    { "id": "5.2", "title": "Antimigraine medicines", "chapter": "Medicines used in neurological disorders" },
+    { "id": "5.2.1", "title": "Medicines for prophylaxis of migraine", "chapter": "Medicines used in neurological disorders" },
+    { "id": "5.3", "title": "Antiparkinsonism medicines", "chapter": "Medicines used in neurological disorders" },
+    { "id": "5.4", "title": "Medicines used in dementia", "chapter": "Medicines used in neurological disorders" }
+  ],
+  "medicines": [
+    { "section": "1.1", "name": "Halothane", "levels": "S,T", "forms": "Liquid for inhalation" },
+    { "section": "1.1", "name": "Isoflurane", "levels": "S,T", "forms": "Liquid for inhalation" },
+    { "section": "1.1", "name": "Ketamine", "levels": "P,S,T", "forms": "Injection 10 mg/mL; 50 mg/mL" },
+    { "section": "1.1", "name": "Nitrous oxide", "levels": "P,S,T", "forms": "As licensed for medical use" },
+    { "section": "1.1", "name": "Oxygen", "levels": "P,S,T", "forms": "As licensed for medical use" },
+    { "section": "1.1", "name": "Propofol", "levels": "P,S,T", "forms": "Injection 10 mg/mL" },
+    { "section": "1.1", "name": "Sevoflurane", "levels": "S,T", "forms": "Liquid for inhalation" },
+    { "section": "1.1", "name": "Thiopentone", "levels": "P,S,T", "forms": "Powder for injection 0.5 g; 1 g" },
+
+    { "section": "1.2", "name": "Bupivacaine", "levels": "S,T", "forms": "Injection 0.25%, 0.5%; 0.5% with 7.5% glucose; topical forms 2-5%" },
+    { "section": "1.2", "name": "Lignocaine", "levels": "P,S,T", "forms": "Injection 1%, 2%; 5% with 7.5% glucose" },
+    { "section": "1.2", "name": "Lignocaine + adrenaline", "levels": "P,S,T", "forms": "Injection 1% + 1:200,000 adrenaline (5 mcg/mL); 2% + 1:200,000 adrenaline (5 mcg/mL)" },
+
+    { "section": "1.3", "name": "Atropine", "levels": "P,S,T", "forms": "Injection 0.6 mg/mL" },
+    { "section": "1.3", "name": "Glycopyrrolate", "levels": "S,T", "forms": "Injection 0.2 mg/mL; tablet 7.5 mg; nasal spray 0.5 mg" },
+    { "section": "1.3", "name": "Midazolam", "levels": "P,S,T", "forms": "Nasal spray 0.5 mg; injection 1 mg/mL and 5 mg/mL" },
+    { "section": "1.3", "name": "Morphine", "levels": "P,S,T", "forms": "Injection 10 mg/mL; 15 mg/mL" },
+
+    { "section": "1.4", "name": "Atracurium", "levels": "S,T", "forms": "Injection 10 mg/mL" },
+    { "section": "1.4", "name": "Baclofen", "levels": "S,T", "forms": "Tablet 5 mg, 10 mg, 20 mg" },
+    { "section": "1.4", "name": "Neostigmine", "levels": "S,T", "forms": "Tablet 15 mg; injection 0.5 mg/mL" },
+    { "section": "1.4", "name": "Succinylcholine", "levels": "S,T", "forms": "Injection 50 mg/mL" },
+    { "section": "1.4", "name": "Vecuronium", "levels": "S,T", "forms": "Powder for injection 4 mg; 10 mg" },
+
+    { "section": "2.1", "name": "Acetylsalicylic acid", "levels": "P,S,T", "forms": "Tablet 300-500 mg; effervescent, dispersible or enteric-coated tablet 300-500 mg" },
+    { "section": "2.1", "name": "Diclofenac", "levels": "P,S,T", "forms": "Tablet 50 mg; injection 25 mg/mL" },
+    { "section": "2.1", "name": "Ibuprofen", "levels": "P,S,T", "forms": "Tablet 200 mg and 400 mg; oral liquid 100 mg/5 mL" },
+    { "section": "2.1", "name": "Mefenamic acid", "levels": "P,S,T", "forms": "Tablet 250 mg; oral liquid 100 mg/5 mL" },
+    { "section": "2.1", "name": "Paracetamol", "levels": "P,S,T", "forms": "Tablet 500 mg and 650 mg; oral liquids 120, 125 and 250 mg/5 mL; injection 150 mg/mL; suppositories 80 mg and 170 mg" },
+
+    { "section": "2.2", "name": "Fentanyl", "levels": "S,T", "forms": "Injection 50 mcg/mL" },
+    { "section": "2.2", "name": "Morphine", "levels": "P,S,T", "forms": "Tablet 10 mg; injection 10 mg/mL and 15 mg/mL" },
+    { "section": "2.2", "name": "Tramadol", "levels": "S,T", "forms": "Capsule 50 mg and 100 mg; injection 50 mg/mL" },
+
+    { "section": "2.3", "name": "Allopurinol", "levels": "P,S,T", "forms": "Tablet 100 mg and 300 mg" },
+    { "section": "2.3", "name": "Colchicine", "levels": "P,S,T", "forms": "Tablet 0.5 mg" },
+
+    { "section": "2.4", "name": "Azathioprine", "levels": "S,T", "forms": "Tablet 25 mg; 50 mg" },
+    { "section": "2.4", "name": "Hydroxychloroquine", "levels": "P,S,T", "forms": "Tablet 200 mg and 400 mg" },
+    { "section": "2.4", "name": "Methotrexate", "levels": "P,S,T", "forms": "Tablet 2.5 mg, 5 mg and 10 mg" },
+    { "section": "2.4", "name": "Sulfasalazine", "levels": "S,T", "forms": "Tablet 500 mg" },
+
+    { "section": "3", "name": "Adrenaline", "levels": "P,S,T", "forms": "Injection 1 mg/mL" },
+    { "section": "3", "name": "Cetirizine", "levels": "P,S,T", "forms": "Tablet 10 mg; oral liquid 5 mg/5 mL" },
+    { "section": "3", "name": "Dexamethasone", "levels": "P,S,T", "forms": "Tablet 0.5 mg, 2 mg and 4 mg; oral liquid 0.5 mg/5 mL; injection 4 mg/mL" },
+    { "section": "3", "name": "Hydrocortisone", "levels": "P,S,T", "forms": "Tablet 5 mg and 10 mg; powder for injection 100 mg and 200 mg" },
+    { "section": "3", "name": "Pheniramine", "levels": "P,S,T", "forms": "Injection 22.75 mg/mL; tablet 5 mg" },
+    { "section": "3", "name": "Prednisolone", "levels": "P,S,T", "forms": "Tablet 10 mg and 20 mg; oral liquid 5 mg/5 mL and 15 mg/5 mL" },
+
+    { "section": "4.1", "name": "Activated charcoal", "levels": "P,S,T", "forms": "Powder, as licensed" },
+
+    { "section": "4.2", "name": "Atropine", "levels": "P,S,T", "forms": "Injection 0.6 mg/mL" },
+    { "section": "4.2", "name": "Calcium gluconate", "levels": "P,S,T", "forms": "Injection 100 mg/mL" },
+    { "section": "4.2", "name": "D-penicillamine", "levels": "P,S,T", "forms": "Capsule 150 mg; 250 mg" },
+    { "section": "4.2", "name": "Desferrioxamine", "levels": "S,T", "forms": "Powder for injection 500 mg" },
+    { "section": "4.2", "name": "Methylthioninium chloride (methylene blue)", "levels": "S,T", "forms": "Injection 10 mg/mL" },
+    { "section": "4.2", "name": "N-acetylcysteine", "levels": "P,S,T", "forms": "Sachet 200 mg; injection 200 mg/mL" },
+    { "section": "4.2", "name": "Naloxone", "levels": "P,S,T", "forms": "Injection 0.4 mg/mL" },
+    { "section": "4.2", "name": "Neostigmine", "levels": "P,S,T", "forms": "Injection 0.5 mg/mL" },
+    { "section": "4.2", "name": "Pralidoxime chloride (2-PAM)", "levels": "P,S,T", "forms": "Injection 25 mg/mL" },
+    { "section": "4.2", "name": "Snake venom antiserum", "levels": "P,S,T", "forms": "Liquid/soluble polyvalent or lyophilised polyvalent preparation, as licensed" },
+    { "section": "4.2", "name": "Sodium nitrite", "levels": "S,T", "forms": "Injection 30 mg/mL" },
+    { "section": "4.2", "name": "Sodium thiosulphate", "levels": "S,T", "forms": "Injection 250 mg/mL" },
+
+    { "section": "5.1", "name": "Carbamazepine", "levels": "P,S,T", "forms": "Tablet 100 mg, 200 mg and 400 mg; modified-release tablets 200 mg and 400 mg; oral liquid 100 mg/5 mL" },
+    { "section": "5.1", "name": "Clobazam", "levels": "S,T", "forms": "Tablet 5 mg and 10 mg; oral liquid 2 mg/5 mL" },
+    { "section": "5.1", "name": "Diazepam", "levels": "P,S,T", "forms": "Injection 5 mg/mL; suppository 5 mg" },
+    { "section": "5.1", "name": "Levetiracetam", "levels": "S,T", "forms": "Tablet 250 mg, 500 mg and 750 mg; modified-release tablet 750 mg; oral liquid 100 mg/mL; injection 100 mg/mL" },
+    { "section": "5.1", "name": "Lorazepam", "levels": "P,S,T", "forms": "Tablet 1 mg and 2 mg; injection 2 mg/mL and 4 mg/mL" },
+    { "section": "5.1", "name": "Magnesium sulphate", "levels": "S,T", "forms": "Injection 500 mg/mL" },
+    { "section": "5.1", "name": "Midazolam", "levels": "P,S,T", "forms": "Tablet 7.5 mg, 15 mg, 30 mg and 60 mg; nasal spray 0.5 mg and 1.25 mg per actuation; injection 1 mg/mL and 5 mg/mL" },
+    { "section": "5.1", "name": "Phenobarbitone", "levels": "P,S,T", "forms": "Oral liquid 20 mg/5 mL; injection 200 mg/mL; tablet 50 mg, 100 mg and 300 mg; modified-release tablet 300 mg" },
+    { "section": "5.1", "name": "Phenytoin", "levels": "P,S,T", "forms": "Oral liquid 30 mg/5 mL and 125 mg/5 mL; injection 25 mg/mL and 50 mg/mL" },
+    { "section": "5.1", "name": "Sodium valproate", "levels": "P,S,T", "forms": "Conventional and modified-release tablets; oral liquid and injection, as specified in the schedule" },
+
+    { "section": "5.2", "name": "Acetylsalicylic acid", "levels": "P,S,T", "forms": "Tablet 300-500 mg; effervescent, dispersible or enteric-coated tablet 300-500 mg" },
+    { "section": "5.2", "name": "Ibuprofen", "levels": "P,S,T", "forms": "Tablet 200 mg and 400 mg; oral liquid 100 mg/5 mL" },
+    { "section": "5.2", "name": "Paracetamol", "levels": "P,S,T", "forms": "Tablet 500 mg and 650 mg; oral liquids 120 mg/5 mL, 125 mg/5 mL and 250 mg/5 mL" },
+    { "section": "5.2", "name": "Sumatriptan", "levels": "P,S,T", "forms": "Tablet 25 mg and 50 mg" },
+
+    { "section": "5.2.1", "name": "Amitriptyline", "levels": "P,S,T", "forms": "Tablet 10 mg, 25 mg and 75 mg" },
+    { "section": "5.2.1", "name": "Flunarizine", "levels": "P,S,T", "forms": "Tablet 5 mg and 10 mg" },
+    { "section": "5.2.1", "name": "Propranolol", "levels": "P,S,T", "forms": "Tablet 20 mg and 40 mg" },
+
+    { "section": "5.3", "name": "Levodopa + carbidopa", "levels": "P,S,T", "forms": "Tablets 100 mg + 10 mg; 100 mg + 25 mg; 250 mg + 25 mg; modified-release tablets 100 mg + 25 mg and 200 mg + 50 mg" },
+    { "section": "5.3", "name": "Trihexyphenidyl", "levels": "P,S,T", "forms": "Tablet 2 mg" },
+
+    { "section": "5.4", "name": "Donepezil", "levels": "S,T", "forms": "Tablet 5 mg and 10 mg" }
+  ]
+}

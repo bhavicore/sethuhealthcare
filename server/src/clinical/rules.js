@@ -92,7 +92,17 @@ function checkDoseLimits(medications) {
     if (!med.generic || med.doseMg == null || !med.timesPerDay) continue;
     const rowMax = db.prepare('SELECT max_daily_dose_mg FROM medicines WHERE id = ?').get(med.generic);
     const maxDailyMg = rowMax?.max_daily_dose_mg;
-    if (maxDailyMg == null) continue;
+    // The NLEM list gives dosage forms, not daily ceilings, so most medicines on
+    // it have none on record. Say so rather than letting the check pass silently.
+    if (maxDailyMg == null) {
+      warnings.push({
+        type: 'dose-limit',
+        severity: 'minor',
+        medicine: med.genericName || med.matchedText,
+        message: `${med.genericName || med.matchedText}: no daily dose ceiling on record — this prescription was not dose-checked.`,
+      });
+      continue;
+    }
     const dailyTotal = med.doseMg * med.timesPerDay;
     if (dailyTotal > maxDailyMg) {
       warnings.push({

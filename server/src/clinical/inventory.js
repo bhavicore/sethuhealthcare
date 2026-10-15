@@ -128,7 +128,16 @@ export function computeReorder(facilityId, medicineId) {
 }
 
 export function listInventory(facilityId) {
-  const medicines = db.prepare('SELECT * FROM medicines ORDER BY generic_name').all();
+  // Only what this facility stocks or has dispensed. The medicines table now
+  // holds the whole national list, which a single PHC does not carry.
+  const medicines = db
+    .prepare(
+      `SELECT * FROM medicines WHERE id IN (
+         SELECT medicine_id FROM inventory WHERE facility_id = ?
+         UNION SELECT medicine_id FROM usage_history WHERE facility_id = ?
+       ) ORDER BY generic_name`
+    )
+    .all(facilityId, facilityId);
   return medicines.map((med) => {
     const reorder = computeReorder(facilityId, med.id);
     const batches = getBatches(facilityId, med.id);

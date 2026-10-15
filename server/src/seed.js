@@ -1,4 +1,5 @@
 import { db } from './db.js';
+import { loadNlem } from './data/nlem.js';
 import { parseMedicationLines } from './clinical/normalize.js';
 import { runClinicalChecks } from './clinical/rules.js';
 import { buildDoseScheduleBlock, DEFAULT_ADVICE_NOTE, WARNING_SIGNS_TEXT } from './clinical/templates.js';
@@ -582,6 +583,7 @@ function ensureHierarchyAndStaff() {
 
 export function ensureSeeded() {
   if (isSeeded()) {
+    loadNlem({ quiet: true }); // reference data, safe to refresh on every start
     ensureHierarchyAndStaff();
     return;
   }
@@ -589,13 +591,14 @@ export function ensureSeeded() {
   const seedAll = db.transaction(() => {
     seedFacilities();
     seedMedicines();
+    loadNlem({ quiet: true });
     seedPatients();
     seedInventoryAndUsage();
     history = seedVisitHistory();
   });
   seedAll();
   console.log(
-    `Seeded synthetic demo data (facilities, medicines, patients, inventory, 90-day usage history, ` +
+    `Seeded demo data (facilities, NLEM 2022 medicine list, synthetic patients, inventory, 90-day usage history, ` +
     `${history.visits} synthetic visits for ${history.patients} synthetic patients).`
   );
   ensureHierarchyAndStaff();

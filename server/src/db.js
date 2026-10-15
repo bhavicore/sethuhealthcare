@@ -92,8 +92,12 @@ db.exec(`
     id                TEXT PRIMARY KEY,  -- generic slug, e.g. 'paracetamol'
     generic_name      TEXT NOT NULL,
     unit_label        TEXT NOT NULL,     -- e.g. '500 mg tablet'
-    max_daily_dose_mg REAL,              -- null = no simple daily-dose ceiling (e.g. ORS)
-    nlem_code         TEXT
+    max_daily_dose_mg REAL,              -- null = no ceiling on record; the rules engine says so
+    nlem_code         TEXT,              -- NLEM 2022 section, e.g. '2.1'
+    nlem_sections     TEXT,              -- every section it is listed under
+    care_levels       TEXT,              -- 'P,S,T' — levels of care it is listed for
+    dosage_forms      TEXT,              -- forms and strengths, as published
+    source            TEXT               -- where the row came from
   );
 
   CREATE TABLE IF NOT EXISTS brand_generic (
@@ -297,6 +301,11 @@ function addColumnIfMissing(table, column, definition) {
 addColumnIfMissing('patients', 'origin', "TEXT NOT NULL DEFAULT 'live'");
 addColumnIfMissing('encounters', 'origin', "TEXT NOT NULL DEFAULT 'live'");
 addColumnIfMissing('patients', 'registered_facility_id', 'TEXT REFERENCES facilities(id)'); // where the patient was registered
+// NLEM 2022 reference fields (see data/nlem-2022.json and src/data/nlem.js).
+addColumnIfMissing('medicines', 'nlem_sections', 'TEXT');
+addColumnIfMissing('medicines', 'care_levels', 'TEXT');
+addColumnIfMissing('medicines', 'dosage_forms', 'TEXT');
+addColumnIfMissing('medicines', 'source', 'TEXT');
 db.exec('CREATE INDEX IF NOT EXISTS idx_encounters_facility_created ON encounters (facility_id, created_at)');
 
 export function logAudit(actor, action, entity, entityId, detail = {}) {
